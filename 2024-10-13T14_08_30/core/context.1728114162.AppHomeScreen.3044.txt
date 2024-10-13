@@ -1,0 +1,673 @@
+ProcName:AppHomeScreen
+ThreadName:QThread
+PID:3044
+signal:11
+
+==== Dumping file </proc/3044/cmdline> ====
+/app/bin/AppHomeScreen
+-cv:8
+-vv:38
+-sv:4209
+-dt:4
+-l:19
+-ck:0
+-pp:3
+-usm:1
+-et:8
+-pt:128
+-by:0
+-pi:34
+-pf:0
+-cbp:1
+-asvr:0
+-gui:3
+-sc:1
+-vc:65
+-kt:0
+-dn:0
+-nm:0
+-p2s2:1
+-ke:na
+-pvv:0x26
+-os:1
+-osr:1
+-un:0
+-er:0
+-is:0
+-isa:0
+-isrcv:0
+-pitch:0.1521x0.1521
+-mp:1
+-cnt:1
+
+
+==== Dumping file </proc/3044/cgroup> ====
+5:memory:/
+4:cpuset:/
+3:freezer:/
+2:cpu,cpuacct:/
+1:name=systemd:/system.slice/ApplicationLauncher.service
+
+
+==== Dumping file </proc/3044/stack> ====
+[<ffffffff8105e447>] do_exit+0x2e1/0x8bb
+[<ffffffff8105ea8a>] do_group_exit+0x3c/0x95
+[<ffffffff81066c3b>] get_signal+0x459/0x484
+[<ffffffff8100215b>] do_signal+0x32/0x4e7
+[<ffffffff81002622>] do_notify_resume+0x12/0x44
+[<ffffffff81561502>] int_signal+0x12/0x17
+[<ffffffffffffffff>] 0xffffffffffffffff
+
+
+==== Dumping file </proc/loadavg> ====
+1.26 0.26 0.09 9/391 3188
+
+
+==== Dumping file </etc/sysrel> ====
+**error**
+
+==== Dumping file </proc/version> ====
+Linux version 4.1.27-abl (vc.integrator 6f994b9@LGEAVSCI40) (gcc version 5.2.0 (GCC) ) #1 SMP Fri Jul 26 14:16:29 KST 2024
+
+
+==== Dumping file </proc/3044/environ> ====
+XDG_RUNTIME_DIR=/var/run/user/root
+QSG_ATLAS_SIZE_LIMIT=0
+APPID=11
+QT_WAYLAND_SHELL_INTEGRATION=ivi
+LIBVA_DRIVERS_PATH=/usr/lib
+LGE_QT_WAYLAND_VISIBILITY_CALLBACK_FILTER=1
+QT_QPA_PLATFORM=wayland
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+QV4_FORCE_INTERPRETER=1
+LD_PRELOAD=/usr/lib/libEGL.so.1
+LIBVA_DRIVER_NAME=iHD
+SHLVL=1
+QV4_NO_SSA=1
+_=/app/bin/AppLauncher
+QV4_MM_MAX_CHUNK_SIZE=16384
+OLDPWD=/
+LANG=ko_KR.UTF-8
+PWD=/app/bin
+QT_WAYLAND_DISABLE_WINDOWDECORATION=1
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-mpnjPG3CJL,guid=4ac7ef113ffa8388c29a24db00000002
+LD_LIBRARY_PATH=/usr/lib/media-libva/:/app/lib:/navi/navi/Lib
+QT_WAYLAND_SET_SURFACE_ID=0
+
+
+==== Dumping file </proc/3044/status> ====
+Name:	AppHomeScreen
+State:	D (disk sleep)
+Tgid:	3044
+Ngid:	0
+Pid:	3044
+PPid:	2558
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Groups:	
+NStgid:	3044
+NSpid:	3044
+NSpgid:	2541
+NSsid:	2541
+VmPeak:	 1211332 kB
+VmSize:	 1145796 kB
+VmLck:	       0 kB
+VmPin:	       0 kB
+VmHWM:	   87860 kB
+VmRSS:	   87860 kB
+VmData:	  858416 kB
+VmStk:	     132 kB
+VmExe:	   15244 kB
+VmLib:	   89024 kB
+VmPTE:	     668 kB
+VmPMD:	      20 kB
+VmSwap:	       0 kB
+Threads:	14
+SigQ:	0/15307
+SigPnd:	0000000000000000
+ShdPnd:	0000000000000000
+SigBlk:	0000000000000000
+SigIgn:	0000000000001006
+SigCgt:	0000000180010000
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+Seccomp:	0
+Cpus_allowed:	f
+Cpus_allowed_list:	0-3
+Mems_allowed:	1
+Mems_allowed_list:	0
+voluntary_ctxt_switches:	230
+nonvoluntary_ctxt_switches:	1407
+
+
+==== Dumping file </proc/3044/sched> ====
+**error**
+
+==== Dumping file </proc/3044/maps> ====
+68e8eac000-68e9d8f000 r-xp 00000000 b3:05 49715                          /app/bin/AppHomeScreen
+68e9f8f000-68e9f9a000 r--p 00ee3000 b3:05 49715                          /app/bin/AppHomeScreen
+68e9f9a000-68e9f9b000 rw-p 00eee000 b3:05 49715                          /app/bin/AppHomeScreen
+68e9f9b000-68ea152000 rw-p 00000000 00:00 0 
+68ea98c000-68ebbad000 rw-p 00000000 00:00 0                              [heap]
+7fe538000000-7fe538021000 rw-p 00000000 00:00 0 
+7fe538021000-7fe53c000000 ---p 00000000 00:00 0 
+7fe540000000-7fe540021000 rw-p 00000000 00:00 0 
+7fe540021000-7fe544000000 ---p 00000000 00:00 0 
+7fe544000000-7fe544021000 rw-p 00000000 00:00 0 
+7fe544021000-7fe548000000 ---p 00000000 00:00 0 
+7fe548000000-7fe548021000 rw-p 00000000 00:00 0 
+7fe548021000-7fe54c000000 ---p 00000000 00:00 0 
+7fe54dffc000-7fe54dffd000 ---p 00000000 00:00 0 
+7fe54dffd000-7fe54e7fd000 rw-p 00000000 00:00 0                          [stack:3185]
+7fe54e7fd000-7fe54e7fe000 ---p 00000000 00:00 0 
+7fe54e7fe000-7fe54effe000 rw-p 00000000 00:00 0                          [stack:3184]
+7fe54effe000-7fe54efff000 ---p 00000000 00:00 0 
+7fe54efff000-7fe54f7ff000 rw-p 00000000 00:00 0                          [stack:3183]
+7fe54f7ff000-7fe54f800000 ---p 00000000 00:00 0 
+7fe54f800000-7fe550000000 rw-p 00000000 00:00 0                          [stack:3182]
+7fe550000000-7fe550021000 rw-p 00000000 00:00 0 
+7fe550021000-7fe554000000 ---p 00000000 00:00 0 
+7fe5545f3000-7fe554633000 r-xp 00000000 b3:05 50264                      /app/plugins/WeatherWidget/libWeatherWidget.so.1.0.0
+7fe554633000-7fe554832000 ---p 00040000 b3:05 50264                      /app/plugins/WeatherWidget/libWeatherWidget.so.1.0.0
+7fe554832000-7fe554834000 r--p 0003f000 b3:05 50264                      /app/plugins/WeatherWidget/libWeatherWidget.so.1.0.0
+7fe554834000-7fe554835000 rw-p 00041000 b3:05 50264                      /app/plugins/WeatherWidget/libWeatherWidget.so.1.0.0
+7fe554835000-7fe554871000 r-xp 00000000 b3:05 49887                      /app/plugins/VoiceMemoWidget/libVoiceMemoWidget.so.1.0.0
+7fe554871000-7fe554a70000 ---p 0003c000 b3:05 49887                      /app/plugins/VoiceMemoWidget/libVoiceMemoWidget.so.1.0.0
+7fe554a70000-7fe554a72000 r--p 0003b000 b3:05 49887                      /app/plugins/VoiceMemoWidget/libVoiceMemoWidget.so.1.0.0
+7fe554a72000-7fe554a73000 rw-p 0003d000 b3:05 49887                      /app/plugins/VoiceMemoWidget/libVoiceMemoWidget.so.1.0.0
+7fe554a73000-7fe554aa8000 r-xp 00000000 b3:05 130480                     /app/plugins/RadioWidget/libRadioWidget.so.1.0.0
+7fe554aa8000-7fe554ca7000 ---p 00035000 b3:05 130480                     /app/plugins/RadioWidget/libRadioWidget.so.1.0.0
+7fe554ca7000-7fe554ca9000 r--p 00034000 b3:05 130480                     /app/plugins/RadioWidget/libRadioWidget.so.1.0.0
+7fe554ca9000-7fe554caa000 rw-p 00036000 b3:05 130480                     /app/plugins/RadioWidget/libRadioWidget.so.1.0.0
+7fe554caa000-7fe554d03000 r-xp 00000000 b3:05 130732                     /app/plugins/PHEVWidget/libPHEVWidget.so.1.0.0
+7fe554d03000-7fe554f02000 ---p 00059000 b3:05 130732                     /app/plugins/PHEVWidget/libPHEVWidget.so.1.0.0
+7fe554f02000-7fe554f04000 r--p 00058000 b3:05 130732                     /app/plugins/PHEVWidget/libPHEVWidget.so.1.0.0
+7fe554f04000-7fe554f05000 rw-p 0005a000 b3:05 130732                     /app/plugins/PHEVWidget/libPHEVWidget.so.1.0.0
+7fe554f05000-7fe554f2b000 r-xp 00000000 b3:05 130413                     /app/plugins/PHEVVehicleWidget/libPHEVVehicleWidget.so.1.0.0
+7fe554f2b000-7fe55512a000 ---p 00026000 b3:05 130413                     /app/plugins/PHEVVehicleWidget/libPHEVVehicleWidget.so.1.0.0
+7fe55512a000-7fe55512c000 r--p 00025000 b3:05 130413                     /app/plugins/PHEVVehicleWidget/libPHEVVehicleWidget.so.1.0.0
+7fe55512c000-7fe55512d000 rw-p 00027000 b3:05 130413                     /app/plugins/PHEVVehicleWidget/libPHEVVehicleWidget.so.1.0.0
+7fe55512d000-7fe555152000 r-xp 00000000 b3:05 130067                     /app/plugins/PHEVVehicleOSDWidget/libPHEVVehicleOSDWidget.so.1.0.0
+7fe555152000-7fe555351000 ---p 00025000 b3:05 130067                     /app/plugins/PHEVVehicleOSDWidget/libPHEVVehicleOSDWidget.so.1.0.0
+7fe555351000-7fe555353000 r--p 00024000 b3:05 130067                     /app/plugins/PHEVVehicleOSDWidget/libPHEVVehicleOSDWidget.so.1.0.0
+7fe555353000-7fe555354000 rw-p 00026000 b3:05 130067                     /app/plugins/PHEVVehicleOSDWidget/libPHEVVehicleOSDWidget.so.1.0.0
+7fe555354000-7fe555366000 r-xp 00000000 b3:05 49881                      /app/plugins/NaviWidget/libNaviWidget.so.1.0.0
+7fe555366000-7fe555565000 ---p 00012000 b3:05 49881                      /app/plugins/NaviWidget/libNaviWidget.so.1.0.0
+7fe555565000-7fe555567000 r--p 00011000 b3:05 49881                      /app/plugins/NaviWidget/libNaviWidget.so.1.0.0
+7fe555567000-7fe555568000 rw-p 00013000 b3:05 49881                      /app/plugins/NaviWidget/libNaviWidget.so.1.0.0
+7fe555568000-7fe5555bb000 r-xp 00000000 b3:05 130308                     /app/plugins/MediaWidget/libMediaWidget.so.1.0.0
+7fe5555bb000-7fe5557bb000 ---p 00053000 b3:05 130308                     /app/plugins/MediaWidget/libMediaWidget.so.1.0.0
+7fe5557bb000-7fe5557bd000 r--p 00053000 b3:05 130308                     /app/plugins/MediaWidget/libMediaWidget.so.1.0.0
+7fe5557bd000-7fe5557be000 rw-p 00055000 b3:05 130308                     /app/plugins/MediaWidget/libMediaWidget.so.1.0.0
+7fe5557be000-7fe5557dd000 r-xp 00000000 b3:05 130985                     /app/plugins/ElectricityUseWidget/libElectricityUseWidget.so.1.0.0
+7fe5557dd000-7fe5559dc000 ---p 0001f000 b3:05 130985                     /app/plugins/ElectricityUseWidget/libElectricityUseWidget.so.1.0.0
+7fe5559dc000-7fe5559de000 r--p 0001e000 b3:05 130985                     /app/plugins/ElectricityUseWidget/libElectricityUseWidget.so.1.0.0
+7fe5559de000-7fe5559df000 rw-p 00020000 b3:05 130985                     /app/plugins/ElectricityUseWidget/libElectricityUseWidget.so.1.0.0
+7fe5559df000-7fe555a01000 r-xp 00000000 b3:05 130787                     /app/plugins/CPCallWidget/libCPCallWidget.so.1.0.0
+7fe555a01000-7fe555c00000 ---p 00022000 b3:05 130787                     /app/plugins/CPCallWidget/libCPCallWidget.so.1.0.0
+7fe555c00000-7fe555c01000 r--p 00021000 b3:05 130787                     /app/plugins/CPCallWidget/libCPCallWidget.so.1.0.0
+7fe555c01000-7fe555c02000 rw-p 00022000 b3:05 130787                     /app/plugins/CPCallWidget/libCPCallWidget.so.1.0.0
+7fe555c02000-7fe555c2c000 r-xp 00000000 b3:05 130401                     /app/plugins/CompassWidget/libCompassWidget.so.1.0.0
+7fe555c2c000-7fe555e2c000 ---p 0002a000 b3:05 130401                     /app/plugins/CompassWidget/libCompassWidget.so.1.0.0
+7fe555e2c000-7fe555e2e000 r--p 0002a000 b3:05 130401                     /app/plugins/CompassWidget/libCompassWidget.so.1.0.0
+7fe555e2e000-7fe555e2f000 rw-p 0002c000 b3:05 130401                     /app/plugins/CompassWidget/libCompassWidget.so.1.0.0
+7fe555e2f000-7fe555e4f000 r-xp 00000000 b3:05 130551                     /app/plugins/ClockWidget/libClockWidget.so.1.0.0
+7fe555e4f000-7fe55604f000 ---p 00020000 b3:05 130551                     /app/plugins/ClockWidget/libClockWidget.so.1.0.0
+7fe55604f000-7fe556050000 r--p 00020000 b3:05 130551                     /app/plugins/ClockWidget/libClockWidget.so.1.0.0
+7fe556050000-7fe556051000 rw-p 00021000 b3:05 130551                     /app/plugins/ClockWidget/libClockWidget.so.1.0.0
+7fe556051000-7fe556081000 r-xp 00000000 b3:05 131052                     /app/plugins/ClimateWidget/libClimateWidget.so.1.0.0
+7fe556081000-7fe556281000 ---p 00030000 b3:05 131052                     /app/plugins/ClimateWidget/libClimateWidget.so.1.0.0
+7fe556281000-7fe556283000 r--p 00030000 b3:05 131052                     /app/plugins/ClimateWidget/libClimateWidget.so.1.0.0
+7fe556283000-7fe556284000 rw-p 00032000 b3:05 131052                     /app/plugins/ClimateWidget/libClimateWidget.so.1.0.0
+7fe556284000-7fe5562ad000 r-xp 00000000 b3:05 129941                     /app/plugins/CallWidget/libCallWidget.so.1.0.0
+7fe5562ad000-7fe5564ad000 ---p 00029000 b3:05 129941                     /app/plugins/CallWidget/libCallWidget.so.1.0.0
+7fe5564ad000-7fe5564ae000 r--p 00029000 b3:05 129941                     /app/plugins/CallWidget/libCallWidget.so.1.0.0
+7fe5564ae000-7fe5564af000 rw-p 0002a000 b3:05 129941                     /app/plugins/CallWidget/libCallWidget.so.1.0.0
+7fe5564af000-7fe5564f2000 r-xp 00000000 b3:05 130586                     /app/plugins/CalendarWidget/libCalendarWidget.so.1.0.0
+7fe5564f2000-7fe5566f2000 ---p 00043000 b3:05 130586                     /app/plugins/CalendarWidget/libCalendarWidget.so.1.0.0
+7fe5566f2000-7fe5566f4000 r--p 00043000 b3:05 130586                     /app/plugins/CalendarWidget/libCalendarWidget.so.1.0.0
+7fe5566f4000-7fe5566f5000 rw-p 00045000 b3:05 130586                     /app/plugins/CalendarWidget/libCalendarWidget.so.1.0.0
+7fe5566f5000-7fe556720000 r-xp 00000000 b3:05 129773                     /app/plugins/BTAudioWidget/libBTAudioWidget.so.1.0.0
+7fe556720000-7fe556920000 ---p 0002b000 b3:05 129773                     /app/plugins/BTAudioWidget/libBTAudioWidget.so.1.0.0
+7fe556920000-7fe556921000 r--p 0002b000 b3:05 129773                     /app/plugins/BTAudioWidget/libBTAudioWidget.so.1.0.0
+7fe556921000-7fe556922000 rw-p 0002c000 b3:05 129773                     /app/plugins/BTAudioWidget/libBTAudioWidget.so.1.0.0
+7fe556922000-7fe55693a000 r-xp 00000000 b3:05 130853                     /app/plugins/AVOffWidget/libAVOffWidget.so.1.0.0
+7fe55693a000-7fe556b3a000 ---p 00018000 b3:05 130853                     /app/plugins/AVOffWidget/libAVOffWidget.so.1.0.0
+7fe556b3a000-7fe556b3b000 r--p 00018000 b3:05 130853                     /app/plugins/AVOffWidget/libAVOffWidget.so.1.0.0
+7fe556b3b000-7fe556b3c000 rw-p 00019000 b3:05 130853                     /app/plugins/AVOffWidget/libAVOffWidget.so.1.0.0
+7fe556b3c000-7fe556c10000 r-xp 00000000 b3:05 49451                      /app/share/AssistantWindow/lib/libAssistantWindow.so.1.0.0
+7fe556c10000-7fe556e10000 ---p 000d4000 b3:05 49451                      /app/share/AssistantWindow/lib/libAssistantWindow.so.1.0.0
+7fe556e10000-7fe556e13000 r--p 000d4000 b3:05 49451                      /app/share/AssistantWindow/lib/libAssistantWindow.so.1.0.0
+7fe556e13000-7fe556e14000 rw-p 000d7000 b3:05 49451                      /app/share/AssistantWindow/lib/libAssistantWindow.so.1.0.0
+7fe556e14000-7fe556e15000 rw-p 00000000 00:00 0 
+7fe556e15000-7fe5571be000 r--p 00000000 b3:05 10388                      /app/share/fonts/New_HD2.1_Medium.ttf
+7fe5571be000-7fe55724c000 r-xp 00000000 b3:05 47730                      /app/share/Statusbar/lib/libStatusbar.so.1.0.0
+7fe55724c000-7fe55744c000 ---p 0008e000 b3:05 47730                      /app/share/Statusbar/lib/libStatusbar.so.1.0.0
+7fe55744c000-7fe55744f000 r--p 0008e000 b3:05 47730                      /app/share/Statusbar/lib/libStatusbar.so.1.0.0
+7fe55744f000-7fe557450000 rw-p 00091000 b3:05 47730                      /app/share/Statusbar/lib/libStatusbar.so.1.0.0
+7fe557450000-7fe557451000 rw-p 00000000 00:00 0 
+7fe557451000-7fe5577ff000 r--p 00000000 b3:05 10390                      /app/share/fonts/New_HD2.1_Regular.ttf
+7fe5577ff000-7fe557800000 ---p 00000000 00:00 0 
+7fe557800000-7fe558000000 rw-p 00000000 00:00 0                          [stack:3165]
+7fe558000000-7fe558021000 rw-p 00000000 00:00 0 
+7fe558021000-7fe55c000000 ---p 00000000 00:00 0 
+7fe55c000000-7fe55c021000 rw-p 00000000 00:00 0 
+7fe55c021000-7fe560000000 ---p 00000000 00:00 0 
+7fe560000000-7fe56004b000 rw-p 00000000 00:00 0 
+7fe56004b000-7fe56005b000 ---p 00000000 00:00 0 
+7fe56005b000-7fe564000000 ---p 00000000 00:00 0 
+7fe564000000-7fe564021000 rw-p 00000000 00:00 0 
+7fe564021000-7fe568000000 ---p 00000000 00:00 0 
+7fe568000000-7fe5684a8000 rw-p 00000000 00:00 0 
+7fe5684a8000-7fe56c000000 ---p 00000000 00:00 0 
+7fe56c0d9000-7fe56c0da000 rw-s 00000000 00:05 1572912                    /SYSV51133cb7 (deleted)
+7fe56c0da000-7fe56c124000 rw-s 00000000 00:05 1540143                    /SYSV00001e1f (deleted)
+7fe56c124000-7fe56c125000 rw-s 00000000 00:05 0                          /SYSV51131d7f (deleted)
+7fe56c125000-7fe56c126000 r--p 00000000 b3:05 129645                     /app/plugins/WeatherWidget/localization/qm/translation_tr_TR.qm
+7fe56c126000-7fe56c127000 r--p 00000000 b3:05 49909                      /app/plugins/VoiceMemoWidget/localization/language/VoiceMemoWidget_tr_TR.qm
+7fe56c127000-7fe56c128000 r--p 00000000 b3:05 130529                     /app/plugins/RadioWidget/localization/RadioWidget_tr_TR.qm
+7fe56c128000-7fe56c12a000 r--p 00000000 b3:05 130685                     /app/plugins/PHEVWidget/localization/qm/Translations_tr_TR.qm
+7fe56c12a000-7fe56c12b000 r--p 00000000 b3:05 130424                     /app/plugins/PHEVVehicleWidget/localization/qm/Translations_tr_TR.qm
+7fe56c12b000-7fe56c12c000 r--p 00000000 b3:05 130076                     /app/plugins/PHEVVehicleOSDWidget/localization/qm/Translations_tr_TR.qm
+7fe56c12c000-7fe56c12d000 r--p 00000000 b3:05 130144                     /app/plugins/MediaWidget/localization/language/MediaWidget_tr_TR.qm
+7fe56c12d000-7fe56c12e000 r--p 00000000 b3:05 130937                     /app/plugins/ElectricityUseWidget/localization/qm/Translations_tr_TR.qm
+7fe56c12e000-7fe56c12f000 r--p 00000000 b3:05 130836                     /app/plugins/CPCallWidget/localization/CPCallWidget_tr_TR.qm
+7fe56c12f000-7fe56c130000 r--p 00000000 b3:05 130352                     /app/plugins/CompassWidget/localization/qm/Translations_tr_TR.qm
+7fe56c130000-7fe56c131000 -w-s 00000000 00:14 9305                       /dev/shm/timemanager_shm
+7fe56c131000-7fe56c132000 r--p 00000000 b3:05 131071                     /app/plugins/ClimateWidget/localization/qm/translation_tr_TR.qm
+7fe56c132000-7fe56c133000 rw-s 00000000 00:05 0                          /SYSV51131d7f (deleted)
+7fe56c133000-7fe56c173000 rw-p 00000000 00:00 0 
+7fe56c173000-7fe56c174000 r--p 00000000 b3:05 129909                     /app/plugins/CallWidget/localization/CallWidget_tr_TR.qm
+7fe56c174000-7fe56c194000 rw-p 00000000 00:00 0 
+7fe56c194000-7fe56c196000 r-xp 00000000 b3:05 8860                       /usr/lib/qt5/qml/QtQuick.2/libqtquick2plugin.so
+7fe56c196000-7fe56c395000 ---p 00002000 b3:05 8860                       /usr/lib/qt5/qml/QtQuick.2/libqtquick2plugin.so
+7fe56c395000-7fe56c396000 r--p 00001000 b3:05 8860                       /usr/lib/qt5/qml/QtQuick.2/libqtquick2plugin.so
+7fe56c396000-7fe56c397000 rw-p 00002000 b3:05 8860                       /usr/lib/qt5/qml/QtQuick.2/libqtquick2plugin.so
+7fe56c397000-7fe56c398000 ---p 00000000 00:00 0 
+7fe56c398000-7fe56cb98000 rw-p 00000000 00:00 0                          [stack:3104]
+7fe56cb98000-7fe56cee7000 rw-s 00000000 b3:0c 21                         /Data/mnt-wt/shared/public/default-data.itz
+7fe56cee7000-7fe56d015000 rw-s 00000000 b3:0c 19                         /Data/mnt-wt/shared/public/wt.itz
+7fe56d015000-7fe56d398000 r--s 00000000 b3:0c 15                         /Data/mnt-wt/shared/public/resource-table-cfg.itz
+7fe56d398000-7fe56d3f6000 r-xp 00000000 b3:05 7452                       /usr/lib/libgobject-2.0.so.0.4400.1
+7fe56d3f6000-7fe56d5f5000 ---p 0005e000 b3:05 7452                       /usr/lib/libgobject-2.0.so.0.4400.1
+7fe56d5f5000-7fe56d5f7000 r--p 0005d000 b3:05 7452                       /usr/lib/libgobject-2.0.so.0.4400.1
+7fe56d5f7000-7fe56d5f8000 rw-p 0005f000 b3:05 7452                       /usr/lib/libgobject-2.0.so.0.4400.1
+7fe56d5f8000-7fe56d5fb000 r-xp 00000000 b3:05 7793                       /usr/lib/libgmodule-2.0.so.0.4400.1
+7fe56d5fb000-7fe56d7fa000 ---p 00003000 b3:05 7793                       /usr/lib/libgmodule-2.0.so.0.4400.1
+7fe56d7fa000-7fe56d7fb000 r--p 00002000 b3:05 7793                       /usr/lib/libgmodule-2.0.so.0.4400.1
+7fe56d7fb000-7fe56d7fc000 rw-p 00003000 b3:05 7793                       /usr/lib/libgmodule-2.0.so.0.4400.1
+7fe56d7fc000-7fe56d7fd000 ---p 00000000 00:00 0 
+7fe56d7fd000-7fe56dffd000 rw-p 00000000 00:00 0                          [stack:3098]
+7fe56dffd000-7fe56dffe000 ---p 00000000 00:00 0 
+7fe56dffe000-7fe56e7fe000 rw-p 00000000 00:00 0                          [stack:3066]
+7fe56e7fe000-7fe56e7ff000 ---p 00000000 00:00 0 
+7fe56e7ff000-7fe56f7ff000 rw-p 00000000 00:00 0                          [stack:3064]
+7fe56f7ff000-7fe56f800000 ---p 00000000 00:00 0 
+7fe56f800000-7fe570000000 rw-p 00000000 00:00 0                          [stack:3061]
+7fe570000000-7fe570021000 rw-p 00000000 00:00 0 
+7fe570021000-7fe574000000 ---p 00000000 00:00 0 
+7fe574000000-7fe574005000 r--p 00000000 b3:05 130596                     /app/plugins/CalendarWidget/localization/qm/Translations_tr_TR.qm
+7fe574005000-7fe574006000 r--p 00000000 b3:05 129766                     /app/plugins/BTAudioWidget/localization/BTAudioWidget_tr_TR.qm
+7fe574006000-7fe574007000 r--p 00000000 b3:05 130871                     /app/plugins/AVOffWidget/localization/qm/translation_tr_TR.qm
+7fe574007000-7fe574047000 rw-p 00000000 00:00 0 
+7fe574047000-7fe574048000 r--p 00000000 b3:05 47690                      /app/share/Statusbar/localization/qm/translation_tr_TR.qm
+7fe574048000-7fe574049000 rw-s 00000000 00:05 0                          /SYSV51131d7f (deleted)
+7fe574049000-7fe57404a000 r--p 00000000 b3:05 49402                      /app/share/AssistantWindow/localization/qm/Translation_tr_TR.qm
+7fe57404a000-7fe57404b000 rw-s 00000000 00:05 1015839                    /SYSV5113271e (deleted)
+7fe57404b000-7fe57404c000 -w-s 00000000 00:14 9305                       /dev/shm/timemanager_shm
+7fe57404c000-7fe5740e2000 rw-p 00000000 00:00 0 
+7fe5740e2000-7fe574115000 r--p 00000000 b3:05 48157                      /app/share/AppHomeScreen/localization/qm/translation_tr.qm
+7fe574115000-7fe574121000 rw-s 00000000 00:14 7921                       /dev/shm/_Data_mnt_wt_shared_public_default_data_itz-ht
+7fe574121000-7fe574122000 rw-s 00000000 00:14 7920                       /dev/shm/_Data_mnt_wt_shared_public_default_data_itz-shm-info
+7fe574122000-7fe574125000 rw-s 00000000 00:14 7919                       /dev/shm/_Data_mnt_wt_shared_public_configurable_default_data_itz-ht
+7fe574125000-7fe574126000 rw-s 00000000 b3:0c 23                         /Data/mnt-wt/shared/public/configurable-default-data.itz
+7fe574126000-7fe574127000 rw-s 00000000 00:14 7918                       /dev/shm/_Data_mnt_wt_shared_public_configurable_default_data_itz-shm-info
+7fe574127000-7fe574133000 rw-s 00000000 00:14 8947                       /dev/shm/_Data_mnt_wt_shared_public_resource_table_cfg_itz-ht
+7fe574133000-7fe5742e1000 r-xp 00000000 b3:05 8814                       /usr/lib/libgio-2.0.so.0.4400.1
+7fe5742e1000-7fe5744e0000 ---p 001ae000 b3:05 8814                       /usr/lib/libgio-2.0.so.0.4400.1
+7fe5744e0000-7fe5744e6000 r--p 001ad000 b3:05 8814                       /usr/lib/libgio-2.0.so.0.4400.1
+7fe5744e6000-7fe5744e7000 rw-p 001b3000 b3:05 8814                       /usr/lib/libgio-2.0.so.0.4400.1
+7fe5744e7000-7fe5744e9000 rw-p 00000000 00:00 0 
+7fe5744e9000-7fe5744f2000 rw-s 00000000 00:14 7910                       /dev/shm/_Data_mnt_wt_shared_public_wt_itz-ht
+7fe5744f2000-7fe574517000 r-xp 00000000 b3:05 9518                       /usr/lib/libpers_common.so.0.1.1
+7fe574517000-7fe574716000 ---p 00025000 b3:05 9518                       /usr/lib/libpers_common.so.0.1.1
+7fe574716000-7fe574718000 r--p 00024000 b3:05 9518                       /usr/lib/libpers_common.so.0.1.1
+7fe574718000-7fe574719000 rw-p 00026000 b3:05 9518                       /usr/lib/libpers_common.so.0.1.1
+7fe574719000-7fe57475c000 rw-p 00000000 00:00 0 
+7fe57475c000-7fe574765000 r-xp 00000000 b3:05 8737                       /usr/lib/libpciaccess.so.0.11.1
+7fe574765000-7fe574964000 ---p 00009000 b3:05 8737                       /usr/lib/libpciaccess.so.0.11.1
+7fe574964000-7fe574965000 r--p 00008000 b3:05 8737                       /usr/lib/libpciaccess.so.0.11.1
+7fe574965000-7fe574966000 rw-p 00009000 b3:05 8737                       /usr/lib/libpciaccess.so.0.11.1
+7fe574966000-7fe57498a000 r-xp 00000000 b3:05 7643                       /usr/lib/libdrm_intel.so.1.0.0
+7fe57498a000-7fe574b89000 ---p 00024000 b3:05 7643                       /usr/lib/libdrm_intel.so.1.0.0
+7fe574b89000-7fe574b8a000 r--p 00023000 b3:05 7643                       /usr/lib/libdrm_intel.so.1.0.0
+7fe574b8a000-7fe574b8b000 rw-p 00024000 b3:05 7643                       /usr/lib/libdrm_intel.so.1.0.0
+7fe574b8b000-7fe5759b9000 r-xp 00000000 b3:05 9550                       /usr/lib/dri/iu3d9_dri.so
+7fe5759b9000-7fe575bb8000 ---p 00e2e000 b3:05 9550                       /usr/lib/dri/iu3d9_dri.so
+7fe575bb8000-7fe575d78000 rw-p 00e2d000 b3:05 9550                       /usr/lib/dri/iu3d9_dri.so
+7fe575d78000-7fe575da4000 rw-p 00000000 00:00 0 
+7fe575da4000-7fe575da8000 r-xp 00000000 b3:05 9927                       /lib/libcap.so.2.24
+7fe575da8000-7fe575fa8000 ---p 00004000 b3:05 9927                       /lib/libcap.so.2.24
+7fe575fa8000-7fe575fa9000 r--p 00004000 b3:05 9927                       /lib/libcap.so.2.24
+7fe575fa9000-7fe575faa000 rw-p 00005000 b3:05 9927                       /lib/libcap.so.2.24
+7fe575faa000-7fe575fbc000 r-xp 00000000 b3:05 10323                      /lib/libresolv-2.25.so
+7fe575fbc000-7fe5761bc000 ---p 00012000 b3:05 10323                      /lib/libresolv-2.25.so
+7fe5761bc000-7fe5761bd000 r--p 00012000 b3:05 10323                      /lib/libresolv-2.25.so
+7fe5761bd000-7fe5761be000 rw-p 00013000 b3:05 10323                      /lib/libresolv-2.25.so
+7fe5761be000-7fe5761c0000 rw-p 00000000 00:00 0 
+7fe5761c0000-7fe5761eb000 r-xp 00000000 b3:05 8104                       /usr/lib/libexpat.so.1.6.2
+7fe5761eb000-7fe5763ea000 ---p 0002b000 b3:05 8104                       /usr/lib/libexpat.so.1.6.2
+7fe5763ea000-7fe5763ed000 r--p 0002a000 b3:05 8104                       /usr/lib/libexpat.so.1.6.2
+7fe5763ed000-7fe5763ee000 rw-p 0002d000 b3:05 8104                       /usr/lib/libexpat.so.1.6.2
+7fe5763ee000-7fe576400000 r-xp 00000000 b3:05 6707                       /usr/lib/libwayland-server.so.0.1.0
+7fe576400000-7fe5765ff000 ---p 00012000 b3:05 6707                       /usr/lib/libwayland-server.so.0.1.0
+7fe5765ff000-7fe576601000 r--p 00011000 b3:05 6707                       /usr/lib/libwayland-server.so.0.1.0
+7fe576601000-7fe576602000 rw-p 00013000 b3:05 6707                       /usr/lib/libwayland-server.so.0.1.0
+7fe576602000-7fe57660f000 r-xp 00000000 b3:05 8224                       /usr/lib/libgbm.so.1.0.0
+7fe57660f000-7fe57680f000 ---p 0000d000 b3:05 8224                       /usr/lib/libgbm.so.1.0.0
+7fe57680f000-7fe576810000 r--p 0000d000 b3:05 8224                       /usr/lib/libgbm.so.1.0.0
+7fe576810000-7fe576811000 rw-p 0000e000 b3:05 8224                       /usr/lib/libgbm.so.1.0.0
+7fe576811000-7fe57683a000 r-xp 00000000 b3:05 8779                       /usr/lib/libEGL.so.1.0.0
+7fe57683a000-7fe576a3a000 ---p 00029000 b3:05 8779                       /usr/lib/libEGL.so.1.0.0
+7fe576a3a000-7fe576a3b000 r--p 00029000 b3:05 8779                       /usr/lib/libEGL.so.1.0.0
+7fe576a3b000-7fe576a3c000 rw-p 0002a000 b3:05 8779                       /usr/lib/libEGL.so.1.0.0
+7fe576a3c000-7fe576a3d000 r-xp 00000000 b3:05 8019                       /usr/lib/libwayland-egl.so.1.0.0
+7fe576a3d000-7fe576c3c000 ---p 00001000 b3:05 8019                       /usr/lib/libwayland-egl.so.1.0.0
+7fe576c3c000-7fe576c3d000 r--p 00000000 b3:05 8019                       /usr/lib/libwayland-egl.so.1.0.0
+7fe576c3d000-7fe576c3e000 rw-p 00001000 b3:05 8019                       /usr/lib/libwayland-egl.so.1.0.0
+7fe576c3e000-7fe576c4b000 r-xp 00000000 b3:05 9432                       /usr/lib/qt5/plugins/wayland-graphics-integration-client/libwayland-egl.so
+7fe576c4b000-7fe576e4b000 ---p 0000d000 b3:05 9432                       /usr/lib/qt5/plugins/wayland-graphics-integration-client/libwayland-egl.so
+7fe576e4b000-7fe576e4c000 r--p 0000d000 b3:05 9432                       /usr/lib/qt5/plugins/wayland-graphics-integration-client/libwayland-egl.so
+7fe576e4c000-7fe576e4d000 rw-p 0000e000 b3:05 9432                       /usr/lib/qt5/plugins/wayland-graphics-integration-client/libwayland-egl.so
+7fe576e4d000-7fe576e4e000 ---p 00000000 00:00 0 
+7fe576e4e000-7fe57764e000 rw-p 00000000 00:00 0                          [stack:3059]
+7fe57764e000-7fe577656000 r-xp 00000000 b3:05 6734                       /usr/lib/libffi.so.6.0.4
+7fe577656000-7fe577855000 ---p 00008000 b3:05 6734                       /usr/lib/libffi.so.6.0.4
+7fe577855000-7fe577856000 r--p 00007000 b3:05 6734                       /usr/lib/libffi.so.6.0.4
+7fe577856000-7fe577857000 rw-p 00008000 b3:05 6734                       /usr/lib/libffi.so.6.0.4
+7fe577857000-7fe57785c000 r-xp 00000000 b3:05 8802                       /usr/lib/libivi-window-manager-api.so.1.0.0
+7fe57785c000-7fe577a5c000 ---p 00005000 b3:05 8802                       /usr/lib/libivi-window-manager-api.so.1.0.0
+7fe577a5c000-7fe577a5d000 r--p 00005000 b3:05 8802                       /usr/lib/libivi-window-manager-api.so.1.0.0
+7fe577a5d000-7fe577a5e000 rw-p 00006000 b3:05 8802                       /usr/lib/libivi-window-manager-api.so.1.0.0
+7fe577a5e000-7fe577a62000 r-xp 00000000 b3:05 7783                       /usr/lib/libwayland-cursor.so.0.0.0
+7fe577a62000-7fe577c61000 ---p 00004000 b3:05 7783                       /usr/lib/libwayland-cursor.so.0.0.0
+7fe577c61000-7fe577c62000 r--p 00003000 b3:05 7783                       /usr/lib/libwayland-cursor.so.0.0.0
+7fe577c62000-7fe577c66000 rw-p 00004000 b3:05 7783                       /usr/lib/libwayland-cursor.so.0.0.0
+7fe577c66000-7fe577c73000 r-xp 00000000 b3:05 8043                       /usr/lib/libwayland-client.so.0.3.0
+7fe577c73000-7fe577e73000 ---p 0000d000 b3:05 8043                       /usr/lib/libwayland-client.so.0.3.0
+7fe577e73000-7fe577e75000 r--p 0000d000 b3:05 8043                       /usr/lib/libwayland-client.so.0.3.0
+7fe577e75000-7fe577e76000 rw-p 0000f000 b3:05 8043                       /usr/lib/libwayland-client.so.0.3.0
+7fe577e76000-7fe577eb7000 r-xp 00000000 b3:05 8633                       /usr/lib/libxkbcommon.so.0.0.0
+7fe577eb7000-7fe5780b6000 ---p 00041000 b3:05 8633                       /usr/lib/libxkbcommon.so.0.0.0
+7fe5780b6000-7fe5780b8000 r--p 00040000 b3:05 8633                       /usr/lib/libxkbcommon.so.0.0.0
+7fe5780b8000-7fe5780b9000 rw-p 00042000 b3:05 8633                       /usr/lib/libxkbcommon.so.0.0.0
+7fe5780b9000-7fe5781f4000 r-xp 00000000 b3:05 6749                       /usr/lib/libQt5WaylandClient.so.5.4.1
+7fe5781f4000-7fe5783f3000 ---p 0013b000 b3:05 6749                       /usr/lib/libQt5WaylandClient.so.5.4.1
+7fe5783f3000-7fe578402000 r--p 0013a000 b3:05 6749                       /usr/lib/libQt5WaylandClient.so.5.4.1
+7fe578402000-7fe578403000 rw-p 00149000 b3:05 6749                       /usr/lib/libQt5WaylandClient.so.5.4.1
+7fe578403000-7fe578405000 r-xp 00000000 b3:05 9422                       /usr/lib/qt5/plugins/platforms/libqwayland-generic.so
+7fe578405000-7fe578604000 ---p 00002000 b3:05 9422                       /usr/lib/qt5/plugins/platforms/libqwayland-generic.so
+7fe578604000-7fe578605000 r--p 00001000 b3:05 9422                       /usr/lib/qt5/plugins/platforms/libqwayland-generic.so
+7fe578605000-7fe578606000 rw-p 00002000 b3:05 9422                       /usr/lib/qt5/plugins/platforms/libqwayland-generic.so
+7fe578606000-7fe578607000 ---p 00000000 00:00 0 
+7fe578607000-7fe578e07000 rw-p 00000000 00:00 0                          [stack:3055]
+7fe578e07000-7fe578e08000 ---p 00000000 00:00 0 
+7fe578e08000-7fe579608000 rw-p 00000000 00:00 0                          [stack:3054]
+7fe579608000-7fe57af09000 r-xp 00000000 b3:05 7687                       /usr/lib/libicudata.so.58.2
+7fe57af09000-7fe57b108000 ---p 01901000 b3:05 7687                       /usr/lib/libicudata.so.58.2
+7fe57b108000-7fe57b109000 r--p 01900000 b3:05 7687                       /usr/lib/libicudata.so.58.2
+7fe57b109000-7fe57b10a000 rw-p 01901000 b3:05 7687                       /usr/lib/libicudata.so.58.2
+7fe57b10a000-7fe57b1b0000 r-xp 00000000 b3:05 6771                       /usr/lib/libfreetype.so.6.14.0
+7fe57b1b0000-7fe57b3af000 ---p 000a6000 b3:05 6771                       /usr/lib/libfreetype.so.6.14.0
+7fe57b3af000-7fe57b3b6000 r--p 000a5000 b3:05 6771                       /usr/lib/libfreetype.so.6.14.0
+7fe57b3b6000-7fe57b3b7000 rw-p 000ac000 b3:05 6771                       /usr/lib/libfreetype.so.6.14.0
+7fe57b3b7000-7fe57b3fa000 r-xp 00000000 b3:05 7519                       /usr/lib/libpcre.so.1.2.11
+7fe57b3fa000-7fe57b5f9000 ---p 00043000 b3:05 7519                       /usr/lib/libpcre.so.1.2.11
+7fe57b5f9000-7fe57b5fa000 r--p 00042000 b3:05 7519                       /usr/lib/libpcre.so.1.2.11
+7fe57b5fa000-7fe57b5fb000 rw-p 00043000 b3:05 7519                       /usr/lib/libpcre.so.1.2.11
+7fe57b5fb000-7fe57b71f000 r-xp 00000000 b3:05 6742                       /usr/lib/libglib-2.0.so.0.4400.1
+7fe57b71f000-7fe57b91f000 ---p 00124000 b3:05 6742                       /usr/lib/libglib-2.0.so.0.4400.1
+7fe57b91f000-7fe57b920000 r--p 00124000 b3:05 6742                       /usr/lib/libglib-2.0.so.0.4400.1
+7fe57b920000-7fe57b921000 rw-p 00125000 b3:05 6742                       /usr/lib/libglib-2.0.so.0.4400.1
+7fe57b921000-7fe57bb72000 r-xp 00000000 b3:05 10357                      /lib/libcrypto.so.1.0.2
+7fe57bb72000-7fe57bd72000 ---p 00251000 b3:05 10357                      /lib/libcrypto.so.1.0.2
+7fe57bd72000-7fe57bd92000 r--p 00251000 b3:05 10357                      /lib/libcrypto.so.1.0.2
+7fe57bd92000-7fe57bd9d000 rw-p 00271000 b3:05 10357                      /lib/libcrypto.so.1.0.2
+7fe57bd9d000-7fe57bda1000 rw-p 00000000 00:00 0 
+7fe57bda1000-7fe57be08000 r-xp 00000000 b3:05 8041                       /usr/lib/libssl.so.1.0.2
+7fe57be08000-7fe57c007000 ---p 00067000 b3:05 8041                       /usr/lib/libssl.so.1.0.2
+7fe57c007000-7fe57c00c000 r--p 00066000 b3:05 8041                       /usr/lib/libssl.so.1.0.2
+7fe57c00c000-7fe57c012000 rw-p 0006b000 b3:05 8041                       /usr/lib/libssl.so.1.0.2
+7fe57c012000-7fe57c03d000 r-xp 00000000 b3:05 9496                       /usr/lib/libglapi.so.0.0.0
+7fe57c03d000-7fe57c23d000 ---p 0002b000 b3:05 9496                       /usr/lib/libglapi.so.0.0.0
+7fe57c23d000-7fe57c241000 r--p 0002b000 b3:05 9496                       /usr/lib/libglapi.so.0.0.0
+7fe57c241000-7fe57c242000 rw-p 0002f000 b3:05 9496                       /usr/lib/libglapi.so.0.0.0
+7fe57c242000-7fe57c245000 rw-p 00000000 00:00 0 
+7fe57c245000-7fe57c255000 r-xp 00000000 b3:05 7713                       /usr/lib/libdrm.so.2.4.0
+7fe57c255000-7fe57c454000 ---p 00010000 b3:05 7713                       /usr/lib/libdrm.so.2.4.0
+7fe57c454000-7fe57c455000 r--p 0000f000 b3:05 7713                       /usr/lib/libdrm.so.2.4.0
+7fe57c455000-7fe57c456000 rw-p 00010000 b3:05 7713                       /usr/lib/libdrm.so.2.4.0
+7fe57c456000-7fe57c492000 r-xp 00000000 b3:05 8681                       /usr/lib/libpcre16.so.0.2.11
+7fe57c492000-7fe57c691000 ---p 0003c000 b3:05 8681                       /usr/lib/libpcre16.so.0.2.11
+7fe57c691000-7fe57c692000 r--p 0003b000 b3:05 8681                       /usr/lib/libpcre16.so.0.2.11
+7fe57c692000-7fe57c693000 rw-p 0003c000 b3:05 8681                       /usr/lib/libpcre16.so.0.2.11
+7fe57c693000-7fe57c847000 r-xp 00000000 b3:05 6774                       /usr/lib/libicuuc.so.58.2
+7fe57c847000-7fe57ca47000 ---p 001b4000 b3:05 6774                       /usr/lib/libicuuc.so.58.2
+7fe57ca47000-7fe57ca59000 r--p 001b4000 b3:05 6774                       /usr/lib/libicuuc.so.58.2
+7fe57ca59000-7fe57ca5a000 rw-p 001c6000 b3:05 6774                       /usr/lib/libicuuc.so.58.2
+7fe57ca5a000-7fe57ca5b000 rw-p 00000000 00:00 0 
+7fe57ca5b000-7fe57ccf7000 r-xp 00000000 b3:05 7805                       /usr/lib/libicui18n.so.58.2
+7fe57ccf7000-7fe57cef6000 ---p 0029c000 b3:05 7805                       /usr/lib/libicui18n.so.58.2
+7fe57cef6000-7fe57cf04000 r--p 0029b000 b3:05 7805                       /usr/lib/libicui18n.so.58.2
+7fe57cf04000-7fe57cf05000 rw-p 002a9000 b3:05 7805                       /usr/lib/libicui18n.so.58.2
+7fe57cf05000-7fe57d045000 r-xp 00000000 b3:05 6986                       /usr/lib/libsqlite3.so.0.8.6
+7fe57d045000-7fe57d244000 ---p 00140000 b3:05 6986                       /usr/lib/libsqlite3.so.0.8.6
+7fe57d244000-7fe57d248000 r--p 0013f000 b3:05 6986                       /usr/lib/libsqlite3.so.0.8.6
+7fe57d248000-7fe57d24c000 rw-p 00143000 b3:05 6986                       /usr/lib/libsqlite3.so.0.8.6
+7fe57d24c000-7fe57d364000 r-xp 00000000 b3:05 7641                       /usr/lib/libharfbuzz.so.0.20900.0
+7fe57d364000-7fe57d564000 ---p 00118000 b3:05 7641                       /usr/lib/libharfbuzz.so.0.20900.0
+7fe57d564000-7fe57d565000 r--p 00118000 b3:05 7641                       /usr/lib/libharfbuzz.so.0.20900.0
+7fe57d565000-7fe57d566000 rw-p 00119000 b3:05 7641                       /usr/lib/libharfbuzz.so.0.20900.0
+7fe57d566000-7fe57d59d000 r-xp 00000000 b3:05 9538                       /usr/lib/libpng16.so.16.32.0
+7fe57d59d000-7fe57d79d000 ---p 00037000 b3:05 9538                       /usr/lib/libpng16.so.16.32.0
+7fe57d79d000-7fe57d79e000 r--p 00037000 b3:05 9538                       /usr/lib/libpng16.so.16.32.0
+7fe57d79e000-7fe57d79f000 rw-p 00038000 b3:05 9538                       /usr/lib/libpng16.so.16.32.0
+7fe57d79f000-7fe57d901000 r-xp 00000000 b3:05 9471                       /usr/lib/libQt5Network.so.5.4.1
+7fe57d901000-7fe57db01000 ---p 00162000 b3:05 9471                       /usr/lib/libQt5Network.so.5.4.1
+7fe57db01000-7fe57db08000 r--p 00162000 b3:05 9471                       /usr/lib/libQt5Network.so.5.4.1
+7fe57db08000-7fe57db09000 rw-p 00169000 b3:05 9471                       /usr/lib/libQt5Network.so.5.4.1
+7fe57db09000-7fe57db0c000 r-xp 00000000 b3:05 10297                      /lib/libdl-2.25.so
+7fe57db0c000-7fe57dd0b000 ---p 00003000 b3:05 10297                      /lib/libdl-2.25.so
+7fe57dd0b000-7fe57dd0c000 r--p 00002000 b3:05 10297                      /lib/libdl-2.25.so
+7fe57dd0c000-7fe57dd0d000 rw-p 00003000 b3:05 10297                      /lib/libdl-2.25.so
+7fe57dd0d000-7fe57dd5e000 r-xp 00000000 b3:05 7984                       /usr/lib/libdbus-1.so.3.8.13
+7fe57dd5e000-7fe57df5e000 ---p 00051000 b3:05 7984                       /usr/lib/libdbus-1.so.3.8.13
+7fe57df5e000-7fe57df5f000 r--p 00051000 b3:05 7984                       /usr/lib/libdbus-1.so.3.8.13
+7fe57df5f000-7fe57df60000 rw-p 00052000 b3:05 7984                       /usr/lib/libdbus-1.so.3.8.13
+7fe57df60000-7fe57df78000 r-xp 00000000 b3:05 8003                       /usr/lib/libz.so.1.2.13
+7fe57df78000-7fe57e177000 ---p 00018000 b3:05 8003                       /usr/lib/libz.so.1.2.13
+7fe57e177000-7fe57e178000 r--p 00017000 b3:05 8003                       /usr/lib/libz.so.1.2.13
+7fe57e178000-7fe57e179000 rw-p 00018000 b3:05 8003                       /usr/lib/libz.so.1.2.13
+7fe57e179000-7fe57e180000 r-xp 00000000 b3:05 10355                      /lib/librt-2.25.so
+7fe57e180000-7fe57e37f000 ---p 00007000 b3:05 10355                      /lib/librt-2.25.so
+7fe57e37f000-7fe57e380000 r--p 00006000 b3:05 10355                      /lib/librt-2.25.so
+7fe57e380000-7fe57e381000 rw-p 00007000 b3:05 10355                      /lib/librt-2.25.so
+7fe57e381000-7fe57e388000 r-xp 00000000 b3:05 7697                       /usr/lib/libGLESv2.so.2.0.0
+7fe57e388000-7fe57e587000 ---p 00007000 b3:05 7697                       /usr/lib/libGLESv2.so.2.0.0
+7fe57e587000-7fe57e588000 r--p 00006000 b3:05 7697                       /usr/lib/libGLESv2.so.2.0.0
+7fe57e588000-7fe57e589000 rw-p 00007000 b3:05 7697                       /usr/lib/libGLESv2.so.2.0.0
+7fe57e589000-7fe57e5b0000 r-xp 00000000 b3:05 6831                       /usr/lib/liblz4.so.1.9.3
+7fe57e5b0000-7fe57e7af000 ---p 00027000 b3:05 6831                       /usr/lib/liblz4.so.1.9.3
+7fe57e7af000-7fe57e7b0000 r--p 00026000 b3:05 6831                       /usr/lib/liblz4.so.1.9.3
+7fe57e7b0000-7fe57e7b1000 rw-p 00027000 b3:05 6831                       /usr/lib/liblz4.so.1.9.3
+7fe57e7b1000-7fe57e947000 r-xp 00000000 b3:05 10347                      /lib/libc-2.25.so
+7fe57e947000-7fe57eb46000 ---p 00196000 b3:05 10347                      /lib/libc-2.25.so
+7fe57eb46000-7fe57eb4a000 r--p 00195000 b3:05 10347                      /lib/libc-2.25.so
+7fe57eb4a000-7fe57eb4c000 rw-p 00199000 b3:05 10347                      /lib/libc-2.25.so
+7fe57eb4c000-7fe57eb50000 rw-p 00000000 00:00 0 
+7fe57eb50000-7fe57eb61000 r-xp 00000000 b3:05 10318                      /lib/libgcc_s.so.1
+7fe57eb61000-7fe57ed61000 ---p 00011000 b3:05 10318                      /lib/libgcc_s.so.1
+7fe57ed61000-7fe57ed62000 rw-p 00011000 b3:05 10318                      /lib/libgcc_s.so.1
+7fe57ed62000-7fe57ee72000 r-xp 00000000 b3:05 9918                       /lib/libm-2.25.so
+7fe57ee72000-7fe57f072000 ---p 00110000 b3:05 9918                       /lib/libm-2.25.so
+7fe57f072000-7fe57f073000 r--p 00110000 b3:05 9918                       /lib/libm-2.25.so
+7fe57f073000-7fe57f074000 rw-p 00111000 b3:05 9918                       /lib/libm-2.25.so
+7fe57f074000-7fe57f208000 r-xp 00000000 b3:05 9565                       /usr/lib/libstdc++.so.6.0.21
+7fe57f208000-7fe57f408000 ---p 00194000 b3:05 9565                       /usr/lib/libstdc++.so.6.0.21
+7fe57f408000-7fe57f414000 r--p 00194000 b3:05 9565                       /usr/lib/libstdc++.so.6.0.21
+7fe57f414000-7fe57f415000 rw-p 001a0000 b3:05 9565                       /usr/lib/libstdc++.so.6.0.21
+7fe57f415000-7fe57f418000 rw-p 00000000 00:00 0 
+7fe57f418000-7fe57f431000 r-xp 00000000 b3:05 10269                      /lib/libpthread-2.25.so
+7fe57f431000-7fe57f630000 ---p 00019000 b3:05 10269                      /lib/libpthread-2.25.so
+7fe57f630000-7fe57f631000 r--p 00018000 b3:05 10269                      /lib/libpthread-2.25.so
+7fe57f631000-7fe57f632000 rw-p 00019000 b3:05 10269                      /lib/libpthread-2.25.so
+7fe57f632000-7fe57f636000 rw-p 00000000 00:00 0 
+7fe57f636000-7fe57f657000 r-xp 00000000 b3:05 9461                       /usr/lib/libdlt.so.2.17.0
+7fe57f657000-7fe57f857000 ---p 00021000 b3:05 9461                       /usr/lib/libdlt.so.2.17.0
+7fe57f857000-7fe57f858000 r--p 00021000 b3:05 9461                       /usr/lib/libdlt.so.2.17.0
+7fe57f858000-7fe57f85a000 rw-p 00022000 b3:05 9461                       /usr/lib/libdlt.so.2.17.0
+7fe57f85a000-7fe57f85f000 rw-p 00000000 00:00 0 
+7fe57f85f000-7fe57fd44000 r-xp 00000000 b3:05 8809                       /usr/lib/libQt5Core.so.5.4.1
+7fe57fd44000-7fe57ff43000 ---p 004e5000 b3:05 8809                       /usr/lib/libQt5Core.so.5.4.1
+7fe57ff43000-7fe57ff4d000 r--p 004e4000 b3:05 8809                       /usr/lib/libQt5Core.so.5.4.1
+7fe57ff4d000-7fe57ff4e000 rw-p 004ee000 b3:05 8809                       /usr/lib/libQt5Core.so.5.4.1
+7fe57ff4e000-7fe57ff51000 rw-p 00000000 00:00 0 
+7fe57ff51000-7fe57ff9f000 r-xp 00000000 b3:05 6758                       /usr/lib/libQt5Sql.so.5.4.1
+7fe57ff9f000-7fe58019f000 ---p 0004e000 b3:05 6758                       /usr/lib/libQt5Sql.so.5.4.1
+7fe58019f000-7fe5801a1000 r--p 0004e000 b3:05 6758                       /usr/lib/libQt5Sql.so.5.4.1
+7fe5801a1000-7fe5801a2000 rw-p 00050000 b3:05 6758                       /usr/lib/libQt5Sql.so.5.4.1
+7fe5801a2000-7fe5801e2000 r-xp 00000000 b3:05 8812                       /usr/lib/libQt5Xml.so.5.4.1
+7fe5801e2000-7fe5803e1000 ---p 00040000 b3:05 8812                       /usr/lib/libQt5Xml.so.5.4.1
+7fe5803e1000-7fe5803e3000 r--p 0003f000 b3:05 8812                       /usr/lib/libQt5Xml.so.5.4.1
+7fe5803e3000-7fe5803e4000 rw-p 00041000 b3:05 8812                       /usr/lib/libQt5Xml.so.5.4.1
+7fe5803e4000-7fe58046d000 r-xp 00000000 b3:05 6795                       /usr/lib/libQt5DBus.so.5.4.1
+7fe58046d000-7fe58066c000 ---p 00089000 b3:05 6795                       /usr/lib/libQt5DBus.so.5.4.1
+7fe58066c000-7fe58066e000 r--p 00088000 b3:05 6795                       /usr/lib/libQt5DBus.so.5.4.1
+7fe58066e000-7fe58066f000 rw-p 0008a000 b3:05 6795                       /usr/lib/libQt5DBus.so.5.4.1
+7fe58066f000-7fe580aaa000 r-xp 00000000 b3:05 7495                       /usr/lib/libQt5Qml.so.5.4.1
+7fe580aaa000-7fe580ca9000 ---p 0043b000 b3:05 7495                       /usr/lib/libQt5Qml.so.5.4.1
+7fe580ca9000-7fe580cbe000 r--p 0043a000 b3:05 7495                       /usr/lib/libQt5Qml.so.5.4.1
+7fe580cbe000-7fe580cc2000 rw-p 0044f000 b3:05 7495                       /usr/lib/libQt5Qml.so.5.4.1
+7fe580cc2000-7fe580cc5000 rw-p 00000000 00:00 0 
+7fe580cc5000-7fe5811e1000 r-xp 00000000 b3:05 6706                       /usr/lib/libQt5Gui.so.5.4.1
+7fe5811e1000-7fe5813e1000 ---p 0051c000 b3:05 6706                       /usr/lib/libQt5Gui.so.5.4.1
+7fe5813e1000-7fe5813f7000 r--p 0051c000 b3:05 6706                       /usr/lib/libQt5Gui.so.5.4.1
+7fe5813f7000-7fe5813fe000 rw-p 00532000 b3:05 6706                       /usr/lib/libQt5Gui.so.5.4.1
+7fe5813fe000-7fe581400000 rw-p 00000000 00:00 0 
+7fe581400000-7fe581809000 r-xp 00000000 b3:05 7347                       /usr/lib/libQt5Quick.so.5.4.1
+7fe581809000-7fe581a09000 ---p 00409000 b3:05 7347                       /usr/lib/libQt5Quick.so.5.4.1
+7fe581a09000-7fe581a2b000 r--p 00409000 b3:05 7347                       /usr/lib/libQt5Quick.so.5.4.1
+7fe581a2b000-7fe581a2c000 rw-p 0042b000 b3:05 7347                       /usr/lib/libQt5Quick.so.5.4.1
+7fe581a2c000-7fe581a2d000 rw-p 00000000 00:00 0 
+7fe581a2d000-7fe581a50000 r-xp 00000000 b3:05 7554                       /usr/lib/libpersistence_client_library.so.7.1.1
+7fe581a50000-7fe581c50000 ---p 00023000 b3:05 7554                       /usr/lib/libpersistence_client_library.so.7.1.1
+7fe581c50000-7fe581c51000 r--p 00023000 b3:05 7554                       /usr/lib/libpersistence_client_library.so.7.1.1
+7fe581c51000-7fe581c53000 rw-p 00024000 b3:05 7554                       /usr/lib/libpersistence_client_library.so.7.1.1
+7fe581c53000-7fe581c64000 rw-p 00000000 00:00 0 
+7fe581c64000-7fe581c8d000 r-xp 00000000 b3:05 49784                      /app/lib/libImageProvider.so.1.0.0
+7fe581c8d000-7fe581e8c000 ---p 00029000 b3:05 49784                      /app/lib/libImageProvider.so.1.0.0
+7fe581e8c000-7fe581e8e000 r--p 00028000 b3:05 49784                      /app/lib/libImageProvider.so.1.0.0
+7fe581e8e000-7fe581e8f000 rw-p 0002a000 b3:05 49784                      /app/lib/libImageProvider.so.1.0.0
+7fe581e8f000-7fe581ea6000 r-xp 00000000 b3:05 49818                      /app/lib/libBigInfo.so.1.0.0
+7fe581ea6000-7fe5820a6000 ---p 00017000 b3:05 49818                      /app/lib/libBigInfo.so.1.0.0
+7fe5820a6000-7fe5820a7000 r--p 00017000 b3:05 49818                      /app/lib/libBigInfo.so.1.0.0
+7fe5820a7000-7fe5820a8000 rw-p 00018000 b3:05 49818                      /app/lib/libBigInfo.so.1.0.0
+7fe5820a8000-7fe5820cb000 r-xp 00000000 b3:05 10332                      /lib/ld-2.25.so
+7fe5820cb000-7fe5820cc000 rw-s 00000000 00:14 7909                       /dev/shm/_Data_mnt_wt_shared_public_wt_itz-shm-info
+7fe5820cc000-7fe58213d000 rw-p 00000000 00:00 0 
+7fe58213d000-7fe58215d000 r-xp 00000000 b3:05 9591                       /lib/libudev.so.1.6.4
+7fe58215d000-7fe58215e000 r--p 0001f000 b3:05 9591                       /lib/libudev.so.1.6.4
+7fe58215e000-7fe58215f000 rw-p 00020000 b3:05 9591                       /lib/libudev.so.1.6.4
+7fe58215f000-7fe582160000 rw-s 00000000 00:14 8946                       /dev/shm/_Data_mnt_wt_shared_public_resource_table_cfg_itz-shm-info
+7fe582160000-7fe582161000 -w-p 00000000 b3:05 50292                      /etc/pclCustomLibConfigFile.cfg
+7fe582161000-7fe582162000 rw-s 00000000 00:05 0                          /SYSV51131d7f (deleted)
+7fe582162000-7fe582163000 rw-s 00000000 00:05 1015839                    /SYSV5113271e (deleted)
+7fe582163000-7fe582164000 rw-s 00000000 00:05 0                          /SYSV51131d7f (deleted)
+7fe582164000-7fe582168000 rw-s 00000000 00:05 12062                      /drm mm object (deleted)
+7fe582168000-7fe58216d000 rw-s 00000000 00:12 13428                      /run/user/root/weston-shared-w0hyjS (deleted)
+7fe58216d000-7fe58221d000 r--p 00000000 b3:05 8549                       /usr/lib/locale/ko_KR/LC_CTYPE
+7fe58221d000-7fe58221e000 r--p 00000000 b3:05 8554                       /usr/lib/locale/ko_KR/LC_NUMERIC
+7fe58221e000-7fe5822ad000 r--p 00000000 b3:05 8551                       /usr/lib/locale/ko_KR/LC_COLLATE
+7fe5822ad000-7fe5822c1000 rw-p 00000000 00:00 0 
+7fe5822c1000-7fe5822c2000 r--p 00000000 b3:05 8552                       /usr/lib/locale/ko_KR/LC_TIME
+7fe5822c2000-7fe5822c3000 r--p 00000000 b3:05 8543                       /usr/lib/locale/ko_KR/LC_MONETARY
+7fe5822c3000-7fe5822c4000 r--p 00000000 b3:05 8546                       /usr/lib/locale/ko_KR/LC_MESSAGES/SYS_LC_MESSAGES
+7fe5822c4000-7fe5822c5000 r--p 00000000 b3:05 8548                       /usr/lib/locale/ko_KR/LC_PAPER
+7fe5822c5000-7fe5822c6000 r--p 00000000 b3:05 8553                       /usr/lib/locale/ko_KR/LC_NAME
+7fe5822c6000-7fe5822c7000 r--p 00000000 b3:05 8544                       /usr/lib/locale/ko_KR/LC_ADDRESS
+7fe5822c7000-7fe5822c8000 r--p 00000000 b3:05 8550                       /usr/lib/locale/ko_KR/LC_TELEPHONE
+7fe5822c8000-7fe5822c9000 r--p 00000000 b3:05 8547                       /usr/lib/locale/ko_KR/LC_MEASUREMENT
+7fe5822c9000-7fe5822ca000 r--p 00000000 b3:05 8542                       /usr/lib/locale/ko_KR/LC_IDENTIFICATION
+7fe5822ca000-7fe5822cb000 r--p 00022000 b3:05 10332                      /lib/ld-2.25.so
+7fe5822cb000-7fe5822cc000 rw-p 00023000 b3:05 10332                      /lib/ld-2.25.so
+7fe5822cc000-7fe5822cd000 rw-p 00000000 00:00 0 
+7ffdc802e000-7ffdc804f000 rw-p 00000000 00:00 0                          [stack]
+7ffdc8063000-7ffdc8065000 r--p 00000000 00:00 0                          [vvar]
+7ffdc8065000-7ffdc8067000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+
+==== Listing directory </proc/3044/fd> ====
+lr-x------   1  0 0 64    0 -> pipe:[12030]
+l-wx------   1  0 0 64    1 -> /dev/null
+l-wx------   1  0 0 64    2 -> /dev/null
+lrwx------   1  0 0 64    3 -> /tmp/dltpipes/dlt3044
+l-wx------   1  0 0 64    4 -> /tmp/dlt
+lrwx------   1  0 0 64    5 -> anon_inode:[eventfd]
+lrwx------   1  0 0 64    6 -> socket:[13426]
+lrwx------   1  0 0 64    7 -> /run/user/root/weston-shared-w0hyjS (deleted)
+lrwx------   1  0 0 64    8 -> anon_inode:[eventfd]
+lr-x------   1  0 0 64    9 -> pipe:[13443]
+l-wx------   1  0 0 64   10 -> pipe:[13443]
+lrwx------   1  0 0 64   11 -> /run/user/root/weston-shared-Dd4Gsl (deleted)
+lr-x------   1  0 0 64   12 -> /app/bin/ApplicationManager
+lr-x------   1  0 0 64   13 -> /app/bin/UserProfileManager
+lrwx------   1  0 0 64   14 -> /dev/dri/card0
+lr-x------   1  0 0 64   15 -> /app/bin/AppCamera
+lrwx------   1  0 0 64   16 -> anon_inode:[eventfd]
+lr-x------   1  0 0 64   17 -> /app/bin/AppStandbyClock
+lrwx------   1  0 0 64   18 -> socket:[12066]
+lrwx------   1  0 0 64   19 -> anon_inode:[eventfd]
+lrwx------   1  0 0 64   20 -> /rw_data/app_data/AppHomeScreen/CustomLayoutDB/CustomLayoutDB
+lr-x------   1  0 0 64   21 -> /app/bin/AppOSDManager
+lrwx------   1  0 0 64   22 -> /rw_data/app_data/AppHomeScreen/SetupDB/SetupDB
+lr-x------   1  0 0 64   23 -> /app/bin/AppHomeScreen
+lrwx------   1  0 0 64   24 -> socket:[13522]
+lrwx------   1  0 0 64   25 -> socket:[12073]
+lrwx------   1  0 0 64   26 -> anon_inode:[eventfd]
+lrwx------   1  0 0 64   27 -> socket:[12086]
+lrwx------   1  0 0 64   28 -> socket:[14363]
+lr-x------   1  0 0 64   29 -> pipe:[14366]
+l-wx------   1  0 0 64   30 -> pipe:[14366]
+lrwx------   1  0 0 64   31 -> /Data/mnt-wt/shared/public/wt.itz-lock
+lrwx------   1  0 0 64   32 -> /Data/mnt-wt/shared/public/resource-table-cfg.itz-lock
+lrwx------   1  0 0 64   33 -> /dev/shm/_Data_mnt_wt_shared_public_resource_table_cfg_itz-shm-info
+lr-x------   1  0 0 64   34 -> /Data/mnt-wt/shared/public/resource-table-cfg.itz
+lrwx------   1  0 0 64   35 -> /dev/shm/_Data_mnt_wt_shared_public_resource_table_cfg_itz-ht
+lrwx------   1  0 0 64   36 -> /dev/shm/_Data_mnt_wt_shared_public_wt_itz-shm-info
+lrwx------   1  0 0 64   37 -> /Data/mnt-wt/shared/public/wt.itz
+lrwx------   1  0 0 64   38 -> /dev/shm/_Data_mnt_wt_shared_public_wt_itz-ht
+lrwx------   1  0 0 64   39 -> /Data/mnt-wt/shared/public/configurable-default-data.itz-lock
+lrwx------   1  0 0 64   40 -> /dev/shm/_Data_mnt_wt_shared_public_configurable_default_data_itz-shm-info
+lrwx------   1  0 0 64   41 -> /Data/mnt-wt/shared/public/configurable-default-data.itz
+lrwx------   1  0 0 64   42 -> /dev/shm/_Data_mnt_wt_shared_public_configurable_default_data_itz-ht
+lrwx------   1  0 0 64   43 -> /Data/mnt-wt/shared/public/default-data.itz-lock
+lrwx------   1  0 0 64   44 -> /dev/shm/_Data_mnt_wt_shared_public_default_data_itz-shm-info
+lrwx------   1  0 0 64   45 -> /Data/mnt-wt/shared/public/default-data.itz
+lrwx------   1  0 0 64   46 -> /dev/shm/_Data_mnt_wt_shared_public_default_data_itz-ht
+lrwx------   1  0 0 64   47 -> /dev/shm/timemanager_shm
+lrwx------   1  0 0 64   48 -> anon_inode:[eventfd]
+lrwx------   1  0 0 64   49 -> socket:[15503]
+lrwx------   1  0 0 64   50 -> socket:[15505]
+lrwx------   1  0 0 64   51 -> /dev/shm/timemanager_shm
+lrwx------   1  0 0 64   52 -> anon_inode:[eventfd]
+lrwx------   1  0 0 64   53 -> anon_inode:[eventfd]
+lrwx------   1  0 0 64   54 -> anon_inode:[eventfd]
+lrwx------   1  0 0 64   55 -> anon_inode:[eventfd]
+lrwx------   1  0 0 64   56 -> socket:[15546]
+lrwx------   1  0 0 64   57 -> anon_inode:[eventfd]
+===========================

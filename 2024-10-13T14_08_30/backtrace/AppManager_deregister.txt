@@ -1,0 +1,90 @@
+APPM_LWP[2840]: XXXXXXXXXX Registration::deregistration() a_nSigNum[15] a_strName[AppVH] XXXXXXXXXX | time (2011-01-01)01:01:19.753 
+APPM_LWP[2840]: XXXXXXXXXX Registration::deregistration() a_nSigNum[15] a_strName[AppVH] XXXXXXXXXX | time (2011-01-01)01:01:29.756 
+APPM_LWP[2840]: XXXXXXXXXX Registration::deregistration() a_nSigNum[15] a_strName[AppNavi] XXXXXXXXXX | time (2011-01-01)01:01:35.772 
+APPM_LWP[2838]: XXXXXXXXXX Registration::deregistration() a_nSigNum[15] a_strName[AppVH] XXXXXXXXXX | time (2011-01-01)01:01:19.537 
+APPM_LWP[2951]: XXXXXXXXXX Registration::deregistration() a_nSigNum[15] a_strName[AppVH] XXXXXXXXXX | time (2024-15-31)14:15:55.600 
+APPM_LWP[2858]: App deadlock?? [AppCamera][%2][%3]  | time (2024-24-02)17:24:51.614 
+APPM_LWP[2858]: App deadlock?? [AppVH][%2][%3]  | time (2024-24-02)17:24:51.742 
+APPM_LWP[2858]: App deadlock?? [NotificationManager][%2][%3]  | time (2024-24-02)17:24:51.744 
+APPM_LWP[2858]: App deadlock?? [AppNavi][%2][%3]  | time (2024-24-02)17:24:52.526 
+APPM_LWP[2858]: App deadlock?? [LocationManager][%2][%3]  | time (2024-24-02)17:24:52.726 
+APPM_LWP[2858]: App deadlock?? [AppHomeScreen][%2][%3]  | time (2024-24-02)17:24:52.931 
+APPM_LWP[2858]: App deadlock?? [AppProjection][%2][%3]  | time (2024-24-02)17:24:52.931 
+APPM_LWP[2858]: App deadlock?? [BluetoothHMI][%2][%3]  | time (2024-24-02)17:24:53.143 
+APPM_LWP[2858]: App deadlock?? [AppMediaPlayer][%2][%3]  | time (2024-24-02)17:24:53.144 
+APPM_LWP[2858]: App deadlock?? [AppOSDManager][%2][%3]  | time (2024-24-02)17:24:53.144 
+APPM_LWP[2858]: App deadlock?? [AppSetup][%2][%3]  | time (2024-24-02)17:24:53.329 
+APPM_LWP[2858]: App deadlock?? [AppDMClient][%2][%3]  | time (2024-24-02)17:24:53.528 
+APPM_LWP[2858]: App deadlock?? [AppEURadio][%2][%3]  | time (2024-24-02)17:24:54.332 
+APPM_LWP[2858]: App deadlock?? [AppStandbyClock][%2][%3]  | time (2024-24-02)17:24:54.332 
+APPM_LWP[2869]: XXXXXXXXXX Registration::deregistration() a_nSigNum[15] a_strName[AppOSDManager] XXXXXXXXXX | time (2024-18-03)15:18:46.771 
+APPM_LWP[2829]: XXXXXXXXXX Registration::deregistration() a_nSigNum[15] a_strName[AppVH] XXXXXXXXXX | time (2024-30-03)17:30:45.434 
+APPM_LWP[2842]: App deadlock?? [AppNavi][%2][%3]  | time (2024-44-05)09:44:55.834 
+APPM_LWP[2842]: XXXXXXXXXX Registration::deregistration() a_nSigNum[11] a_strName[AppNavi] XXXXXXXXXX | time (2024-46-05)09:46:29.092 
+APPM_LWP[2828]: XXXXXXXXXX Registration::deregistration() a_nSigNum[15] a_strName[AppVH] XXXXXXXXXX | time (2024-44-05)16:44:48.489 
+APPM_LWP[2833]: XXXXXXXXXX Registration::deregistration() a_nSigNum[15] a_strName[AppVH] XXXXXXXXXX | time (2024-02-07)14:02:20.422 
+APPM_LWP[2836]: XXXXXXXXXX Registration::deregistration() a_nSigNum[15] a_strName[AppVH] XXXXXXXXXX | time (2024-16-07)15:16:03.602 
+APPM_LWP[2836]: XXXXXXXXXX Registration::deregistration() a_nSigNum[0] a_strName[AppEngineerMode] XXXXXXXXXX | time (2024-51-07)15:51:19.939 
+APPM_LWP[2836]: XXXXXXXXXX Registration::deregistration() a_nSigNum[0] a_strName[AppEngineerMode] XXXXXXXXXX | time (2024-05-07)16:05:39.978 
+APPM_LWP[2843]: XXXXXXXXXX Registration::deregistration() a_nSigNum[15] a_strName[AppVH] XXXXXXXXXX | time (2024-01-10)09:01:33.431 
+APPM_LWP[2803]: XXXXXXXXXX Registration::deregistration() a_nSigNum[15] a_strName[AppVH] XXXXXXXXXX | time (2024-43-12)09:43:10.514 
+APPM_LWP[2874]: XXXXXXXXXX Registration::deregistration() a_nSigNum[15] a_strName[AppVH] XXXXXXXXXX | time (2024-45-13)07:45:40.007 
+APPM_LWP[2860]: XXXXXXXXXX Registration::deregistration() a_nSigNum[6] a_strName[AppSetup] XXXXXXXXXX | time (2024-21-14)08:21:18.998 
+APPM_LWP[2891]: App deadlock?? [AppNavi][%2][%3]  | time (2024-45-16)13:45:00.753 
+APPM_LWP[2891]: XXXXXXXXXX Registration::deregistration() a_nSigNum[6] a_strName[AppNavi] XXXXXXXXXX | time (2024-48-16)13:48:33.881 
+APPM_LWP[2858]: XXXXXXXXXX Registration::deregistration() a_nSigNum[15] a_strName[AppVH] XXXXXXXXXX | time (2024-07-20)20:07:23.323 
+APPM_LWP[2838]: XXXXXXXXXX Registration::deregistration() a_nSigNum[15] a_strName[AppVH] XXXXXXXXXX | time (2024-07-24)09:07:50.056 
+APPM_LWP[2848]: XXXXXXXXXX Registration::deregistration() a_nSigNum[15] a_strName[AppVH] XXXXXXXXXX | time (2024-36-26)06:36:37.128 
+APPM_LWP[2876]: XXXXXXXXXX Registration::deregistration() a_nSigNum[15] a_strName[AppVH] XXXXXXXXXX | time (2024-09-26)09:09:44.320 
+APPM_LWP[2859]: XXXXXXXXXX Registration::deregistration() a_nSigNum[15] a_strName[AppVH] XXXXXXXXXX | time (2024-32-27)06:32:37.892 
+APPM_LWP[2775]: XXXXXXXXXX Registration::deregistration() a_nSigNum[15] a_strName[AppVH] XXXXXXXXXX | time (2024-24-27)11:24:59.726 
+APPM_LWP[2907]: XXXXXXXXXX Registration::deregistration() a_nSigNum[15] a_strName[AppVH] XXXXXXXXXX | time (2024-56-29)12:56:42.058 
+APPM_LWP[2835]: XXXXXXXXXX Registration::deregistration() a_nSigNum[15] a_strName[AppVH] XXXXXXXXXX | time (2024-04-02)17:04:00.191 
+APPM_LWP[2872]: XXXXXXXXXX Registration::deregistration() a_nSigNum[15] a_strName[AppVH] XXXXXXXXXX | time (2024-54-16)17:54:10.750 
+APPM_LWP[2838]: XXXXXXXXXX Registration::deregistration() a_nSigNum[15] a_strName[AppVH] XXXXXXXXXX | time (2024-13-19)07:13:21.059 
+APPM_LWP[2849]: XXXXXXXXXX Registration::deregistration() a_nSigNum[15] a_strName[AppStandbyClock] XXXXXXXXXX | time (2024-07-23)08:07:23.323 
+APPM_LWP[2849]: App deadlock?? [AppMediaPlayer][%2][%3]  | time (2024-07-23)08:07:38.033 
+APPM_LWP[2849]: XXXXXXXXXX Registration::deregistration() a_nSigNum[15] a_strName[AppMediaPlayer] XXXXXXXXXX | time (2024-07-23)08:07:38.048 
+APPM_LWP[2862]: App deadlock?? [BluetoothHMI][%2][%3]  | time (2024-58-27)16:58:21.512 
+APPM_LWP[2905]: XXXXXXXXXX Registration::deregistration() a_nSigNum[15] a_strName[AppVH] XXXXXXXXXX | time (2024-53-30)07:53:41.135 
+APPM_LWP[2848]: App deadlock?? [AppVH][%2][%3]  | time (2024-21-04)09:21:33.006 
+APPM_LWP[2848]: XXXXXXXXXX Registration::deregistration() a_nSigNum[15] a_strName[AppVH] XXXXXXXXXX | time (2024-21-04)09:21:33.200 
+APPM_LWP[2884]: XXXXXXXXXX Registration::deregistration() a_nSigNum[15] a_strName[AppVH] XXXXXXXXXX | time (2024-38-06)15:38:21.766 
+APPM_LWP[2818]: XXXXXXXXXX Registration::deregistration() a_nSigNum[15] a_strName[AppVH] XXXXXXXXXX | time (2024-17-07)17:17:30.747 
+APPM_LWP[2828]: App deadlock?? [AppVH][%2][%3]  | time (2024-35-09)14:35:50.229 
+APPM_LWP[2828]: XXXXXXXXXX Registration::deregistration() a_nSigNum[15] a_strName[AppVH] XXXXXXXXXX | time (2024-35-09)14:35:50.663 
+APPM_LWP[2793]: XXXXXXXXXX Registration::deregistration() a_nSigNum[15] a_strName[AppVH] XXXXXXXXXX | time (2024-20-09)15:20:01.696 
+APPM_LWP[2888]: XXXXXXXXXX Registration::deregistration() a_nSigNum[15] a_strName[AppVH] XXXXXXXXXX | time (2024-59-10)13:59:24.749 
+APPM_LWP[2796]: XXXXXXXXXX Registration::deregistration() a_nSigNum[15] a_strName[AppVH] XXXXXXXXXX | time (2024-26-11)16:26:48.505 
+APPM_LWP[2806]: XXXXXXXXXX Registration::deregistration() a_nSigNum[15] a_strName[AppVH] XXXXXXXXXX | time (2024-16-12)08:16:55.502 
+APPM_LWP[2882]: App deadlock?? [AppOSDManager][%2][%3]  | time (2024-25-12)16:25:32.880 
+APPM_LWP[2882]: App deadlock?? [AppMediaPlayer][%2][%3]  | time (2024-25-12)16:25:33.652 
+APPM_LWP[2882]: App deadlock?? [AppStandbyClock][%2][%3]  | time (2024-25-12)16:25:33.853 
+APPM_LWP[2882]: App deadlock?? [AppEURadio][%2][%3]  | time (2024-25-12)16:25:33.853 
+APPM_LWP[2882]: App deadlock?? [AppCamera][%2][%3]  | time (2024-25-12)16:25:33.855 
+APPM_LWP[2882]: App deadlock?? [BluetoothHMI][%2][%3]  | time (2024-25-12)16:25:34.048 
+APPM_LWP[2882]: App deadlock?? [NotificationManager][%2][%3]  | time (2024-25-12)16:25:34.448 
+APPM_LWP[2882]: App deadlock?? [AppDMClient][%2][%3]  | time (2024-25-12)16:25:35.257 
+APPM_LWP[2882]: App deadlock?? [AppSetup][%2][%3]  | time (2024-25-12)16:25:35.257 
+APPM_LWP[2882]: App deadlock?? [AppVH][%2][%3]  | time (2024-25-12)16:25:35.258 
+APPM_LWP[2882]: App deadlock?? [AppHomeScreen][%2][%3]  | time (2024-25-12)16:25:35.259 
+APPM_LWP[2882]: App deadlock?? [AppNavi][%2][%3]  | time (2024-25-12)16:25:35.449 
+APPM_LWP[2882]: App deadlock?? [AppProjection][%2][%3]  | time (2024-25-12)16:25:36.045 
+APPM_LWP[2882]: App deadlock?? [LocationManager][%2][%3]  | time (2024-25-12)16:25:36.444 
+APPM_LWP[2843]: XXXXXXXXXX Registration::deregistration() a_nSigNum[0] a_strName[AppEngineerMode] XXXXXXXXXX | time (2024-01-13)16:01:36.925 
+APPM_LWP[2843]: XXXXXXXXXX Registration::deregistration() a_nSigNum[0] a_strName[AppEngineerMode] XXXXXXXXXX | time (2024-04-13)16:04:41.568 
+APPM_LWP[2843]: XXXXXXXXXX Registration::deregistration() a_nSigNum[0] a_strName[AppEngineerMode] XXXXXXXXXX | time (2024-06-13)16:06:54.679 
+APPM_LWP[2843]: XXXXXXXXXX Registration::deregistration() a_nSigNum[0] a_strName[AppEngineerMode] XXXXXXXXXX | time (2024-15-13)16:15:35.103 
+APPM_LWP[2843]: XXXXXXXXXX Registration::deregistration() a_nSigNum[0] a_strName[AppEngineerMode] XXXXXXXXXX | time (2024-29-13)16:29:35.314 
+APPM_LWP[2843]: XXXXXXXXXX Registration::deregistration() a_nSigNum[0] a_strName[AppEngineerMode] XXXXXXXXXX | time (2024-31-13)16:31:23.053 
+APPM_LWP[2843]: XXXXXXXXXX Registration::deregistration() a_nSigNum[0] a_strName[AppEngineerMode] XXXXXXXXXX | time (2024-38-13)16:38:00.824 
+APPM_LWP[2843]: XXXXXXXXXX Registration::deregistration() a_nSigNum[0] a_strName[AppEngineerMode] XXXXXXXXXX | time (2024-40-13)16:40:00.598 
+APPM_LWP[2843]: XXXXXXXXXX Registration::deregistration() a_nSigNum[0] a_strName[AppEngineerMode] XXXXXXXXXX | time (2024-49-13)16:49:11.036 
+APPM_LWP[2805]: XXXXXXXXXX Registration::deregistration() a_nSigNum[0] a_strName[BluetoothHMI] XXXXXXXXXX | time (2024-30-15)14:30:29.570 
+APPM_LWP[2818]: XXXXXXXXXX Registration::deregistration() a_nSigNum[0] a_strName[BluetoothHMI] XXXXXXXXXX | time (2024-32-23)06:32:35.829 
+APPM_LWP[2866]: XXXXXXXXXX Registration::deregistration() a_nSigNum[11] a_strName[AppNavi] XXXXXXXXXX | time (2024-02-13)20:02:55.167 
+APPM_LWP[2876]: XXXXXXXXXX Registration::deregistration() a_nSigNum[15] a_strName[AppVH] XXXXXXXXXX | time (2024-42-15)07:42:33.024 
+APPM_LWP[2910]: XXXXXXXXXX Registration::deregistration() a_nSigNum[15] a_strName[AppVH] XXXXXXXXXX | time (2024-37-25)07:37:52.013 
+APPM_LWP[2843]: XXXXXXXXXX Registration::deregistration() a_nSigNum[0] a_strName[AppEngineerMode] XXXXXXXXXX | time (2024-48-29)15:48:39.254 
+APPM_LWP[2860]: XXXXXXXXXX Registration::deregistration() a_nSigNum[11] a_strName[AppHomeScreen] XXXXXXXXXX | time (2024-42-05)07:42:44.893 
+APPM_LWP[2886]: XXXXXXXXXX Registration::deregistration() a_nSigNum[0] a_strName[AppEngineerMode] XXXXXXXXXX | time (2024-38-12)15:38:53.444 

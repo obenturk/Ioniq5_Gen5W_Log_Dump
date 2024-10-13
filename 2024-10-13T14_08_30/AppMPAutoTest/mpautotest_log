@@ -1,0 +1,87 @@
+[resize] No resize!!(%d)resize0
+[openLog] ReadWrite PartitionopenLog
+[removeFile] /log_data/AppMPAutoTest/mpautotest_log file removed! 
+[%s] AppMPAutoTest Started! 
+main
+[EngineerModeAppEngine::EngineerModeAppEngine] Constructed!
+[EngineerModeAppEngine::appStart]
+[initLocationManagerService] lm_iface->isValid : 0
+[initModemService] ofono_dms->isValid : 0
+[initModemService] ofono_uim->isValid : 0
+[initModemService] ofono_nas->isValid : 0
+[initModemService] ofono_ntc->isValid : 0
+[initModemService] ofono_csd->isValid : 0
+[initModemService] ofono_sim->isValid : 0
+[initRadioService] radio_iface->isValid : 1
+[initDabService] dab_iface->isValid : 1
+[initXMRadioService] xm_iface->isValid : 0
+[initDMBService] dmb_iface->isValid : 0
+[initAppProjectionService] aa_iface->isValid : 1
+[initAppMirrorLinkService] ml_iface->isValid : 0
+[initAppManagerInfoService] appmain_info_iface->isValid : 1
+[initBtService] bt_iface->isValid : 1
+[initSetupService] setup_iface->isValid : 0
+[initSetupService] setup_connect_iface->isValid : 0
+[initEngModeService] engmode_iface->isValid : 1
+[initAppVHService] vr_version_iface->isValid : 0
+[initAppVHService] vr_versiontts_iface->isValid : 0
+[initAppVHService] vr_start_iface->isValid : 0
+[initAppVHService] vr_end_iface->isValid : 0
+[initAppHomeScreenService] apphome_iface->isValid : 1
+[initAppMediaPlayerService] appmedia_iface->isValid : 0
+[initAppStandByService] appstandby_iface->isValid : 1
+[initAppManagerScreentransitionService] screen_iface->isValid : 1
+[initMMUS] ihu_iface->isValid : 1
+[initMMUS] can_iface->isValid : 1
+[initMMUS] tmu_iface->isValid : 1
+[initMMUS] eng_iface->isValid : 1
+[initMMUS] audio_iface->isValid : 1
+[ATCmdParser]Constructed!
+[%s]wifi_handler
+[MPModeSet]
+[ATCmdParser::AskBootinfo] MPAUTO_g_CountryCode: 8
+[ATCmdParser::AskBootinfo] MPAUTO_g_carTypeCode: 38
+[ATCmdParser::AskBootinfo] MPAUTO_g_lcdType: 4
+[ATCmdParser::AskBootinfo] g_system2: 5
+[ATCmdParser::AskBootinfo] mCanGenType: 2
+[ATCmdParser::AskBootinfo] m_strCountryVariant: TUR(qstr)
+[ATCmdParser::OnNotifySpeedValueEvent] first m_SpeedValue: 0(km/h)
+[ATCmdParser::OnParsingATCommand] szbuffer: AT+READ_PARTNUMBER_REQ, strlen: 0
+[OnParsingATCommand] Inpunt data strlen: 0
+[ATCmdParser::OnReceivedCmdReq] iIdx: 187
+[ATCmdParser::OnReceivedCmdReq] CmdMsg: 9213
+[MMUSControl::Ask_PartNumberInfo]
+[MMUSControl::Response_PartNumberInfo] resValue data[0]= 9(hex) 
+[MMUSControl::Response_PartNumberInfo] resValue data[1]= 6(hex) 
+[MMUSControl::Response_PartNumberInfo] resValue data[2]= 5(hex) 
+[MMUSControl::Response_PartNumberInfo] resValue data[3]= 6(hex) 
+[MMUSControl::Response_PartNumberInfo] resValue data[4]= 0(hex) 
+[MMUSControl::Response_PartNumberInfo] resValue data[5]= -(hex) 
+[MMUSControl::Response_PartNumberInfo] resValue data[6]= G(hex) 
+[MMUSControl::Response_PartNumberInfo] resValue data[7]= I(hex) 
+[MMUSControl::Response_PartNumberInfo] resValue data[8]= 9(hex) 
+[MMUSControl::Response_PartNumberInfo] resValue data[9]= 3(hex) 
+[MMUSControl::Response_PartNumberInfo] resValue data[10]= 1(hex) 
+[MMUSControl::Response_PartNumberInfo] partNumberDataTotal = 96560-GI931
+[MMUSControl::writeATCommand] ATCmd.data() = AT+READ_PARTNUMBER_REQ:96560-GI931
+[ATCmdParser::OnParsingATCommand] szbuffer: AT+CHECK_FACTORY_MODE_REQ, strlen: 0
+[OnParsingATCommand] Inpunt data strlen: 0
+[ATCmdParser::OnReceivedCmdReq] iIdx: 667
+[ATCmdParser::OnReceivedCmdReq] CmdMsg: 9599
+[ATCmdParser::OnReceivedCmdReq] EVT_MP_CHECK_FACTORY_MODE_REQ
+[MMUSControl::Check_SysFactoryModeSetEng]
+[MMUSControl::Response_CheckFactoryModeSetEng] resValue data[0]= 
+[MMUSControl::Response_CheckFactoryModeSetEng] resValue data[1]= (hex)
+[ATCmdParser::OnSendCmdResData] command: 9600, data: 1
+[ATCmdParser::OnSendCmdResData] dataToStr: 1
+[ATCmdParser::OnSendCmdResData] resDataStr: 1
+[ATCmdParser::makeATCmdResStr] iIdx: 668
+[ATCmdParser::makeATCmdResStr] 1.resATCmdBuf: AT+CHECK_FACTORY_MODE_RES
+[ATCmdParser::makeATCmdResStr] 2.resATCmdBuf: AT+CHECK_FACTORY_MODE_RES:
+[ATCmdParser::OnSendCmdResData] 3.resATCmdBuf: AT+CHECK_FACTORY_MODE_RES:1
+[ATCmdParser::OnSendCmdResData] 4.resATCmdBuf: AT+CHECK_FACTORY_MODE_RES:1
+
+[MMUSControl::writeATCommand] ATCmd.data() = AT+CHECK_FACTORY_MODE_RES:1
+[ATCmdParser::OnSendCmdResData] Sended AT Command Response: AT+CHECK_FACTORY_MODE_RES:1
+
+[ATCmdParser::onNotifyFrontApplication] curAppid = 11

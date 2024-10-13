@@ -1,0 +1,19 @@
+*** Last Shutdown 1
+8: try mounting
+8: 0
+Filesystem(/dev/mmcblk0p8)  fsck [0]
+9: try mounting
+9: 0
+Filesystem(/dev/mmcblk0p9)  fsck [0]
+10: try mounting
+10: 0
+Filesystem(/dev/mmcblk0p10)  fsck [0]
+11: try mounting
+11: 0
+Filesystem(/dev/mmcblk0p11)  fsck [0]
+12: try mounting
+12: 0
+Filesystem(/dev/mmcblk0p12)  fsck [0]
+13: try mounting
+13: 0
+Filesystem(/dev/mmcblk0p13)  fsck [0]

@@ -1,0 +1,175 @@
+20240912-165138 [SMACK] New /log_data/audit/audit.log.update File create
+20240912-165138 [SMACK] -----------------------
+20240912-165138 [SMACK] /app/bin/update_start_5w.sh /rw_data/mnt/root (3844)
+20240912-165144 [SMACK] start app_remove_label
+20240912-165144 [SMACK] start major_labels
+20240912-165144 [SMACK] start app_labeling
+20240912-165145 [SMACK] start app_usr_labeling
+20240912-165145 [SMACK] start app_usr_bin_labeling
+20240912-165146 [SMACK] Privileged /rw_data/mnt/root/etc/update_start_5w.sh.ori
+20240912-165146 [SMACK] done
+20240912-165147 start verification..
+20240912-165147 Status Check Pass : /rw_data/mnt/root//etc/update_start_5w.sh.ori ok, exec label ok, Privileged ok
+20240912-165147 SMACK Labeling End /rw_data/mnt/root
+20240912-165147 =====================
+20240912-165158 -----------------------
+20240912-165158 SMACK Labeling Start /rw_data/mnt/vr (4345)
+20240912-165158 Current Version:
+20240912-165158 5W.XXX.S5W_L.001.001.240726
+20240912-165158 New Version:
+20240912-165158
+20240912-165158 onlycap enabled
+20240912-165158 Status Check Pass : /etc/update_start_5w.sh.ori ok, exec label ok, Privileged ok
+20240912-165158 Start Labeling...
+20240912-165158 [SMACK] Call /rw_data/mnt/root/etc/update_start_5w.sh.ori
+20240912-165159 [SMACK] Caller is not AppUpgrade update_start_5w
+20240912-165159 [SMACK] /log_data/audit/audit.log.update exist
+20240912-165159 [SMACK] -----------------------
+20240912-165159 [SMACK] /app/bin/update_start_5w.sh /rw_data/mnt/vr (4374)
+20240912-165159 [SMACK] done
+20240912-165200 start verification..
+20240912-165200 ERR:3 /rw_data/mnt/vr//etc/update_start_5w.sh.ori nok, exec label nok, Privileged nok
+20240912-165200 Verification fail:3
+20240912-165200 SMACK Labeling End /rw_data/mnt/vr
+20240912-165200 =====================
+20240912-170025 -----------------------
+20240912-170025 SMACK Labeling Start /navi2/Bin (4547)
+20240912-170025 Current Version:
+20240912-170025 5W.XXX.S5W_L.001.001.240726
+20240912-170025 New Version:
+20240912-170025
+20240912-170025 onlycap enabled
+20240912-170025 Status Check Pass : /etc/update_start_5w.sh.ori ok, exec label ok, Privileged ok
+20240912-170025 Start Labeling...
+20240912-170025 [SMACK] Call /rw_data/mnt/root/etc/update_start_5w.sh.ori
+20240912-170025 [SMACK] Caller is not AppUpgrade update_start_5w
+20240912-170025 [SMACK] /log_data/audit/audit.log.update exist
+20240912-170025 [SMACK] -----------------------
+20240912-170025 [SMACK] /app/bin/update_start_5w.sh /navi2/Bin (4577)
+20240912-170025 [SMACK] start app_navi2_labeling
+20240912-170025 [SMACK] done
+20240912-170026 start verification..
+20240912-170026 ERR:3 /navi2/Bin//etc/update_start_5w.sh.ori nok, exec label nok, Privileged nok
+20240912-170026 Verification fail:3
+20240912-170026 SMACK Labeling End /navi2/Bin
+20240912-170026 =====================
+20240912-170027 -----------------------
+20240912-170027 SMACK Labeling Start /navi2/DATA (4622)
+20240912-170027 Current Version:
+20240912-170027 5W.XXX.S5W_L.001.001.240726
+20240912-170027 New Version:
+20240912-170027
+20240912-170027 onlycap enabled
+20240912-170027 Status Check Pass : /etc/update_start_5w.sh.ori ok, exec label ok, Privileged ok
+20240912-170027 Start Labeling...
+20240912-170027 [SMACK] Call /rw_data/mnt/root/etc/update_start_5w.sh.ori
+20240912-170027 [SMACK] Caller is not AppUpgrade update_start_5w
+20240912-170027 [SMACK] /log_data/audit/audit.log.update exist
+20240912-170027 [SMACK] -----------------------
+20240912-170027 [SMACK] /app/bin/update_start_5w.sh /navi2/DATA (4652)
+20240912-170027 [SMACK] done
+20240912-170028 start verification..
+20240912-170028 ERR:3 /navi2/DATA//etc/update_start_5w.sh.ori nok, exec label nok, Privileged nok
+20240912-170028 Verification fail:3
+20240912-170028 SMACK Labeling End /navi2/DATA
+20240912-170028 =====================
+20240912-170028 -----------------------
+20240912-170028 SMACK Labeling Start /navi2/GlobalImage (4688)
+20240912-170028 Current Version:
+20240912-170028 5W.XXX.S5W_L.001.001.240726
+20240912-170028 New Version:
+20240912-170028
+20240912-170028 onlycap enabled
+20240912-170028 Status Check Pass : /etc/update_start_5w.sh.ori ok, exec label ok, Privileged ok
+20240912-170028 Start Labeling...
+20240912-170028 [SMACK] Call /rw_data/mnt/root/etc/update_start_5w.sh.ori
+20240912-170029 [SMACK] Caller is not AppUpgrade update_start_5w
+20240912-170029 [SMACK] /log_data/audit/audit.log.update exist
+20240912-170029 [SMACK] -----------------------
+20240912-170029 [SMACK] /app/bin/update_start_5w.sh /navi2/GlobalImage (4718)
+20240912-170029 [SMACK] done
+20240912-170030 start verification..
+20240912-170030 ERR:3 /navi2/GlobalImage//etc/update_start_5w.sh.ori nok, exec label nok, Privileged nok
+20240912-170030 Verification fail:3
+20240912-170030 SMACK Labeling End /navi2/GlobalImage
+20240912-170030 =====================
+20240912-170030 -----------------------
+20240912-170030 SMACK Labeling Start /navi2/Text.Info (4754)
+20240912-170030 Current Version:
+20240912-170030 5W.XXX.S5W_L.001.001.240726
+20240912-170030 New Version:
+20240912-170030
+20240912-170030 onlycap enabled
+20240912-170030 Status Check Pass : /etc/update_start_5w.sh.ori ok, exec label ok, Privileged ok
+20240912-170030 Start Labeling...
+20240912-170030 [SMACK] Call /rw_data/mnt/root/etc/update_start_5w.sh.ori
+20240912-170030 [SMACK] Caller is not AppUpgrade update_start_5w
+20240912-170030 [SMACK] /log_data/audit/audit.log.update exist
+20240912-170030 [SMACK] -----------------------
+20240912-170030 [SMACK] /app/bin/update_start_5w.sh /navi2/Text.Info (4784)
+20240912-170030 [SMACK] done
+20240912-170031 start verification..
+20240912-170031 ERR:3 /navi2/Text.Info//etc/update_start_5w.sh.ori nok, exec label nok, Privileged nok
+20240912-170031 Verification fail:3
+20240912-170032 SMACK Labeling End /navi2/Text.Info
+20240912-170032 =====================
+20240912-170032 -----------------------
+20240912-170032 SMACK Labeling Start /navi2/vr (4823)
+20240912-170032 Current Version:
+20240912-170032 5W.XXX.S5W_L.001.001.240726
+20240912-170032 New Version:
+20240912-170032
+20240912-170032 onlycap enabled
+20240912-170032 Status Check Pass : /etc/update_start_5w.sh.ori ok, exec label ok, Privileged ok
+20240912-170032 Start Labeling...
+20240912-170032 [SMACK] Call /rw_data/mnt/root/etc/update_start_5w.sh.ori
+20240912-170032 [SMACK] Caller is not AppUpgrade update_start_5w
+20240912-170032 [SMACK] /log_data/audit/audit.log.update exist
+20240912-170032 [SMACK] -----------------------
+20240912-170032 [SMACK] /app/bin/update_start_5w.sh /navi2/vr (4853)
+20240912-170032 [SMACK] done
+20240912-170033 start verification..
+20240912-170033 ERR:3 /navi2/vr//etc/update_start_5w.sh.ori nok, exec label nok, Privileged nok
+20240912-170033 Verification fail:3
+20240912-170033 SMACK Labeling End /navi2/vr
+20240912-170033 =====================
+20240912-170033 -----------------------
+20240912-170033 SMACK Labeling Start /navi2/system (4889)
+20240912-170033 Current Version:
+20240912-170033 5W.XXX.S5W_L.001.001.240726
+20240912-170033 New Version:
+20240912-170033
+20240912-170033 onlycap enabled
+20240912-170033 Status Check Pass : /etc/update_start_5w.sh.ori ok, exec label ok, Privileged ok
+20240912-170033 Start Labeling...
+20240912-170033 [SMACK] Call /rw_data/mnt/root/etc/update_start_5w.sh.ori
+20240912-170034 [SMACK] Caller is not AppUpgrade update_start_5w
+20240912-170034 [SMACK] /log_data/audit/audit.log.update exist
+20240912-170034 [SMACK] -----------------------
+20240912-170034 [SMACK] /app/bin/update_start_5w.sh /navi2/system (4919)
+20240912-170051 [SMACK] done
+20240912-170052 start verification..
+20240912-170052 ERR:3 /navi2/system//etc/update_start_5w.sh.ori nok, exec label nok, Privileged nok
+20240912-170052 Verification fail:3
+20240912-170052 SMACK Labeling End /navi2/system
+20240912-170052 =====================
+20240912-170434 -----------------------
+20240912-170434 SMACK Labeling Start /space/vr_fixed (5109)
+20240912-170434 Current Version:
+20240912-170434 5W.XXX.S5W_L.001.001.240726
+20240912-170434 New Version:
+20240912-170434
+20240912-170434 onlycap enabled
+20240912-170434 Status Check Pass : /etc/update_start_5w.sh.ori ok, exec label ok, Privileged ok
+20240912-170434 Start Labeling...
+20240912-170435 [SMACK] Call /rw_data/mnt/root/etc/update_start_5w.sh.ori
+20240912-170435 [SMACK] Caller is not AppUpgrade update_start_5w
+20240912-170435 [SMACK] /log_data/audit/audit.log.update exist
+20240912-170435 [SMACK] -----------------------
+20240912-170435 [SMACK] /app/bin/update_start_5w.sh /space/vr_fixed (5137)
+20240912-170435 [SMACK] done
+20240912-170436 start verification..
+20240912-170436 ERR:3 /space/vr_fixed//etc/update_start_5w.sh.ori nok, exec label nok, Privileged nok
+20240912-170436 Verification fail:3
+20240912-170436 SMACK Labeling End /space/vr_fixed
+20240912-170436 =====================

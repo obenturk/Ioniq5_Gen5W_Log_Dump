@@ -1,0 +1,411 @@
+ProcName:AppEarlyCamera
+ThreadName:AppEarlyCamera
+PID:1110
+signal:6
+
+==== Dumping file </proc/1110/cmdline> ====
+/usr/bin/AppEarlyCamera
+h264
+-vaapi
+-hw
+-uyvy
+-i::mondello
+-w
+720
+-h
+480
+-dstw
+1160
+-dsth
+720
+-model
+NE
+-camera
+RVM
+-I::ipu_weaving
+-di
+adi
+-rwld
+-dcc
+rgb4
+
+
+==== Dumping file </proc/1110/cgroup> ====
+5:memory:/
+4:cpuset:/
+3:cpu,cpuacct:/
+2:freezer:/
+1:name=systemd:/
+
+
+==== Dumping file </proc/1110/stack> ====
+[<ffffffff81117b74>] pipe_wait+0x6f/0xa0
+[<ffffffff81117eda>] pipe_write+0x2e6/0x38f
+[<ffffffff811111f3>] new_sync_write+0x70/0xa6
+[<ffffffff81111251>] __vfs_write+0x28/0x2a
+[<ffffffff811112f6>] __kernel_write+0x44/0x6f
+[<ffffffff811513f5>] dump_emit+0x62/0x9c
+[<ffffffff8114decb>] elf_core_dump+0x115e/0x1219
+[<ffffffff81151f56>] do_coredump+0xa68/0xcf2
+[<ffffffff81066c33>] get_signal+0x451/0x484
+[<ffffffff8100215b>] do_signal+0x32/0x4e7
+[<ffffffff81002622>] do_notify_resume+0x12/0x44
+[<ffffffff81561502>] int_signal+0x12/0x17
+[<ffffffffffffffff>] 0xffffffffffffffff
+
+
+==== Dumping file </proc/loadavg> ====
+1.04 1.46 1.21 9/461 4039
+
+
+==== Dumping file </etc/sysrel> ====
+**error**
+
+==== Dumping file </proc/version> ====
+Linux version 4.1.27-abl (vc.integrator 6f994b9@LGEAVSCI40) (gcc version 5.2.0 (GCC) ) #1 SMP Fri Jul 26 14:16:29 KST 2024
+
+
+==== Dumping file </proc/1110/environ> ====
+LIBVA_DRIVERS_PATH=/usr/lib
+TERM=linux
+LIBVA_DRIVER_NAME=iHD
+sip=lg
+LD_LIBRARY_PATH=/usr/lib/media-libva:/opt/intel/mediasdk/samples/_bin/x64
+a=0xc1c@0x7ae153e4
+PWD=/
+HOME=/etc/xdg/weston
+SHLVL=2
+ablver=1.7
+cameraInput=LGE-RVC
+XDG_RUNTIME_DIR=/run/user/root
+_=/usr/bin/AppEarlyCamera
+
+
+==== Dumping file </proc/1110/status> ====
+Name:	AppEarlyCamera
+State:	S (sleeping)
+Tgid:	1110
+Ngid:	0
+Pid:	1110
+PPid:	1083
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Groups:	
+NStgid:	1110
+NSpid:	1110
+NSpgid:	0
+NSsid:	0
+VmPeak:	  620240 kB
+VmSize:	  620240 kB
+VmLck:	       0 kB
+VmPin:	       0 kB
+VmHWM:	   18864 kB
+VmRSS:	   18864 kB
+VmData:	  514720 kB
+VmStk:	     132 kB
+VmExe:	     692 kB
+VmLib:	   23568 kB
+VmPTE:	     316 kB
+VmPMD:	      16 kB
+VmSwap:	       0 kB
+Threads:	7
+SigQ:	1/15307
+SigPnd:	0000000000000000
+ShdPnd:	0000000000000000
+SigBlk:	0000000000000000
+SigIgn:	0000000000000004
+SigCgt:	0000000180000002
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+Seccomp:	0
+Cpus_allowed:	f
+Cpus_allowed_list:	0-3
+Mems_allowed:	1
+Mems_allowed_list:	0
+voluntary_ctxt_switches:	849487
+nonvoluntary_ctxt_switches:	6222
+
+
+==== Dumping file </proc/1110/sched> ====
+**error**
+
+==== Dumping file </proc/1110/maps> ====
+9771325000-97713d2000 r-xp 00000000 b3:05 6044                           /usr/bin/AppEarlyCamera
+97715d2000-97715d5000 r--p 000ad000 b3:05 6044                           /usr/bin/AppEarlyCamera
+97715d5000-97715d7000 rw-p 000b0000 b3:05 6044                           /usr/bin/AppEarlyCamera
+9772b52000-9772cb9000 rw-p 00000000 00:00 0                              [heap]
+7f095c000000-7f095c021000 rw-p 00000000 00:00 0 
+7f095c021000-7f0960000000 ---p 00000000 00:00 0 
+7f0960000000-7f0960021000 rw-p 00000000 00:00 0 
+7f0960021000-7f0964000000 ---p 00000000 00:00 0 
+7f0967bb3000-7f0967bbb000 rw-s 00000000 00:05 20526                      /drm mm object (deleted)
+7f0967c1d000-7f0967c25000 rw-s 00000000 00:05 20525                      /drm mm object (deleted)
+7f0967c87000-7f0967c8f000 rw-s 00000000 00:05 19547                      /drm mm object (deleted)
+7f0967cf1000-7f0967cf9000 rw-s 00000000 00:05 19546                      /drm mm object (deleted)
+7f0967d5b000-7f0967d63000 rw-s 00000000 00:05 19545                      /drm mm object (deleted)
+7f0967dc5000-7f0967dcd000 rw-s 00000000 00:05 19544                      /drm mm object (deleted)
+7f0967e2f000-7f0967e37000 rw-s 00000000 00:05 19543                      /drm mm object (deleted)
+7f0967e99000-7f0967ea1000 rw-s 00000000 00:05 19542                      /drm mm object (deleted)
+7f0967f03000-7f0967f0b000 rw-s 00000000 00:05 19541                      /drm mm object (deleted)
+7f0967f6d000-7f0967f75000 rw-s 00000000 00:05 19540                      /drm mm object (deleted)
+7f0967fd7000-7f0967fdf000 rw-s 00000000 00:05 19539                      /drm mm object (deleted)
+7f0968000000-7f0968021000 rw-p 00000000 00:00 0 
+7f0968021000-7f096c000000 ---p 00000000 00:00 0 
+7f096c000000-7f096cb4a000 rw-p 00000000 00:00 0 
+7f096cb4a000-7f0970000000 ---p 00000000 00:00 0 
+7f0970000000-7f0970021000 rw-p 00000000 00:00 0 
+7f0970021000-7f0974000000 ---p 00000000 00:00 0 
+7f0974000000-7f0974021000 rw-p 00000000 00:00 0 
+7f0974021000-7f0978000000 ---p 00000000 00:00 0 
+7f0978000000-7f0978021000 rw-p 00000000 00:00 0 
+7f0978021000-7f097c000000 ---p 00000000 00:00 0 
+7f097c044000-7f097c04c000 rw-s 00000000 00:05 19538                      /drm mm object (deleted)
+7f097c0ae000-7f097c0b6000 rw-s 00000000 00:05 19537                      /drm mm object (deleted)
+7f097c118000-7f097c120000 rw-s 00000000 00:05 20524                      /drm mm object (deleted)
+7f097c182000-7f097c18a000 rw-s 00000000 00:05 19536                      /drm mm object (deleted)
+7f097c1ec000-7f097c1f4000 rw-s 00000000 00:05 20523                      /drm mm object (deleted)
+7f097c256000-7f097c25e000 rw-s 00000000 00:05 20522                      /drm mm object (deleted)
+7f097c2c0000-7f097c2c8000 rw-s 00000000 00:05 20511                      /drm mm object (deleted)
+7f097c32a000-7f097c332000 rw-s 00000000 00:05 20510                      /drm mm object (deleted)
+7f097c394000-7f097c39c000 rw-s 00000000 00:05 20509                      /drm mm object (deleted)
+7f097c3fe000-7f097c406000 rw-s 00000000 00:05 20508                      /drm mm object (deleted)
+7f097c468000-7f097c470000 rw-s 00000000 00:05 20507                      /drm mm object (deleted)
+7f097c4d2000-7f097c4da000 rw-s 00000000 00:05 20506                      /drm mm object (deleted)
+7f097c53c000-7f097c544000 rw-s 00000000 00:05 19494                      /drm mm object (deleted)
+7f097c544000-7f097c604000 rw-s 102170000 00:06 265                       /dev/dri/renderD128
+7f097c666000-7f097c66e000 rw-s 00000000 00:05 19493                      /drm mm object (deleted)
+7f097c66e000-7f097c72e000 rw-s 1020b0000 00:06 265                       /dev/dri/renderD128
+7f097c790000-7f097c798000 rw-s 00000000 00:05 19492                      /drm mm object (deleted)
+7f097c798000-7f097c858000 rw-s 101ff0000 00:06 265                       /dev/dri/renderD128
+7f097c8ba000-7f097c8c2000 rw-s 00000000 00:05 19491                      /drm mm object (deleted)
+7f097c8c2000-7f097c982000 rw-s 101f30000 00:06 265                       /dev/dri/renderD128
+7f097c9e4000-7f097c9ec000 rw-s 00000000 00:05 19490                      /drm mm object (deleted)
+7f097c9ec000-7f097caac000 rw-s 101e70000 00:06 265                       /dev/dri/renderD128
+7f097cb0e000-7f097cb16000 rw-s 00000000 00:05 19489                      /drm mm object (deleted)
+7f097cb16000-7f097cbd6000 rw-s 101db0000 00:06 265                       /dev/dri/renderD128
+7f097cc38000-7f097ccf8000 rw-s 101cf0000 00:06 265                       /dev/dri/renderD128
+7f097cd5a000-7f097cd72000 rw-s 101cd5000 00:06 265                       /dev/dri/renderD128
+7f097cd72000-7f097cdcc000 rw-s 101c7b000 00:06 265                       /dev/dri/renderD128
+7f097cdcc000-7f097ce26000 rw-s 101c21000 00:06 265                       /dev/dri/renderD128
+7f097ce26000-7f097cee6000 rw-s 101b61000 00:06 265                       /dev/dri/renderD128
+7f097cee6000-7f097cee7000 ---p 00000000 00:00 0 
+7f097cee7000-7f097d9ff000 rw-p 00000000 00:00 0                          [stack:4035]
+7f097d9ff000-7f097da00000 ---p 00000000 00:00 0 
+7f097da00000-7f097e272000 rw-p 00000000 00:00 0                          [stack:4034]
+7f097e272000-7f097e4f2000 rw-s 10080b000 00:06 265                       /dev/dri/renderD128
+7f097e4f2000-7f097ecf2000 rw-s 10000b000 00:06 265                       /dev/dri/renderD128
+7f097ecf2000-7f097ecf8000 r-xp 00000000 b3:05 286                        /opt/intel/mediasdk/samples/_bin/x64/libmfx_wayland.so
+7f097ecf8000-7f097eef7000 ---p 00006000 b3:05 286                        /opt/intel/mediasdk/samples/_bin/x64/libmfx_wayland.so
+7f097eef7000-7f097eef8000 r--p 00005000 b3:05 286                        /opt/intel/mediasdk/samples/_bin/x64/libmfx_wayland.so
+7f097eef8000-7f097eef9000 rw-p 00006000 b3:05 286                        /opt/intel/mediasdk/samples/_bin/x64/libmfx_wayland.so
+7f097eef9000-7f097ef02000 r-xp 00000000 b3:05 8737                       /usr/lib/libpciaccess.so.0.11.1
+7f097ef02000-7f097f101000 ---p 00009000 b3:05 8737                       /usr/lib/libpciaccess.so.0.11.1
+7f097f101000-7f097f102000 r--p 00008000 b3:05 8737                       /usr/lib/libpciaccess.so.0.11.1
+7f097f102000-7f097f103000 rw-p 00009000 b3:05 8737                       /usr/lib/libpciaccess.so.0.11.1
+7f097f103000-7f097f127000 r-xp 00000000 b3:05 7643                       /usr/lib/libdrm_intel.so.1.0.0
+7f097f127000-7f097f326000 ---p 00024000 b3:05 7643                       /usr/lib/libdrm_intel.so.1.0.0
+7f097f326000-7f097f327000 r--p 00023000 b3:05 7643                       /usr/lib/libdrm_intel.so.1.0.0
+7f097f327000-7f097f328000 rw-p 00024000 b3:05 7643                       /usr/lib/libdrm_intel.so.1.0.0
+7f097f328000-7f097f9a2000 r-xp 00000000 b3:05 9569                       /usr/lib/iHD_drv_video.so
+7f097f9a2000-7f097fba2000 ---p 0067a000 b3:05 9569                       /usr/lib/iHD_drv_video.so
+7f097fba2000-7f097fba4000 r--p 0067a000 b3:05 9569                       /usr/lib/iHD_drv_video.so
+7f097fba4000-7f097fbb7000 rw-p 0067c000 b3:05 9569                       /usr/lib/iHD_drv_video.so
+7f097fbb7000-7f097fbbe000 rw-p 00000000 00:00 0 
+7f097fbbe000-7f097fbce000 r-xp 00000000 b3:05 7713                       /usr/lib/libdrm.so.2.4.0
+7f097fbce000-7f097fdcd000 ---p 00010000 b3:05 7713                       /usr/lib/libdrm.so.2.4.0
+7f097fdcd000-7f097fdce000 r--p 0000f000 b3:05 7713                       /usr/lib/libdrm.so.2.4.0
+7f097fdce000-7f097fdcf000 rw-p 00010000 b3:05 7713                       /usr/lib/libdrm.so.2.4.0
+7f097fdcf000-7f097fdd1000 r-xp 00000000 b3:05 8184                       /usr/lib/media-libva/libva-drm.so.1.9900.0
+7f097fdd1000-7f097ffd0000 ---p 00002000 b3:05 8184                       /usr/lib/media-libva/libva-drm.so.1.9900.0
+7f097ffd0000-7f097ffd1000 r--p 00001000 b3:05 8184                       /usr/lib/media-libva/libva-drm.so.1.9900.0
+7f097ffd1000-7f097ffd2000 rw-p 00002000 b3:05 8184                       /usr/lib/media-libva/libva-drm.so.1.9900.0
+7f097ffd2000-7f097ffd3000 ---p 00000000 00:00 0 
+7f097ffd3000-7f09807d3000 rw-p 00000000 00:00 0                          [stack:1157]
+7f09807d3000-7f09807d4000 ---p 00000000 00:00 0 
+7f09807d4000-7f0980fd4000 rw-p 00000000 00:00 0                          [stack:4033]
+7f0980fd4000-7f0980fd5000 ---p 00000000 00:00 0 
+7f0980fd5000-7f09817d5000 rw-p 00000000 00:00 0                          [stack:1117]
+7f09817d5000-7f09817d6000 ---p 00000000 00:00 0 
+7f09817d6000-7f0981fd6000 rw-p 00000000 00:00 0                          [stack:1116]
+7f0981fd6000-7f0981ff3000 r-xp 00000000 b3:05 8181                       /usr/lib/media-libva/libva.so.1.9900.0
+7f0981ff3000-7f09821f3000 ---p 0001d000 b3:05 8181                       /usr/lib/media-libva/libva.so.1.9900.0
+7f09821f3000-7f09821f4000 r--p 0001d000 b3:05 8181                       /usr/lib/media-libva/libva.so.1.9900.0
+7f09821f4000-7f09821f5000 rw-p 0001e000 b3:05 8181                       /usr/lib/media-libva/libva.so.1.9900.0
+7f09821f5000-7f0982938000 r-xp 00000000 b3:05 282                        /opt/intel/mediasdk/lib64/libmfxhw64-p.so.1.19
+7f0982938000-7f0982b37000 ---p 00743000 b3:05 282                        /opt/intel/mediasdk/lib64/libmfxhw64-p.so.1.19
+7f0982b37000-7f0982b43000 r--p 00742000 b3:05 282                        /opt/intel/mediasdk/lib64/libmfxhw64-p.so.1.19
+7f0982b43000-7f0982b51000 rw-p 0074e000 b3:05 282                        /opt/intel/mediasdk/lib64/libmfxhw64-p.so.1.19
+7f0982b51000-7f0982b5e000 rw-p 00000000 00:00 0 
+7f0982b5e000-7f0982b65000 r-xp 00000000 b3:05 10355                      /lib/librt-2.25.so
+7f0982b65000-7f0982d64000 ---p 00007000 b3:05 10355                      /lib/librt-2.25.so
+7f0982d64000-7f0982d65000 r--p 00006000 b3:05 10355                      /lib/librt-2.25.so
+7f0982d65000-7f0982d66000 rw-p 00007000 b3:05 10355                      /lib/librt-2.25.so
+7f0982d66000-7f0982d6e000 r-xp 00000000 b3:05 6734                       /usr/lib/libffi.so.6.0.4
+7f0982d6e000-7f0982f6d000 ---p 00008000 b3:05 6734                       /usr/lib/libffi.so.6.0.4
+7f0982f6d000-7f0982f6e000 r--p 00007000 b3:05 6734                       /usr/lib/libffi.so.6.0.4
+7f0982f6e000-7f0982f6f000 rw-p 00008000 b3:05 6734                       /usr/lib/libffi.so.6.0.4
+7f0982f6f000-7f098307f000 r-xp 00000000 b3:05 9918                       /lib/libm-2.25.so
+7f098307f000-7f098327f000 ---p 00110000 b3:05 9918                       /lib/libm-2.25.so
+7f098327f000-7f0983280000 r--p 00110000 b3:05 9918                       /lib/libm-2.25.so
+7f0983280000-7f0983281000 rw-p 00111000 b3:05 9918                       /lib/libm-2.25.so
+7f0983281000-7f09833f5000 r-xp 00000000 b3:05 6708                       /usr/lib/libia_isp_bxt.so
+7f09833f5000-7f09835f5000 ---p 00174000 b3:05 6708                       /usr/lib/libia_isp_bxt.so
+7f09835f5000-7f09835f7000 r--p 00174000 b3:05 6708                       /usr/lib/libia_isp_bxt.so
+7f09835f7000-7f09835f8000 rw-p 00176000 b3:05 6708                       /usr/lib/libia_isp_bxt.so
+7f09835f8000-7f098360f000 rw-p 00000000 00:00 0 
+7f098360f000-7f0983627000 r-xp 00000000 b3:05 6769                       /usr/lib/libia_cipf.so.0.0.0
+7f0983627000-7f0983827000 ---p 00018000 b3:05 6769                       /usr/lib/libia_cipf.so.0.0.0
+7f0983827000-7f0983828000 r--p 00018000 b3:05 6769                       /usr/lib/libia_cipf.so.0.0.0
+7f0983828000-7f0983829000 rw-p 00019000 b3:05 6769                       /usr/lib/libia_cipf.so.0.0.0
+7f0983829000-7f09838e9000 r-xp 00000000 b3:05 7586                       /usr/lib/libia_camera.so.0.0.0
+7f09838e9000-7f0983ae9000 ---p 000c0000 b3:05 7586                       /usr/lib/libia_camera.so.0.0.0
+7f0983ae9000-7f0983aeb000 r--p 000c0000 b3:05 7586                       /usr/lib/libia_camera.so.0.0.0
+7f0983aeb000-7f0983af0000 rw-p 000c2000 b3:05 7586                       /usr/lib/libia_camera.so.0.0.0
+7f0983af0000-7f0983b01000 r-xp 00000000 b3:05 8670                       /usr/lib/libgcss.so.0.0.0
+7f0983b01000-7f0983d01000 ---p 00011000 b3:05 8670                       /usr/lib/libgcss.so.0.0.0
+7f0983d01000-7f0983d02000 r--p 00011000 b3:05 8670                       /usr/lib/libgcss.so.0.0.0
+7f0983d02000-7f0983d03000 rw-p 00012000 b3:05 8670                       /usr/lib/libgcss.so.0.0.0
+7f0983d03000-7f0983d04000 r-xp 00000000 b3:05 7974                       /usr/lib/libia_log.so
+7f0983d04000-7f0983f04000 ---p 00001000 b3:05 7974                       /usr/lib/libia_log.so
+7f0983f04000-7f0983f05000 r--p 00001000 b3:05 7974                       /usr/lib/libia_log.so
+7f0983f05000-7f0983f06000 rw-p 00002000 b3:05 7974                       /usr/lib/libia_log.so
+7f0983f06000-7f0983f08000 r-xp 00000000 b3:05 8207                       /usr/lib/libia_nvm.so
+7f0983f08000-7f0984108000 ---p 00002000 b3:05 8207                       /usr/lib/libia_nvm.so
+7f0984108000-7f0984109000 r--p 00002000 b3:05 8207                       /usr/lib/libia_nvm.so
+7f0984109000-7f098410a000 rw-p 00003000 b3:05 8207                       /usr/lib/libia_nvm.so
+7f098410a000-7f098410f000 r-xp 00000000 b3:05 7796                       /usr/lib/libia_mkn.so
+7f098410f000-7f098430e000 ---p 00005000 b3:05 7796                       /usr/lib/libia_mkn.so
+7f098430e000-7f098430f000 r--p 00004000 b3:05 7796                       /usr/lib/libia_mkn.so
+7f098430f000-7f0984310000 rw-p 00005000 b3:05 7796                       /usr/lib/libia_mkn.so
+7f0984310000-7f0984312000 r-xp 00000000 b3:05 6955                       /usr/lib/libia_exc.so
+7f0984312000-7f0984511000 ---p 00002000 b3:05 6955                       /usr/lib/libia_exc.so
+7f0984511000-7f0984512000 r--p 00001000 b3:05 6955                       /usr/lib/libia_exc.so
+7f0984512000-7f0984513000 rw-p 00002000 b3:05 6955                       /usr/lib/libia_exc.so
+7f0984513000-7f0984517000 r-xp 00000000 b3:05 7133                       /usr/lib/libia_cmc_parser.so
+7f0984517000-7f0984716000 ---p 00004000 b3:05 7133                       /usr/lib/libia_cmc_parser.so
+7f0984716000-7f0984717000 r--p 00003000 b3:05 7133                       /usr/lib/libia_cmc_parser.so
+7f0984717000-7f0984718000 rw-p 00004000 b3:05 7133                       /usr/lib/libia_cmc_parser.so
+7f0984718000-7f09847b5000 r-xp 00000000 b3:05 6973                       /usr/lib/libia_aiq.so
+7f09847b5000-7f09849b4000 ---p 0009d000 b3:05 6973                       /usr/lib/libia_aiq.so
+7f09849b4000-7f09849b6000 r--p 0009c000 b3:05 6973                       /usr/lib/libia_aiq.so
+7f09849b6000-7f09849b7000 rw-p 0009e000 b3:05 6973                       /usr/lib/libia_aiq.so
+7f09849b7000-7f09849e2000 r-xp 00000000 b3:05 8104                       /usr/lib/libexpat.so.1.6.2
+7f09849e2000-7f0984be1000 ---p 0002b000 b3:05 8104                       /usr/lib/libexpat.so.1.6.2
+7f0984be1000-7f0984be4000 r--p 0002a000 b3:05 8104                       /usr/lib/libexpat.so.1.6.2
+7f0984be4000-7f0984be5000 rw-p 0002d000 b3:05 8104                       /usr/lib/libexpat.so.1.6.2
+7f0984be5000-7f0984bf2000 r-xp 00000000 b3:05 8043                       /usr/lib/libwayland-client.so.0.3.0
+7f0984bf2000-7f0984df2000 ---p 0000d000 b3:05 8043                       /usr/lib/libwayland-client.so.0.3.0
+7f0984df2000-7f0984df4000 r--p 0000d000 b3:05 8043                       /usr/lib/libwayland-client.so.0.3.0
+7f0984df4000-7f0984df5000 rw-p 0000f000 b3:05 8043                       /usr/lib/libwayland-client.so.0.3.0
+7f0984df5000-7f0984f8b000 r-xp 00000000 b3:05 10347                      /lib/libc-2.25.so
+7f0984f8b000-7f098518a000 ---p 00196000 b3:05 10347                      /lib/libc-2.25.so
+7f098518a000-7f098518e000 r--p 00195000 b3:05 10347                      /lib/libc-2.25.so
+7f098518e000-7f0985190000 rw-p 00199000 b3:05 10347                      /lib/libc-2.25.so
+7f0985190000-7f0985194000 rw-p 00000000 00:00 0 
+7f0985194000-7f09851a5000 r-xp 00000000 b3:05 10318                      /lib/libgcc_s.so.1
+7f09851a5000-7f09853a5000 ---p 00011000 b3:05 10318                      /lib/libgcc_s.so.1
+7f09853a5000-7f09853a6000 rw-p 00011000 b3:05 10318                      /lib/libgcc_s.so.1
+7f09853a6000-7f098553a000 r-xp 00000000 b3:05 9565                       /usr/lib/libstdc++.so.6.0.21
+7f098553a000-7f098573a000 ---p 00194000 b3:05 9565                       /usr/lib/libstdc++.so.6.0.21
+7f098573a000-7f0985746000 r--p 00194000 b3:05 9565                       /usr/lib/libstdc++.so.6.0.21
+7f0985746000-7f0985747000 rw-p 001a0000 b3:05 9565                       /usr/lib/libstdc++.so.6.0.21
+7f0985747000-7f098574a000 rw-p 00000000 00:00 0 
+7f098574a000-7f0985763000 r-xp 00000000 b3:05 10269                      /lib/libpthread-2.25.so
+7f0985763000-7f0985962000 ---p 00019000 b3:05 10269                      /lib/libpthread-2.25.so
+7f0985962000-7f0985963000 r--p 00018000 b3:05 10269                      /lib/libpthread-2.25.so
+7f0985963000-7f0985964000 rw-p 00019000 b3:05 10269                      /lib/libpthread-2.25.so
+7f0985964000-7f0985968000 rw-p 00000000 00:00 0 
+7f0985968000-7f098596b000 r-xp 00000000 b3:05 10297                      /lib/libdl-2.25.so
+7f098596b000-7f0985b6a000 ---p 00003000 b3:05 10297                      /lib/libdl-2.25.so
+7f0985b6a000-7f0985b6b000 r--p 00002000 b3:05 10297                      /lib/libdl-2.25.so
+7f0985b6b000-7f0985b6c000 rw-p 00003000 b3:05 10297                      /lib/libdl-2.25.so
+7f0985b6c000-7f0985c73000 r-xp 00000000 b3:05 8029                       /usr/lib/libcamhal.so.0
+7f0985c73000-7f0985e72000 ---p 00107000 b3:05 8029                       /usr/lib/libcamhal.so.0
+7f0985e72000-7f0985e7c000 r--p 00106000 b3:05 8029                       /usr/lib/libcamhal.so.0
+7f0985e7c000-7f0985e7e000 rw-p 00110000 b3:05 8029                       /usr/lib/libcamhal.so.0
+7f0985e7e000-7f0985e7f000 rw-p 00000000 00:00 0 
+7f0985e7f000-7f0985e84000 r-xp 00000000 b3:05 8802                       /usr/lib/libivi-window-manager-api.so.1.0.0
+7f0985e84000-7f0986084000 ---p 00005000 b3:05 8802                       /usr/lib/libivi-window-manager-api.so.1.0.0
+7f0986084000-7f0986085000 r--p 00005000 b3:05 8802                       /usr/lib/libivi-window-manager-api.so.1.0.0
+7f0986085000-7f0986086000 rw-p 00006000 b3:05 8802                       /usr/lib/libivi-window-manager-api.so.1.0.0
+7f0986086000-7f09860a9000 r-xp 00000000 b3:05 10332                      /lib/ld-2.25.so
+7f09860ab000-7f09860b3000 rw-s 00000000 00:05 19318                      /drm mm object (deleted)
+7f09860b3000-7f09860bb000 rw-s 00000000 00:05 19316                      /drm mm object (deleted)
+7f09860bb000-7f09861b8000 rw-p 00000000 00:00 0 
+7f09861b8000-7f0986228000 rw-s 100a8b000 00:06 265                       /dev/dri/renderD128
+7f0986228000-7f098629f000 rw-p 00000000 00:00 0 
+7f09862a0000-7f09862a1000 rw-p 00000000 00:00 0 
+7f09862a1000-7f09862a2000 rw-s 101cef000 00:06 265                       /dev/dri/renderD128
+7f09862a2000-7f09862a3000 rw-s 101cee000 00:06 265                       /dev/dri/renderD128
+7f09862a3000-7f09862a4000 rw-s 101ced000 00:06 265                       /dev/dri/renderD128
+7f09862a4000-7f09862a5000 rw-s 10000a000 00:06 265                       /dev/dri/renderD128
+7f09862a5000-7f09862a6000 rw-s 100009000 00:06 265                       /dev/dri/renderD128
+7f09862a6000-7f09862a7000 rw-s 100008000 00:06 265                       /dev/dri/renderD128
+7f09862a7000-7f09862a8000 rw-s 00000000 00:12 1734                       /run/he9OHK (deleted)
+7f09862a8000-7f09862a9000 r--p 00022000 b3:05 10332                      /lib/ld-2.25.so
+7f09862a9000-7f09862aa000 rw-p 00023000 b3:05 10332                      /lib/ld-2.25.so
+7f09862aa000-7f09862ab000 rw-p 00000000 00:00 0 
+7ffe350e3000-7ffe35104000 rw-p 00000000 00:00 0                          [stack]
+7ffe351e1000-7ffe351e3000 r--p 00000000 00:00 0                          [vvar]
+7ffe351e3000-7ffe351e5000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+
+==== Listing directory </proc/1110/fd> ====
+lr-x------   1  0 0 64    0 -> /dev/null
+l-wx------   1  0 0 64    1 -> /tmp/appcamera.log
+lrwx------   1  0 0 64    2 -> /dev/console
+l-wx------   1  0 0 64    3 -> /dev/kmsg
+lrwx------   1  0 0 64    4 -> /dev/dri/renderD128
+lrwx------   1  0 0 64    5 -> socket:[1755]
+lrwx------   1  0 0 64    6 -> /dev/dri/card0
+lr-x------   1  0 0 64    7 -> anon_inode:dmabuf
+lr-x------   1  0 0 64    8 -> anon_inode:dmabuf
+lr-x------   1  0 0 64    9 -> anon_inode:dmabuf
+lr-x------   1  0 0 64   10 -> anon_inode:dmabuf
+lr-x------   1  0 0 64   11 -> anon_inode:dmabuf
+lr-x------   1  0 0 64   12 -> anon_inode:dmabuf
+lr-x------   1  0 0 64   13 -> anon_inode:dmabuf
+lr-x------   1  0 0 64   14 -> anon_inode:dmabuf
+lr-x------   1  0 0 64   15 -> anon_inode:dmabuf
+lr-x------   1  0 0 64   16 -> anon_inode:dmabuf
+lr-x------   1  0 0 64   17 -> anon_inode:dmabuf
+lr-x------   1  0 0 64   18 -> anon_inode:dmabuf
+lr-x------   1  0 0 64   19 -> anon_inode:dmabuf
+lr-x------   1  0 0 64   20 -> anon_inode:dmabuf
+lr-x------   1  0 0 64   21 -> anon_inode:dmabuf
+lr-x------   1  0 0 64   22 -> anon_inode:dmabuf
+lr-x------   1  0 0 64   23 -> anon_inode:dmabuf
+lr-x------   1  0 0 64   24 -> anon_inode:dmabuf
+lr-x------   1  0 0 64   25 -> anon_inode:dmabuf
+lr-x------   1  0 0 64   26 -> anon_inode:dmabuf
+lrwx------   1  0 0 64   27 -> socket:[15426]
+lrwx------   1  0 0 64   28 -> /dev/video10
+lrwx------   1  0 0 64   29 -> /dev/v4l-subdev11
+lrwx------   1  0 0 64   30 -> /dev/v4l-subdev12
+lrwx------   1  0 0 64   31 -> /dev/v4l-subdev2
+lr-x------   1  0 0 64   32 -> /dev/ipu-psys0
+lrwx------   1  0 0 64   33 -> anon_inode:dmabuf
+lrwx------   1  0 0 64   34 -> socket:[524]
+lr-x------   1  0 0 64   35 -> /sys/module/micom/parameters/cam_view_state
+lrwx------   1  0 0 64   36 -> socket:[526]
+lrwx------   1  0 0 64   37 -> anon_inode:dmabuf
+lrwx------   1  0 0 64   38 -> anon_inode:dmabuf
+lrwx------   1  0 0 64   39 -> anon_inode:dmabuf
+lrwx------   1  0 0 64   40 -> anon_inode:dmabuf
+lrwx------   1  0 0 64   41 -> anon_inode:dmabuf
+lrwx------   1  0 0 64   42 -> anon_inode:dmabuf
+lrwx------   1  0 0 64   43 -> anon_inode:dmabuf
+lrwx------   1  0 0 64   44 -> anon_inode:dmabuf
+lrwx------   1  0 0 64   45 -> anon_inode:dmabuf
+lrwx------   1  0 0 64   46 -> anon_inode:dmabuf
+lrwx------   1  0 0 64   47 -> anon_inode:dmabuf
+lrwx------   1  0 0 64   48 -> anon_inode:dmabuf
+lrwx------   1  0 0 64   49 -> anon_inode:dmabuf
+lrwx------   1  0 0 64   50 -> anon_inode:dmabuf
+lr-x------   1  0 0 64   51 -> anon_inode:dmabuf
+===========================

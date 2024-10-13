@@ -1,0 +1,299 @@
+ProcName:mediamanager
+ThreadName:mediamanager
+PID:2595
+signal:6
+
+==== Dumping file </proc/2595/cmdline> ====
+/app/bin/mediamanager
+
+
+==== Dumping file </proc/2595/cgroup> ====
+5:cpuset:/
+4:freezer:/
+3:cpu,cpuacct:/
+2:memory:/
+1:name=systemd:/system.slice/mediamanager.service
+
+
+==== Dumping file </proc/2595/stack> ====
+[<ffffffff8105e447>] do_exit+0x2e1/0x8bb
+[<ffffffff8105ea8a>] do_group_exit+0x3c/0x95
+[<ffffffff81066c3b>] get_signal+0x459/0x484
+[<ffffffff8100215b>] do_signal+0x32/0x4e7
+[<ffffffff81002622>] do_notify_resume+0x12/0x44
+[<ffffffff81561502>] int_signal+0x12/0x17
+[<ffffffffffffffff>] 0xffffffffffffffff
+
+
+==== Dumping file </proc/loadavg> ====
+2.19 1.93 1.73 11/445 4196
+
+
+==== Dumping file </etc/sysrel> ====
+**error**
+
+==== Dumping file </proc/version> ====
+Linux version 4.1.27-abl (vc.integrator 6f994b9@LGEAVSCI40) (gcc version 5.2.0 (GCC) ) #1 SMP Fri Jul 26 14:16:29 KST 2024
+
+
+==== Dumping file </proc/2595/environ> ====
+LANG=ko_KR.UTF-8
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+NOTIFY_SOCKET=/run/systemd/notify
+WATCHDOG_PID=2595
+WATCHDOG_USEC=10000000
+LD_LIBRARY_PATH=/usr/lib/media-libva/:/app/lib
+XDG_RUNTIME_DIR=/var/run/user/root
+LIBVA_DRIVER_NAME=iHD
+LIBVA_DRIVERS_PATH=/usr/lib
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-UguQ6wH31l,guid=427ca82bf6c6916e74c65cd300000001
+
+
+==== Dumping file </proc/2595/status> ====
+Name:	mediamanager
+State:	D (disk sleep)
+Tgid:	2595
+Ngid:	0
+Pid:	2595
+PPid:	1
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Groups:	
+NStgid:	2595
+NSpid:	2595
+NSpgid:	2595
+NSsid:	2595
+VmPeak:	  497372 kB
+VmSize:	  431836 kB
+VmLck:	       0 kB
+VmPin:	       0 kB
+VmHWM:	   17792 kB
+VmRSS:	   17792 kB
+VmData:	  320200 kB
+VmStk:	     132 kB
+VmExe:	    3660 kB
+VmLib:	   41804 kB
+VmPTE:	     236 kB
+VmPMD:	      16 kB
+VmSwap:	       0 kB
+Threads:	7
+SigQ:	0/15307
+SigPnd:	0000000000000000
+ShdPnd:	0000000000000000
+SigBlk:	0000000000000000
+SigIgn:	0000000000001000
+SigCgt:	0000000180000000
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+Seccomp:	0
+Cpus_allowed:	f
+Cpus_allowed_list:	0-3
+Mems_allowed:	1
+Mems_allowed_list:	0
+voluntary_ctxt_switches:	251
+nonvoluntary_ctxt_switches:	93
+
+
+==== Dumping file </proc/2595/sched> ====
+**error**
+
+==== Dumping file </proc/2595/maps> ====
+264f083000-264f416000 r-xp 00000000 b3:05 49549                          /app/bin/mediamanager
+264f615000-264f623000 r--p 00392000 b3:05 49549                          /app/bin/mediamanager
+264f623000-264f624000 rw-p 003a0000 b3:05 49549                          /app/bin/mediamanager
+264f624000-264f627000 rw-p 00000000 00:00 0 
+264fff5000-265006e000 rw-p 00000000 00:00 0                              [heap]
+7f5d3c000000-7f5d3c021000 rw-p 00000000 00:00 0 
+7f5d3c021000-7f5d40000000 ---p 00000000 00:00 0 
+7f5d42ffe000-7f5d42fff000 ---p 00000000 00:00 0 
+7f5d42fff000-7f5d437ff000 rw-p 00000000 00:00 0                          [stack:2946]
+7f5d437ff000-7f5d43800000 ---p 00000000 00:00 0 
+7f5d43800000-7f5d44000000 rw-p 00000000 00:00 0                          [stack:2945]
+7f5d44000000-7f5d44022000 rw-p 00000000 00:00 0 
+7f5d44022000-7f5d48000000 ---p 00000000 00:00 0 
+7f5d48000000-7f5d482a3000 rw-p 00000000 00:00 0 
+7f5d482a3000-7f5d4c000000 ---p 00000000 00:00 0 
+7f5d4c000000-7f5d4c022000 rw-p 00000000 00:00 0 
+7f5d4c022000-7f5d50000000 ---p 00000000 00:00 0 
+7f5d50449000-7f5d5044a000 ---p 00000000 00:00 0 
+7f5d5044a000-7f5d50c4a000 rw-p 00000000 00:00 0                          [stack:2941]
+7f5d50c4a000-7f5d50c4b000 ---p 00000000 00:00 0 
+7f5d50c4b000-7f5d5144b000 rw-p 00000000 00:00 0                          [stack:2659]
+7f5d5144b000-7f5d5144c000 ---p 00000000 00:00 0 
+7f5d5144c000-7f5d51c4c000 rw-p 00000000 00:00 0 
+7f5d51c4c000-7f5d51c4d000 ---p 00000000 00:00 0 
+7f5d51c4d000-7f5d5244d000 rw-p 00000000 00:00 0                          [stack:2949]
+7f5d5244d000-7f5d5244e000 ---p 00000000 00:00 0 
+7f5d5244e000-7f5d52c4e000 rw-p 00000000 00:00 0                          [stack:2954]
+7f5d52c4e000-7f5d52c9f000 r-xp 00000000 b3:05 7984                       /usr/lib/libdbus-1.so.3.8.13
+7f5d52c9f000-7f5d52e9f000 ---p 00051000 b3:05 7984                       /usr/lib/libdbus-1.so.3.8.13
+7f5d52e9f000-7f5d52ea0000 r--p 00051000 b3:05 7984                       /usr/lib/libdbus-1.so.3.8.13
+7f5d52ea0000-7f5d52ea1000 rw-p 00052000 b3:05 7984                       /usr/lib/libdbus-1.so.3.8.13
+7f5d52ea1000-7f5d547a2000 r-xp 00000000 b3:05 7687                       /usr/lib/libicudata.so.58.2
+7f5d547a2000-7f5d549a1000 ---p 01901000 b3:05 7687                       /usr/lib/libicudata.so.58.2
+7f5d549a1000-7f5d549a2000 r--p 01900000 b3:05 7687                       /usr/lib/libicudata.so.58.2
+7f5d549a2000-7f5d549a3000 rw-p 01901000 b3:05 7687                       /usr/lib/libicudata.so.58.2
+7f5d549a3000-7f5d54c3f000 r-xp 00000000 b3:05 7805                       /usr/lib/libicui18n.so.58.2
+7f5d54c3f000-7f5d54e3e000 ---p 0029c000 b3:05 7805                       /usr/lib/libicui18n.so.58.2
+7f5d54e3e000-7f5d54e4c000 r--p 0029b000 b3:05 7805                       /usr/lib/libicui18n.so.58.2
+7f5d54e4c000-7f5d54e4d000 rw-p 002a9000 b3:05 7805                       /usr/lib/libicui18n.so.58.2
+7f5d54e4d000-7f5d54e51000 r-xp 00000000 b3:05 9927                       /lib/libcap.so.2.24
+7f5d54e51000-7f5d55051000 ---p 00004000 b3:05 9927                       /lib/libcap.so.2.24
+7f5d55051000-7f5d55052000 r--p 00004000 b3:05 9927                       /lib/libcap.so.2.24
+7f5d55052000-7f5d55053000 rw-p 00005000 b3:05 9927                       /lib/libcap.so.2.24
+7f5d55053000-7f5d5507b000 r-xp 00000000 b3:05 8658                       /usr/lib/liblzma.so.5.2.1
+7f5d5507b000-7f5d5527a000 ---p 00028000 b3:05 8658                       /usr/lib/liblzma.so.5.2.1
+7f5d5527a000-7f5d5527b000 r--p 00027000 b3:05 8658                       /usr/lib/liblzma.so.5.2.1
+7f5d5527b000-7f5d5527c000 rw-p 00028000 b3:05 8658                       /usr/lib/liblzma.so.5.2.1
+7f5d5527c000-7f5d5538c000 r-xp 00000000 b3:05 9918                       /lib/libm-2.25.so
+7f5d5538c000-7f5d5558c000 ---p 00110000 b3:05 9918                       /lib/libm-2.25.so
+7f5d5558c000-7f5d5558d000 r--p 00110000 b3:05 9918                       /lib/libm-2.25.so
+7f5d5558d000-7f5d5558e000 rw-p 00111000 b3:05 9918                       /lib/libm-2.25.so
+7f5d5558e000-7f5d55595000 r-xp 00000000 b3:05 10355                      /lib/librt-2.25.so
+7f5d55595000-7f5d55794000 ---p 00007000 b3:05 10355                      /lib/librt-2.25.so
+7f5d55794000-7f5d55795000 r--p 00006000 b3:05 10355                      /lib/librt-2.25.so
+7f5d55795000-7f5d55796000 rw-p 00007000 b3:05 10355                      /lib/librt-2.25.so
+7f5d55796000-7f5d557b7000 r-xp 00000000 b3:05 9461                       /usr/lib/libdlt.so.2.17.0
+7f5d557b7000-7f5d559b7000 ---p 00021000 b3:05 9461                       /usr/lib/libdlt.so.2.17.0
+7f5d559b7000-7f5d559b8000 r--p 00021000 b3:05 9461                       /usr/lib/libdlt.so.2.17.0
+7f5d559b8000-7f5d559ba000 rw-p 00022000 b3:05 9461                       /usr/lib/libdlt.so.2.17.0
+7f5d559ba000-7f5d559bf000 rw-p 00000000 00:00 0 
+7f5d559bf000-7f5d559e0000 r-xp 00000000 b3:05 7544                       /usr/lib/libboost_thread.so.1.58.0
+7f5d559e0000-7f5d55bdf000 ---p 00021000 b3:05 7544                       /usr/lib/libboost_thread.so.1.58.0
+7f5d55bdf000-7f5d55be1000 r--p 00020000 b3:05 7544                       /usr/lib/libboost_thread.so.1.58.0
+7f5d55be1000-7f5d55be2000 rw-p 00022000 b3:05 7544                       /usr/lib/libboost_thread.so.1.58.0
+7f5d55be2000-7f5d55bed000 r-xp 00000000 b3:05 6813                       /usr/lib/libboost_context.so.1.58.0
+7f5d55bed000-7f5d55ded000 ---p 0000b000 b3:05 6813                       /usr/lib/libboost_context.so.1.58.0
+7f5d55ded000-7f5d55dee000 r--p 0000b000 b3:05 6813                       /usr/lib/libboost_context.so.1.58.0
+7f5d55dee000-7f5d55def000 rw-p 0000c000 b3:05 6813                       /usr/lib/libboost_context.so.1.58.0
+7f5d55def000-7f5d55e01000 r-xp 00000000 b3:05 10323                      /lib/libresolv-2.25.so
+7f5d55e01000-7f5d56001000 ---p 00012000 b3:05 10323                      /lib/libresolv-2.25.so
+7f5d56001000-7f5d56002000 r--p 00012000 b3:05 10323                      /lib/libresolv-2.25.so
+7f5d56002000-7f5d56003000 rw-p 00013000 b3:05 10323                      /lib/libresolv-2.25.so
+7f5d56003000-7f5d56005000 rw-p 00000000 00:00 0 
+7f5d56005000-7f5d5601d000 r-xp 00000000 b3:05 8003                       /usr/lib/libz.so.1.2.13
+7f5d5601d000-7f5d5621c000 ---p 00018000 b3:05 8003                       /usr/lib/libz.so.1.2.13
+7f5d5621c000-7f5d5621d000 r--p 00017000 b3:05 8003                       /usr/lib/libz.so.1.2.13
+7f5d5621d000-7f5d5621e000 rw-p 00018000 b3:05 8003                       /usr/lib/libz.so.1.2.13
+7f5d5621e000-7f5d56221000 r-xp 00000000 b3:05 10297                      /lib/libdl-2.25.so
+7f5d56221000-7f5d56420000 ---p 00003000 b3:05 10297                      /lib/libdl-2.25.so
+7f5d56420000-7f5d56421000 r--p 00002000 b3:05 10297                      /lib/libdl-2.25.so
+7f5d56421000-7f5d56422000 rw-p 00003000 b3:05 10297                      /lib/libdl-2.25.so
+7f5d56422000-7f5d56425000 r-xp 00000000 b3:05 7793                       /usr/lib/libgmodule-2.0.so.0.4400.1
+7f5d56425000-7f5d56624000 ---p 00003000 b3:05 7793                       /usr/lib/libgmodule-2.0.so.0.4400.1
+7f5d56624000-7f5d56625000 r--p 00002000 b3:05 7793                       /usr/lib/libgmodule-2.0.so.0.4400.1
+7f5d56625000-7f5d56626000 rw-p 00003000 b3:05 7793                       /usr/lib/libgmodule-2.0.so.0.4400.1
+7f5d56626000-7f5d5662e000 r-xp 00000000 b3:05 6734                       /usr/lib/libffi.so.6.0.4
+7f5d5662e000-7f5d5682d000 ---p 00008000 b3:05 6734                       /usr/lib/libffi.so.6.0.4
+7f5d5682d000-7f5d5682e000 r--p 00007000 b3:05 6734                       /usr/lib/libffi.so.6.0.4
+7f5d5682e000-7f5d5682f000 rw-p 00008000 b3:05 6734                       /usr/lib/libffi.so.6.0.4
+7f5d5682f000-7f5d56872000 r-xp 00000000 b3:05 7519                       /usr/lib/libpcre.so.1.2.11
+7f5d56872000-7f5d56a71000 ---p 00043000 b3:05 7519                       /usr/lib/libpcre.so.1.2.11
+7f5d56a71000-7f5d56a72000 r--p 00042000 b3:05 7519                       /usr/lib/libpcre.so.1.2.11
+7f5d56a72000-7f5d56a73000 rw-p 00043000 b3:05 7519                       /usr/lib/libpcre.so.1.2.11
+7f5d56a73000-7f5d56c09000 r-xp 00000000 b3:05 10347                      /lib/libc-2.25.so
+7f5d56c09000-7f5d56e08000 ---p 00196000 b3:05 10347                      /lib/libc-2.25.so
+7f5d56e08000-7f5d56e0c000 r--p 00195000 b3:05 10347                      /lib/libc-2.25.so
+7f5d56e0c000-7f5d56e0e000 rw-p 00199000 b3:05 10347                      /lib/libc-2.25.so
+7f5d56e0e000-7f5d56e12000 rw-p 00000000 00:00 0 
+7f5d56e12000-7f5d56e23000 r-xp 00000000 b3:05 10318                      /lib/libgcc_s.so.1
+7f5d56e23000-7f5d57023000 ---p 00011000 b3:05 10318                      /lib/libgcc_s.so.1
+7f5d57023000-7f5d57024000 rw-p 00011000 b3:05 10318                      /lib/libgcc_s.so.1
+7f5d57024000-7f5d571b8000 r-xp 00000000 b3:05 9565                       /usr/lib/libstdc++.so.6.0.21
+7f5d571b8000-7f5d573b8000 ---p 00194000 b3:05 9565                       /usr/lib/libstdc++.so.6.0.21
+7f5d573b8000-7f5d573c4000 r--p 00194000 b3:05 9565                       /usr/lib/libstdc++.so.6.0.21
+7f5d573c4000-7f5d573c5000 rw-p 001a0000 b3:05 9565                       /usr/lib/libstdc++.so.6.0.21
+7f5d573c5000-7f5d573c8000 rw-p 00000000 00:00 0 
+7f5d573c8000-7f5d573e9000 r-xp 00000000 b3:05 7563                       /usr/lib/libCommonAPI.so.3.1.12
+7f5d573e9000-7f5d575e8000 ---p 00021000 b3:05 7563                       /usr/lib/libCommonAPI.so.3.1.12
+7f5d575e8000-7f5d575e9000 r--p 00020000 b3:05 7563                       /usr/lib/libCommonAPI.so.3.1.12
+7f5d575e9000-7f5d575ea000 rw-p 00021000 b3:05 7563                       /usr/lib/libCommonAPI.so.3.1.12
+7f5d575ea000-7f5d57719000 r-xp 00000000 b3:05 7518                       /usr/lib/libCommonAPI-DBus.so.3.1.12
+7f5d57719000-7f5d57918000 ---p 0012f000 b3:05 7518                       /usr/lib/libCommonAPI-DBus.so.3.1.12
+7f5d57918000-7f5d5791e000 r--p 0012e000 b3:05 7518                       /usr/lib/libCommonAPI-DBus.so.3.1.12
+7f5d5791e000-7f5d5791f000 rw-p 00134000 b3:05 7518                       /usr/lib/libCommonAPI-DBus.so.3.1.12
+7f5d5791f000-7f5d57ad3000 r-xp 00000000 b3:05 6774                       /usr/lib/libicuuc.so.58.2
+7f5d57ad3000-7f5d57cd3000 ---p 001b4000 b3:05 6774                       /usr/lib/libicuuc.so.58.2
+7f5d57cd3000-7f5d57ce5000 r--p 001b4000 b3:05 6774                       /usr/lib/libicuuc.so.58.2
+7f5d57ce5000-7f5d57ce6000 rw-p 001c6000 b3:05 6774                       /usr/lib/libicuuc.so.58.2
+7f5d57ce6000-7f5d57ce7000 rw-p 00000000 00:00 0 
+7f5d57ce7000-7f5d57d59000 r-xp 00000000 b3:05 49803                      /app/lib/libmediamanager_playlist.so
+7f5d57d59000-7f5d57f59000 ---p 00072000 b3:05 49803                      /app/lib/libmediamanager_playlist.so
+7f5d57f59000-7f5d57f5c000 r--p 00072000 b3:05 49803                      /app/lib/libmediamanager_playlist.so
+7f5d57f5c000-7f5d57f5d000 rw-p 00075000 b3:05 49803                      /app/lib/libmediamanager_playlist.so
+7f5d57f5d000-7f5d57f68000 r-xp 00000000 b3:05 7499                       /usr/lib/libjson-c.so.2.0.1
+7f5d57f68000-7f5d58167000 ---p 0000b000 b3:05 7499                       /usr/lib/libjson-c.so.2.0.1
+7f5d58167000-7f5d58168000 r--p 0000a000 b3:05 7499                       /usr/lib/libjson-c.so.2.0.1
+7f5d58168000-7f5d58169000 rw-p 0000b000 b3:05 7499                       /usr/lib/libjson-c.so.2.0.1
+7f5d58169000-7f5d58173000 r-xp 00000000 b3:05 49785                      /app/lib/libplayerengine_logger.so
+7f5d58173000-7f5d58373000 ---p 0000a000 b3:05 49785                      /app/lib/libplayerengine_logger.so
+7f5d58373000-7f5d58374000 r--p 0000a000 b3:05 49785                      /app/lib/libplayerengine_logger.so
+7f5d58374000-7f5d58375000 rw-p 0000b000 b3:05 49785                      /app/lib/libplayerengine_logger.so
+7f5d58375000-7f5d58388000 r-xp 00000000 b3:05 49811                      /app/lib/libplayerengine_dbus.so
+7f5d58388000-7f5d58587000 ---p 00013000 b3:05 49811                      /app/lib/libplayerengine_dbus.so
+7f5d58587000-7f5d58589000 r--p 00012000 b3:05 49811                      /app/lib/libplayerengine_dbus.so
+7f5d58589000-7f5d5858a000 rw-p 00014000 b3:05 49811                      /app/lib/libplayerengine_dbus.so
+7f5d5858a000-7f5d58596000 r-xp 00000000 b3:05 6743                       /usr/lib/libboost_coroutine.so.1.58.0
+7f5d58596000-7f5d58796000 ---p 0000c000 b3:05 6743                       /usr/lib/libboost_coroutine.so.1.58.0
+7f5d58796000-7f5d58797000 r--p 0000c000 b3:05 6743                       /usr/lib/libboost_coroutine.so.1.58.0
+7f5d58797000-7f5d58798000 rw-p 0000d000 b3:05 6743                       /usr/lib/libboost_coroutine.so.1.58.0
+7f5d58798000-7f5d5879b000 r-xp 00000000 b3:05 7752                       /usr/lib/libboost_system.so.1.58.0
+7f5d5879b000-7f5d5899a000 ---p 00003000 b3:05 7752                       /usr/lib/libboost_system.so.1.58.0
+7f5d5899a000-7f5d5899b000 r--p 00002000 b3:05 7752                       /usr/lib/libboost_system.so.1.58.0
+7f5d5899b000-7f5d5899c000 rw-p 00003000 b3:05 7752                       /usr/lib/libboost_system.so.1.58.0
+7f5d5899c000-7f5d589fa000 r-xp 00000000 b3:05 7452                       /usr/lib/libgobject-2.0.so.0.4400.1
+7f5d589fa000-7f5d58bf9000 ---p 0005e000 b3:05 7452                       /usr/lib/libgobject-2.0.so.0.4400.1
+7f5d58bf9000-7f5d58bfb000 r--p 0005d000 b3:05 7452                       /usr/lib/libgobject-2.0.so.0.4400.1
+7f5d58bfb000-7f5d58bfc000 rw-p 0005f000 b3:05 7452                       /usr/lib/libgobject-2.0.so.0.4400.1
+7f5d58bfc000-7f5d58daa000 r-xp 00000000 b3:05 8814                       /usr/lib/libgio-2.0.so.0.4400.1
+7f5d58daa000-7f5d58fa9000 ---p 001ae000 b3:05 8814                       /usr/lib/libgio-2.0.so.0.4400.1
+7f5d58fa9000-7f5d58faf000 r--p 001ad000 b3:05 8814                       /usr/lib/libgio-2.0.so.0.4400.1
+7f5d58faf000-7f5d58fb0000 rw-p 001b3000 b3:05 8814                       /usr/lib/libgio-2.0.so.0.4400.1
+7f5d58fb0000-7f5d58fb2000 rw-p 00000000 00:00 0 
+7f5d58fb2000-7f5d590d6000 r-xp 00000000 b3:05 6742                       /usr/lib/libglib-2.0.so.0.4400.1
+7f5d590d6000-7f5d592d6000 ---p 00124000 b3:05 6742                       /usr/lib/libglib-2.0.so.0.4400.1
+7f5d592d6000-7f5d592d7000 r--p 00124000 b3:05 6742                       /usr/lib/libglib-2.0.so.0.4400.1
+7f5d592d7000-7f5d592d8000 rw-p 00125000 b3:05 6742                       /usr/lib/libglib-2.0.so.0.4400.1
+7f5d592d8000-7f5d592f1000 r-xp 00000000 b3:05 10269                      /lib/libpthread-2.25.so
+7f5d592f1000-7f5d594f0000 ---p 00019000 b3:05 10269                      /lib/libpthread-2.25.so
+7f5d594f0000-7f5d594f1000 r--p 00018000 b3:05 10269                      /lib/libpthread-2.25.so
+7f5d594f1000-7f5d594f2000 rw-p 00019000 b3:05 10269                      /lib/libpthread-2.25.so
+7f5d594f2000-7f5d594f6000 rw-p 00000000 00:00 0 
+7f5d594f6000-7f5d59519000 r-xp 00000000 b3:05 10332                      /lib/ld-2.25.so
+7f5d59670000-7f5d59681000 rw-p 00000000 00:00 0 
+7f5d59681000-7f5d59707000 r-xp 00000000 b3:05 10352                      /lib/libsystemd.so.0.10.2
+7f5d59707000-7f5d5970a000 r--p 00085000 b3:05 10352                      /lib/libsystemd.so.0.10.2
+7f5d5970a000-7f5d5970b000 rw-p 00088000 b3:05 10352                      /lib/libsystemd.so.0.10.2
+7f5d5970b000-7f5d5970f000 rw-p 00000000 00:00 0 
+7f5d59718000-7f5d59719000 r--p 00022000 b3:05 10332                      /lib/ld-2.25.so
+7f5d59719000-7f5d5971a000 rw-p 00023000 b3:05 10332                      /lib/ld-2.25.so
+7f5d5971a000-7f5d5971b000 rw-p 00000000 00:00 0 
+7ffc8579f000-7ffc857c0000 rw-p 00000000 00:00 0                          [stack]
+7ffc857c3000-7ffc857c5000 r--p 00000000 00:00 0                          [vvar]
+7ffc857c5000-7ffc857c7000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+
+==== Listing directory </proc/2595/fd> ====
+lr-x------   1  0 0 64    0 -> /dev/null
+l-wx------   1  0 0 64    1 -> /dev/null
+l-wx------   1  0 0 64    2 -> /dev/null
+lrwx------   1  0 0 64    3 -> /tmp/dltpipes/dlt2595
+l-wx------   1  0 0 64    4 -> /tmp/dlt
+lrwx------   1  0 0 64    5 -> anon_inode:[eventfd]
+lrwx------   1  0 0 64    6 -> socket:[8457]
+lrwx------   1  0 0 64    7 -> anon_inode:[eventfd]
+lr-x------   1  0 0 64    8 -> pipe:[11283]
+l-wx------   1  0 0 64    9 -> pipe:[11283]
+lrwx------   1  0 0 64   10 -> anon_inode:[eventfd]
+lrwx------   1  0 0 64   11 -> socket:[10281]
+lrwx------   1  0 0 64   12 -> anon_inode:[eventfd]
+lr-x------   1  0 0 64   13 -> pipe:[10289]
+l-wx------   1  0 0 64   14 -> pipe:[10289]
+lr-x------   1  0 0 64   15 -> /dlt_message_queue.2595
+l-wx------   1  0 0 64   16 -> /dlt_message_queue.2595
+===========================

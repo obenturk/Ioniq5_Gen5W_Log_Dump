@@ -1,0 +1,970 @@
+ProcName:AppNavi
+ThreadName:AppNavi
+PID:3088
+signal:11
+
+==== Dumping file </proc/3088/cmdline> ====
+/navi2/Bin/AppNavi
+-cv:8
+-vv:38
+-sv:4209
+-dt:4
+-l:3
+-ck:0
+-pp:3
+-usm:1
+-et:8
+-pt:128
+-by:0
+-pi:34
+-pf:0
+-cbp:1
+-asvr:0
+-gui:3
+-sc:1
+-vc:65
+-kt:0
+-dn:0
+-nm:0
+-p2s2:1
+-ke:na
+-pvv:0x26
+-os:1
+-osr:1
+-un:0
+-er:0
+-is:0
+-isa:0
+-isrcv:0
+-pitch:0.1521x0.1521
+-mp:1
+-cnt:1
+
+
+==== Dumping file </proc/3088/cgroup> ====
+5:cpuset:/
+4:freezer:/
+3:memory:/
+2:cpu,cpuacct:/
+1:name=systemd:/system.slice/ApplicationLauncher.service
+
+
+==== Dumping file </proc/3088/stack> ====
+[<ffffffff81117b74>] pipe_wait+0x6f/0xa0
+[<ffffffff81117eda>] pipe_write+0x2e6/0x38f
+[<ffffffff811111f3>] new_sync_write+0x70/0xa6
+[<ffffffff81111251>] __vfs_write+0x28/0x2a
+[<ffffffff811112f6>] __kernel_write+0x44/0x6f
+[<ffffffff811513f5>] dump_emit+0x62/0x9c
+[<ffffffff8114ca7e>] writenote+0x87/0xbd
+[<ffffffff8114db1b>] elf_core_dump+0xdae/0x1219
+[<ffffffff81151f56>] do_coredump+0xa68/0xcf2
+[<ffffffff81066c33>] get_signal+0x451/0x484
+[<ffffffff8100215b>] do_signal+0x32/0x4e7
+[<ffffffff81002622>] do_notify_resume+0x12/0x44
+[<ffffffff81561f73>] retint_signal+0x3d/0x7a
+[<ffffffffffffffff>] 0xffffffffffffffff
+
+
+==== Dumping file </proc/loadavg> ====
+1.10 0.25 0.08 5/436 3315
+
+
+==== Dumping file </etc/sysrel> ====
+**error**
+
+==== Dumping file </proc/version> ====
+Linux version 4.1.27-abl (vc.integrator 6f994b9@LGEAVSCI40) (gcc version 5.2.0 (GCC) ) #1 SMP Fri Jul 26 14:16:29 KST 2024
+
+
+==== Dumping file </proc/3088/environ> ====
+XDG_RUNTIME_DIR=/var/run/user/root
+SHLVL=1
+QV4_FORCE_INTERPRETER=1
+LD_LIBRARY_PATH=/usr/lib/media-libva/:/app/lib:/navi/navi/Lib
+LIBVA_DRIVERS_PATH=/usr/lib
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+QSG_ATLAS_SIZE_LIMIT=0
+QV4_NO_SSA=1
+APPID=30
+LGE_QT_WAYLAND_VISIBILITY_CALLBACK_FILTER=1
+LD_PRELOAD=/usr/lib/libEGL.so.1
+QT_WAYLAND_DISABLE_WINDOWDECORATION=1
+OLDPWD=/
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-2We8ITxZIJ,guid=c8d550146dc6d33d3731de2100000002
+QT_WAYLAND_SHELL_INTEGRATION=ivi
+PWD=/app/bin
+LANG=ko_KR.UTF-8
+_=/app/bin/AppLauncher
+QT_WAYLAND_SET_SURFACE_ID=3000
+QT_QPA_PLATFORM=wayland
+QV4_MM_MAX_CHUNK_SIZE=16384
+LIBVA_DRIVER_NAME=iHD
+
+
+==== Dumping file </proc/3088/status> ====
+Name:	AppNavi
+State:	S (sleeping)
+Tgid:	3088
+Ngid:	0
+Pid:	3088
+PPid:	2584
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	128
+Groups:	
+NStgid:	3088
+NSpid:	3088
+NSpgid:	2573
+NSsid:	2573
+VmPeak:	 1107828 kB
+VmSize:	 1107828 kB
+VmLck:	       0 kB
+VmPin:	       0 kB
+VmHWM:	  218208 kB
+VmRSS:	  218208 kB
+VmData:	  667180 kB
+VmStk:	     364 kB
+VmExe:	   98176 kB
+VmLib:	  110628 kB
+VmPTE:	    1096 kB
+VmPMD:	      16 kB
+VmSwap:	       0 kB
+Threads:	35
+SigQ:	0/15307
+SigPnd:	0000000000000000
+ShdPnd:	0000000000000000
+SigBlk:	0000000000000000
+SigIgn:	0000000000001006
+SigCgt:	0000000180010000
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+Seccomp:	0
+Cpus_allowed:	f
+Cpus_allowed_list:	0-3
+Mems_allowed:	1
+Mems_allowed_list:	0
+voluntary_ctxt_switches:	414
+nonvoluntary_ctxt_switches:	7971
+
+
+==== Dumping file </proc/3088/sched> ====
+**error**
+
+==== Dumping file </proc/3088/maps> ====
+8e90b00000-8e96ae0000 r-xp 00000000 b3:0f 786582                         /navi2/Bin/AppNavi
+8e96ce0000-8e96e58000 r--p 05fe0000 b3:0f 786582                         /navi2/Bin/AppNavi
+8e96e58000-8e96e8d000 rw-p 06158000 b3:0f 786582                         /navi2/Bin/AppNavi
+8e96e8d000-8e9786d000 rw-p 00000000 00:00 0 
+8e99053000-8e9b6c8000 rw-p 00000000 00:00 0                              [heap]
+7f6f0ba67000-7f6f0ba68000 ---p 00000000 00:00 0 
+7f6f0ba68000-7f6f0c268000 rw-p 00000000 00:00 0                          [stack:3312]
+7f6f0c268000-7f6f0c269000 ---p 00000000 00:00 0 
+7f6f0c269000-7f6f0ca69000 rw-p 00000000 00:00 0                          [stack:3310]
+7f6f0ca69000-7f6f0ca6a000 ---p 00000000 00:00 0 
+7f6f0ca6a000-7f6f0d26a000 rw-p 00000000 00:00 0                          [stack:3306]
+7f6f0d26a000-7f6f0d26b000 ---p 00000000 00:00 0 
+7f6f0d26b000-7f6f0da6b000 rw-p 00000000 00:00 0 
+7f6f0da6b000-7f6f0da6c000 ---p 00000000 00:00 0 
+7f6f0da6c000-7f6f0e26c000 rw-p 00000000 00:00 0                          [stack:3303]
+7f6f0e26c000-7f6f0e26d000 ---p 00000000 00:00 0 
+7f6f0e26d000-7f6f0ea6d000 rw-p 00000000 00:00 0                          [stack:3302]
+7f6f0ea6d000-7f6f0ea6e000 ---p 00000000 00:00 0 
+7f6f0ea6e000-7f6f0f26e000 rw-p 00000000 00:00 0                          [stack:3300]
+7f6f0f26e000-7f6f0f26f000 ---p 00000000 00:00 0 
+7f6f0f26f000-7f6f0fbbe000 rw-p 00000000 00:00 0                          [stack:3301]
+7f6f0fbbe000-7f6f0fbbf000 ---p 00000000 00:00 0 
+7f6f0fbbf000-7f6f103bf000 rw-p 00000000 00:00 0 
+7f6f103bf000-7f6f103c9000 rw-s 00000000 00:05 15763                      /drm mm object (deleted)
+7f6f103c9000-7f6f103e5000 rw-s 00000000 00:05 15762                      /drm mm object (deleted)
+7f6f103e5000-7f6f103ed000 rw-s 00000000 00:05 17114                      /drm mm object (deleted)
+7f6f103ed000-7f6f103f5000 rw-s 00000000 00:05 17113                      /drm mm object (deleted)
+7f6f103f5000-7f6f1040d000 rw-s 101559000 00:06 1497                      /dev/dri/card0
+7f6f1040d000-7f6f10439000 rw-p 00000000 00:00 0 
+7f6f10439000-7f6f107e7000 r--p 00000000 b3:05 10390                      /app/share/fonts/New_HD2.1_Regular.ttf
+7f6f107e7000-7f6f10b90000 r--p 00000000 b3:05 10388                      /app/share/fonts/New_HD2.1_Medium.ttf
+7f6f10b90000-7f6f10b91000 ---p 00000000 00:00 0 
+7f6f10b91000-7f6f113d1000 rw-p 00000000 00:00 0                          [stack:3279]
+7f6f113d1000-7f6f113ed000 rw-s 00000000 00:05 17088                      /drm mm object (deleted)
+7f6f113ed000-7f6f1142d000 rw-p 00000000 00:00 0 
+7f6f1142d000-7f6f1146d000 rw-s 00000000 00:05 17084                      /drm mm object (deleted)
+7f6f1146d000-7f6f114ed000 rw-s 00000000 00:05 17081                      /drm mm object (deleted)
+7f6f114ed000-7f6f114f7000 rw-s 00000000 00:05 17079                      /drm mm object (deleted)
+7f6f114f7000-7f6f11513000 rw-s 00000000 00:05 17078                      /drm mm object (deleted)
+7f6f11513000-7f6f11588000 rw-p 00000000 00:00 0 
+7f6f11589000-7f6f1158a000 rw-s 00000000 00:05 15759                      /drm mm object (deleted)
+7f6f1158c000-7f6f1158d000 rw-s 00000000 00:05 17134                      /drm mm object (deleted)
+7f6f1158d000-7f6f1158e000 rw-s 00000000 00:05 15804                      /drm mm object (deleted)
+7f6f1158e000-7f6f11596000 rw-s 00000000 00:05 17112                      /drm mm object (deleted)
+7f6f11596000-7f6f1159e000 rw-s 00000000 00:05 17111                      /drm mm object (deleted)
+7f6f1159e000-7f6f115a6000 rw-s 00000000 00:05 17109                      /drm mm object (deleted)
+7f6f115a6000-7f6f115ae000 rw-s 00000000 00:05 17108                      /drm mm object (deleted)
+7f6f115ae000-7f6f115ee000 rw-p 00000000 00:00 0 
+7f6f115ee000-7f6f115f8000 rw-s 00000000 00:05 17090                      /drm mm object (deleted)
+7f6f115f8000-7f6f116c0000 r-xp 00000000 b3:05 8808                       /usr/lib/libiga64.so
+7f6f116c0000-7f6f118bf000 ---p 000c8000 b3:05 8808                       /usr/lib/libiga64.so
+7f6f118bf000-7f6f1194f000 r--p 000c7000 b3:05 8808                       /usr/lib/libiga64.so
+7f6f1194f000-7f6f11959000 rw-p 00157000 b3:05 8808                       /usr/lib/libiga64.so
+7f6f11959000-7f6f11966000 rw-p 00000000 00:00 0 
+7f6f11966000-7f6f12590000 r-xp 00000000 b3:05 7589                       /usr/lib/libigc.so
+7f6f12590000-7f6f1278f000 ---p 00c2a000 b3:05 7589                       /usr/lib/libigc.so
+7f6f1278f000-7f6f127bc000 r--p 00c29000 b3:05 7589                       /usr/lib/libigc.so
+7f6f127bc000-7f6f127ca000 rw-p 00c56000 b3:05 7589                       /usr/lib/libigc.so
+7f6f127ca000-7f6f127d0000 rw-p 00000000 00:00 0 
+7f6f127d0000-7f6f127d8000 rw-s 00000000 00:05 15730                      /drm mm object (deleted)
+7f6f127d8000-7f6f127e0000 rw-s 00000000 00:05 15729                      /drm mm object (deleted)
+7f6f127e0000-7f6f127e8000 rw-s 00000000 00:05 15728                      /drm mm object (deleted)
+7f6f127e8000-7f6f127f0000 rw-s 00000000 00:05 15727                      /drm mm object (deleted)
+7f6f127f0000-7f6f127f8000 rw-s 00000000 00:05 15726                      /drm mm object (deleted)
+7f6f127f8000-7f6f12800000 rw-s 00000000 00:05 15725                      /drm mm object (deleted)
+7f6f12800000-7f6f12808000 rw-s 00000000 00:05 15724                      /drm mm object (deleted)
+7f6f12808000-7f6f12810000 rw-s 00000000 00:05 15723                      /drm mm object (deleted)
+7f6f12810000-7f6f12818000 rw-s 00000000 00:05 15722                      /drm mm object (deleted)
+7f6f12818000-7f6f12820000 rw-s 00000000 00:05 15721                      /drm mm object (deleted)
+7f6f12820000-7f6f12828000 rw-s 00000000 00:05 15720                      /drm mm object (deleted)
+7f6f12828000-7f6f12830000 rw-s 00000000 00:05 15719                      /drm mm object (deleted)
+7f6f12830000-7f6f12838000 rw-s 00000000 00:05 15718                      /drm mm object (deleted)
+7f6f12838000-7f6f12840000 rw-s 00000000 00:05 15717                      /drm mm object (deleted)
+7f6f12840000-7f6f12848000 rw-s 00000000 00:05 15716                      /drm mm object (deleted)
+7f6f12848000-7f6f12850000 rw-s 00000000 00:05 15715                      /drm mm object (deleted)
+7f6f12850000-7f6f12858000 rw-s 00000000 00:05 15714                      /drm mm object (deleted)
+7f6f12858000-7f6f12860000 rw-s 00000000 00:05 15713                      /drm mm object (deleted)
+7f6f12860000-7f6f12868000 rw-s 00000000 00:05 15712                      /drm mm object (deleted)
+7f6f12868000-7f6f12870000 rw-s 00000000 00:05 15711                      /drm mm object (deleted)
+7f6f12870000-7f6f12878000 rw-s 00000000 00:05 15710                      /drm mm object (deleted)
+7f6f12878000-7f6f12880000 rw-s 00000000 00:05 15709                      /drm mm object (deleted)
+7f6f12880000-7f6f12888000 rw-s 00000000 00:05 15708                      /drm mm object (deleted)
+7f6f12888000-7f6f12890000 rw-s 00000000 00:05 15707                      /drm mm object (deleted)
+7f6f12890000-7f6f12891000 rw-s 00000000 00:05 15758                      /drm mm object (deleted)
+7f6f12891000-7f6f12892000 rw-s 00000000 00:05 17119                      /drm mm object (deleted)
+7f6f12892000-7f6f12893000 rw-s 00000000 00:05 17116                      /drm mm object (deleted)
+7f6f12893000-7f6f12894000 rw-s 00000000 00:05 17115                      /drm mm object (deleted)
+7f6f12894000-7f6f12895000 rw-s 00000000 00:05 17107                      /drm mm object (deleted)
+7f6f12899000-7f6f128b5000 rw-s 00000000 00:05 17089                      /drm mm object (deleted)
+7f6f128b5000-7f6f128bd000 rw-s 00000000 00:05 15698                      /drm mm object (deleted)
+7f6f128bd000-7f6f128c5000 rw-s 00000000 00:05 15697                      /drm mm object (deleted)
+7f6f128c5000-7f6f128cd000 rw-s 00000000 00:05 15696                      /drm mm object (deleted)
+7f6f128cd000-7f6f128d5000 rw-s 00000000 00:05 15695                      /drm mm object (deleted)
+7f6f128d5000-7f6f128dd000 rw-s 00000000 00:05 15694                      /drm mm object (deleted)
+7f6f128dd000-7f6f128e5000 rw-s 00000000 00:05 15693                      /drm mm object (deleted)
+7f6f128e5000-7f6f128ed000 rw-s 00000000 00:05 15692                      /drm mm object (deleted)
+7f6f128ed000-7f6f128f5000 rw-s 00000000 00:05 15691                      /drm mm object (deleted)
+7f6f128f5000-7f6f128fd000 rw-s 00000000 00:05 15690                      /drm mm object (deleted)
+7f6f128fd000-7f6f12905000 rw-s 00000000 00:05 15689                      /drm mm object (deleted)
+7f6f12905000-7f6f1290d000 rw-s 00000000 00:05 15688                      /drm mm object (deleted)
+7f6f1290d000-7f6f12915000 rw-s 00000000 00:05 15687                      /drm mm object (deleted)
+7f6f12915000-7f6f1291d000 rw-s 00000000 00:05 15686                      /drm mm object (deleted)
+7f6f1291d000-7f6f12925000 rw-s 00000000 00:05 15685                      /drm mm object (deleted)
+7f6f12925000-7f6f1292d000 rw-s 00000000 00:05 15684                      /drm mm object (deleted)
+7f6f1292d000-7f6f12935000 rw-s 00000000 00:05 15683                      /drm mm object (deleted)
+7f6f12935000-7f6f1293d000 rw-s 00000000 00:05 15682                      /drm mm object (deleted)
+7f6f1293d000-7f6f12945000 rw-s 00000000 00:05 15681                      /drm mm object (deleted)
+7f6f12945000-7f6f1294d000 rw-s 00000000 00:05 15680                      /drm mm object (deleted)
+7f6f1294d000-7f6f12955000 rw-s 00000000 00:05 15679                      /drm mm object (deleted)
+7f6f12955000-7f6f1295d000 rw-s 00000000 00:05 15678                      /drm mm object (deleted)
+7f6f1295d000-7f6f12965000 rw-s 00000000 00:05 15677                      /drm mm object (deleted)
+7f6f12965000-7f6f1296d000 rw-s 00000000 00:05 15676                      /drm mm object (deleted)
+7f6f1296d000-7f6f12975000 rw-s 00000000 00:05 15675                      /drm mm object (deleted)
+7f6f12975000-7f6f1297d000 rw-s 00000000 00:05 15674                      /drm mm object (deleted)
+7f6f1297d000-7f6f12985000 rw-s 00000000 00:05 15673                      /drm mm object (deleted)
+7f6f12985000-7f6f1298d000 rw-s 00000000 00:05 15672                      /drm mm object (deleted)
+7f6f1298d000-7f6f12995000 rw-s 00000000 00:05 15671                      /drm mm object (deleted)
+7f6f12995000-7f6f1299d000 rw-s 00000000 00:05 15670                      /drm mm object (deleted)
+7f6f1299d000-7f6f129a5000 rw-s 00000000 00:05 15669                      /drm mm object (deleted)
+7f6f129a5000-7f6f129ad000 rw-s 00000000 00:05 15668                      /drm mm object (deleted)
+7f6f129ad000-7f6f129b5000 rw-s 00000000 00:05 15667                      /drm mm object (deleted)
+7f6f129b5000-7f6f129bd000 rw-s 00000000 00:05 15666                      /drm mm object (deleted)
+7f6f129bd000-7f6f129c5000 rw-s 00000000 00:05 15665                      /drm mm object (deleted)
+7f6f129c5000-7f6f129cd000 rw-s 00000000 00:05 15664                      /drm mm object (deleted)
+7f6f129cd000-7f6f129d5000 rw-s 00000000 00:05 15663                      /drm mm object (deleted)
+7f6f129d5000-7f6f129dd000 rw-s 00000000 00:05 16991                      /drm mm object (deleted)
+7f6f129dd000-7f6f129e5000 rw-s 00000000 00:05 16990                      /drm mm object (deleted)
+7f6f129e5000-7f6f129ed000 rw-s 00000000 00:05 16989                      /drm mm object (deleted)
+7f6f129ed000-7f6f129f5000 rw-s 00000000 00:05 16988                      /drm mm object (deleted)
+7f6f129f5000-7f6f129fd000 rw-s 00000000 00:05 16987                      /drm mm object (deleted)
+7f6f129fd000-7f6f12a05000 rw-s 00000000 00:05 16986                      /drm mm object (deleted)
+7f6f12a05000-7f6f12a0d000 rw-s 00000000 00:05 16985                      /drm mm object (deleted)
+7f6f12a0d000-7f6f12a15000 rw-s 00000000 00:05 16984                      /drm mm object (deleted)
+7f6f12a15000-7f6f12a1d000 rw-s 00000000 00:05 16983                      /drm mm object (deleted)
+7f6f12a1d000-7f6f12a25000 rw-s 00000000 00:05 16982                      /drm mm object (deleted)
+7f6f12a25000-7f6f12a2d000 rw-s 00000000 00:05 16981                      /drm mm object (deleted)
+7f6f12a2d000-7f6f12a35000 rw-s 00000000 00:05 16980                      /drm mm object (deleted)
+7f6f12a35000-7f6f12a3d000 rw-s 00000000 00:05 16979                      /drm mm object (deleted)
+7f6f12a3d000-7f6f12a45000 rw-s 00000000 00:05 16978                      /drm mm object (deleted)
+7f6f12a45000-7f6f12a4d000 rw-s 00000000 00:05 16977                      /drm mm object (deleted)
+7f6f12a4d000-7f6f12a55000 rw-s 00000000 00:05 16976                      /drm mm object (deleted)
+7f6f12a55000-7f6f12a5d000 rw-s 00000000 00:05 16975                      /drm mm object (deleted)
+7f6f12a5d000-7f6f12a65000 rw-s 00000000 00:05 16974                      /drm mm object (deleted)
+7f6f12a65000-7f6f12a6d000 rw-s 00000000 00:05 16973                      /drm mm object (deleted)
+7f6f12a6d000-7f6f12a75000 rw-s 00000000 00:05 16972                      /drm mm object (deleted)
+7f6f12a75000-7f6f12a7d000 rw-s 00000000 00:05 16971                      /drm mm object (deleted)
+7f6f12a7d000-7f6f12a85000 rw-s 00000000 00:05 16970                      /drm mm object (deleted)
+7f6f12a85000-7f6f12a8d000 rw-s 00000000 00:05 16969                      /drm mm object (deleted)
+7f6f12a8d000-7f6f12a95000 rw-s 00000000 00:05 16968                      /drm mm object (deleted)
+7f6f12a95000-7f6f12a9d000 rw-s 00000000 00:05 16967                      /drm mm object (deleted)
+7f6f12a9d000-7f6f12aa5000 rw-s 00000000 00:05 16966                      /drm mm object (deleted)
+7f6f12aa5000-7f6f12aad000 rw-s 00000000 00:05 16965                      /drm mm object (deleted)
+7f6f12aad000-7f6f12ab5000 rw-s 00000000 00:05 16964                      /drm mm object (deleted)
+7f6f12ab5000-7f6f12abd000 rw-s 00000000 00:05 16963                      /drm mm object (deleted)
+7f6f12abd000-7f6f12ac5000 rw-s 00000000 00:05 16962                      /drm mm object (deleted)
+7f6f12ac5000-7f6f12acd000 rw-s 00000000 00:05 16961                      /drm mm object (deleted)
+7f6f12acd000-7f6f12ad5000 rw-s 00000000 00:05 16960                      /drm mm object (deleted)
+7f6f12ad5000-7f6f12add000 rw-s 00000000 00:05 16959                      /drm mm object (deleted)
+7f6f12add000-7f6f12d88000 rw-p 00000000 00:00 0 
+7f6f12d88000-7f6f12d90000 rw-s 00000000 00:05 16958                      /drm mm object (deleted)
+7f6f12d90000-7f6f12d98000 rw-s 00000000 00:05 16957                      /drm mm object (deleted)
+7f6f12d98000-7f6f12da0000 rw-s 00000000 00:05 16956                      /drm mm object (deleted)
+7f6f12da0000-7f6f12e38000 rw-p 00000000 00:00 0 
+7f6f12e38000-7f6f12e40000 rw-s 00000000 00:05 16943                      /drm mm object (deleted)
+7f6f12e40000-7f6f12ed4000 rw-p 00000000 00:00 0 
+7f6f12ed4000-7f6f12ed5000 rw-s 00000000 00:05 17085                      /drm mm object (deleted)
+7f6f12ed5000-7f6f12ed6000 rw-s 00000000 00:05 17080                      /drm mm object (deleted)
+7f6f12ed6000-7f6f12ed7000 rw-s 00000000 00:05 15739                      /drm mm object (deleted)
+7f6f12ed7000-7f6f12ed8000 rw-s 00000000 00:05 15736                      /drm mm object (deleted)
+7f6f12ed8000-7f6f12ed9000 rw-s 00000000 00:05 15734                      /drm mm object (deleted)
+7f6f12ed9000-7f6f12eda000 rw-s 00000000 00:05 17106                      /drm mm object (deleted)
+7f6f12eda000-7f6f12ee2000 rw-s 00000000 00:05 16942                      /drm mm object (deleted)
+7f6f12ee2000-7f6f12eea000 rw-s 00000000 00:05 16941                      /drm mm object (deleted)
+7f6f12eea000-7f6f12ef2000 rw-s 00000000 00:05 16940                      /drm mm object (deleted)
+7f6f12ef2000-7f6f12efa000 rw-s 00000000 00:05 16939                      /drm mm object (deleted)
+7f6f12efa000-7f6f12f02000 rw-s 00000000 00:05 16938                      /drm mm object (deleted)
+7f6f12f02000-7f6f12f0a000 rw-s 00000000 00:05 16937                      /drm mm object (deleted)
+7f6f12f0a000-7f6f12f12000 rw-s 00000000 00:05 16936                      /drm mm object (deleted)
+7f6f12f12000-7f6f12f1a000 rw-s 00000000 00:05 16935                      /drm mm object (deleted)
+7f6f12f1a000-7f6f12f22000 rw-s 00000000 00:05 16934                      /drm mm object (deleted)
+7f6f12f22000-7f6f12f2a000 rw-s 00000000 00:05 16933                      /drm mm object (deleted)
+7f6f12f2a000-7f6f12f32000 rw-s 00000000 00:05 16932                      /drm mm object (deleted)
+7f6f12f32000-7f6f13030000 rw-p 00000000 00:00 0 
+7f6f13030000-7f6f13060000 rw-s 00000000 00:05 16910                      /drm mm object (deleted)
+7f6f13060000-7f6f130c0000 rw-s 00000000 00:05 16887                      /drm mm object (deleted)
+7f6f130c0000-7f6f130c2000 rw-s 00000000 00:05 16881                      /drm mm object (deleted)
+7f6f130c2000-7f6f130c6000 rw-s 00000000 00:05 16869                      /drm mm object (deleted)
+7f6f130c6000-7f6f130ca000 rw-s 00000000 00:05 16857                      /drm mm object (deleted)
+7f6f130ca000-7f6f130cc000 r-xp 00000000 b3:05 9428                       /usr/lib/qt5/plugins/wayland-shell-integration/libivi.so
+7f6f130cc000-7f6f132cb000 ---p 00002000 b3:05 9428                       /usr/lib/qt5/plugins/wayland-shell-integration/libivi.so
+7f6f132cb000-7f6f132cc000 r--p 00001000 b3:05 9428                       /usr/lib/qt5/plugins/wayland-shell-integration/libivi.so
+7f6f132cc000-7f6f132cd000 rw-p 00002000 b3:05 9428                       /usr/lib/qt5/plugins/wayland-shell-integration/libivi.so
+7f6f132cd000-7f6f1331d000 rw-p 00000000 00:00 0 
+7f6f1331d000-7f6f136c6000 r--p 00000000 b3:05 10388                      /app/share/fonts/New_HD2.1_Medium.ttf
+7f6f136c6000-7f6f13716000 rw-p 00000000 00:00 0 
+7f6f13716000-7f6f13717000 r--p 00000000 b3:05 47697                      /app/share/Statusbar/localization/qm/translation_en_GB.qm
+7f6f13717000-7f6f13718000 rw-s 00000000 00:05 0                          /SYSV51131fca (deleted)
+7f6f13718000-7f6f13719000 rw-s 00000000 00:05 16904                      /drm mm object (deleted)
+7f6f13719000-7f6f1371a000 rw-s 00000000 00:05 950301                     /SYSV511328d5 (deleted)
+7f6f1371a000-7f6f1371b000 -w-s 00000000 00:14 9069                       /dev/shm/timemanager_shm
+7f6f1371b000-7f6f137a9000 r-xp 00000000 b3:05 47730                      /app/share/Statusbar/lib/libStatusbar.so.1.0.0
+7f6f137a9000-7f6f139a9000 ---p 0008e000 b3:05 47730                      /app/share/Statusbar/lib/libStatusbar.so.1.0.0
+7f6f139a9000-7f6f139ac000 r--p 0008e000 b3:05 47730                      /app/share/Statusbar/lib/libStatusbar.so.1.0.0
+7f6f139ac000-7f6f139ad000 rw-p 00091000 b3:05 47730                      /app/share/Statusbar/lib/libStatusbar.so.1.0.0
+7f6f139ad000-7f6f139be000 rw-p 00000000 00:00 0 
+7f6f139be000-7f6f13d6c000 r--p 00000000 b3:05 10390                      /app/share/fonts/New_HD2.1_Regular.ttf
+7f6f13d6c000-7f6f13d8c000 rw-p 00000000 00:00 0 
+7f6f13d8c000-7f6f13d8d000 rw-s 00000000 00:05 0                          /SYSV51131fca (deleted)
+7f6f13d8d000-7f6f13d8e000 r--p 00000000 b3:05 129653                     /app/plugins/WeatherWidget/localization/qm/translation_en_GB.qm
+7f6f13d8e000-7f6f13dce000 r-xp 00000000 b3:05 50264                      /app/plugins/WeatherWidget/libWeatherWidget.so.1.0.0
+7f6f13dce000-7f6f13fcd000 ---p 00040000 b3:05 50264                      /app/plugins/WeatherWidget/libWeatherWidget.so.1.0.0
+7f6f13fcd000-7f6f13fcf000 r--p 0003f000 b3:05 50264                      /app/plugins/WeatherWidget/libWeatherWidget.so.1.0.0
+7f6f13fcf000-7f6f13fd0000 rw-p 00041000 b3:05 50264                      /app/plugins/WeatherWidget/libWeatherWidget.so.1.0.0
+7f6f13fd0000-7f6f13fd1000 r--p 00000000 b3:05 49927                      /app/plugins/VoiceMemoWidget/localization/language/VoiceMemoWidget_en_GB.qm
+7f6f13fd1000-7f6f1400d000 r-xp 00000000 b3:05 49887                      /app/plugins/VoiceMemoWidget/libVoiceMemoWidget.so.1.0.0
+7f6f1400d000-7f6f1420c000 ---p 0003c000 b3:05 49887                      /app/plugins/VoiceMemoWidget/libVoiceMemoWidget.so.1.0.0
+7f6f1420c000-7f6f1420e000 r--p 0003b000 b3:05 49887                      /app/plugins/VoiceMemoWidget/libVoiceMemoWidget.so.1.0.0
+7f6f1420e000-7f6f1420f000 rw-p 0003d000 b3:05 49887                      /app/plugins/VoiceMemoWidget/libVoiceMemoWidget.so.1.0.0
+7f6f1420f000-7f6f14210000 r--p 00000000 b3:05 130528                     /app/plugins/RadioWidget/localization/RadioWidget_en_GB.qm
+7f6f14210000-7f6f14245000 r-xp 00000000 b3:05 130480                     /app/plugins/RadioWidget/libRadioWidget.so.1.0.0
+7f6f14245000-7f6f14444000 ---p 00035000 b3:05 130480                     /app/plugins/RadioWidget/libRadioWidget.so.1.0.0
+7f6f14444000-7f6f14446000 r--p 00034000 b3:05 130480                     /app/plugins/RadioWidget/libRadioWidget.so.1.0.0
+7f6f14446000-7f6f14447000 rw-p 00036000 b3:05 130480                     /app/plugins/RadioWidget/libRadioWidget.so.1.0.0
+7f6f14447000-7f6f14449000 r--p 00000000 b3:05 130699                     /app/plugins/PHEVWidget/localization/qm/Translations_en_GB.qm
+7f6f14449000-7f6f144a2000 r-xp 00000000 b3:05 130732                     /app/plugins/PHEVWidget/libPHEVWidget.so.1.0.0
+7f6f144a2000-7f6f146a1000 ---p 00059000 b3:05 130732                     /app/plugins/PHEVWidget/libPHEVWidget.so.1.0.0
+7f6f146a1000-7f6f146a3000 r--p 00058000 b3:05 130732                     /app/plugins/PHEVWidget/libPHEVWidget.so.1.0.0
+7f6f146a3000-7f6f146a4000 rw-p 0005a000 b3:05 130732                     /app/plugins/PHEVWidget/libPHEVWidget.so.1.0.0
+7f6f146a4000-7f6f146a5000 r--p 00000000 b3:05 130438                     /app/plugins/PHEVVehicleWidget/localization/qm/Translations_en_GB.qm
+7f6f146a5000-7f6f146cb000 r-xp 00000000 b3:05 130413                     /app/plugins/PHEVVehicleWidget/libPHEVVehicleWidget.so.1.0.0
+7f6f146cb000-7f6f148ca000 ---p 00026000 b3:05 130413                     /app/plugins/PHEVVehicleWidget/libPHEVVehicleWidget.so.1.0.0
+7f6f148ca000-7f6f148cc000 r--p 00025000 b3:05 130413                     /app/plugins/PHEVVehicleWidget/libPHEVVehicleWidget.so.1.0.0
+7f6f148cc000-7f6f148cd000 rw-p 00027000 b3:05 130413                     /app/plugins/PHEVVehicleWidget/libPHEVVehicleWidget.so.1.0.0
+7f6f148cd000-7f6f148ce000 r--p 00000000 b3:05 130090                     /app/plugins/PHEVVehicleOSDWidget/localization/qm/Translations_en_GB.qm
+7f6f148ce000-7f6f148f3000 r-xp 00000000 b3:05 130067                     /app/plugins/PHEVVehicleOSDWidget/libPHEVVehicleOSDWidget.so.1.0.0
+7f6f148f3000-7f6f14af2000 ---p 00025000 b3:05 130067                     /app/plugins/PHEVVehicleOSDWidget/libPHEVVehicleOSDWidget.so.1.0.0
+7f6f14af2000-7f6f14af4000 r--p 00024000 b3:05 130067                     /app/plugins/PHEVVehicleOSDWidget/libPHEVVehicleOSDWidget.so.1.0.0
+7f6f14af4000-7f6f14af5000 rw-p 00026000 b3:05 130067                     /app/plugins/PHEVVehicleOSDWidget/libPHEVVehicleOSDWidget.so.1.0.0
+7f6f14af5000-7f6f14b07000 r-xp 00000000 b3:05 49881                      /app/plugins/NaviWidget/libNaviWidget.so.1.0.0
+7f6f14b07000-7f6f14d06000 ---p 00012000 b3:05 49881                      /app/plugins/NaviWidget/libNaviWidget.so.1.0.0
+7f6f14d06000-7f6f14d08000 r--p 00011000 b3:05 49881                      /app/plugins/NaviWidget/libNaviWidget.so.1.0.0
+7f6f14d08000-7f6f14d09000 rw-p 00013000 b3:05 49881                      /app/plugins/NaviWidget/libNaviWidget.so.1.0.0
+7f6f14d09000-7f6f14d0a000 r--p 00000000 b3:05 130166                     /app/plugins/MediaWidget/localization/language/MediaWidget_en_GB.qm
+7f6f14d0a000-7f6f14d5d000 r-xp 00000000 b3:05 130308                     /app/plugins/MediaWidget/libMediaWidget.so.1.0.0
+7f6f14d5d000-7f6f14f5d000 ---p 00053000 b3:05 130308                     /app/plugins/MediaWidget/libMediaWidget.so.1.0.0
+7f6f14f5d000-7f6f14f5f000 r--p 00053000 b3:05 130308                     /app/plugins/MediaWidget/libMediaWidget.so.1.0.0
+7f6f14f5f000-7f6f14f60000 rw-p 00055000 b3:05 130308                     /app/plugins/MediaWidget/libMediaWidget.so.1.0.0
+7f6f14f60000-7f6f14f61000 r--p 00000000 b3:05 130951                     /app/plugins/ElectricityUseWidget/localization/qm/Translations_en_GB.qm
+7f6f14f61000-7f6f14f80000 r-xp 00000000 b3:05 130985                     /app/plugins/ElectricityUseWidget/libElectricityUseWidget.so.1.0.0
+7f6f14f80000-7f6f1517f000 ---p 0001f000 b3:05 130985                     /app/plugins/ElectricityUseWidget/libElectricityUseWidget.so.1.0.0
+7f6f1517f000-7f6f15181000 r--p 0001e000 b3:05 130985                     /app/plugins/ElectricityUseWidget/libElectricityUseWidget.so.1.0.0
+7f6f15181000-7f6f15182000 rw-p 00020000 b3:05 130985                     /app/plugins/ElectricityUseWidget/libElectricityUseWidget.so.1.0.0
+7f6f15182000-7f6f15183000 r--p 00000000 b3:05 130801                     /app/plugins/CPCallWidget/localization/CPCallWidget_en_GB.qm
+7f6f15183000-7f6f151a5000 r-xp 00000000 b3:05 130787                     /app/plugins/CPCallWidget/libCPCallWidget.so.1.0.0
+7f6f151a5000-7f6f153a4000 ---p 00022000 b3:05 130787                     /app/plugins/CPCallWidget/libCPCallWidget.so.1.0.0
+7f6f153a4000-7f6f153a5000 r--p 00021000 b3:05 130787                     /app/plugins/CPCallWidget/libCPCallWidget.so.1.0.0
+7f6f153a5000-7f6f153a6000 rw-p 00022000 b3:05 130787                     /app/plugins/CPCallWidget/libCPCallWidget.so.1.0.0
+7f6f153a6000-7f6f153d0000 r-xp 00000000 b3:05 130401                     /app/plugins/CompassWidget/libCompassWidget.so.1.0.0
+7f6f153d0000-7f6f155d0000 ---p 0002a000 b3:05 130401                     /app/plugins/CompassWidget/libCompassWidget.so.1.0.0
+7f6f155d0000-7f6f155d2000 r--p 0002a000 b3:05 130401                     /app/plugins/CompassWidget/libCompassWidget.so.1.0.0
+7f6f155d2000-7f6f155d3000 rw-p 0002c000 b3:05 130401                     /app/plugins/CompassWidget/libCompassWidget.so.1.0.0
+7f6f155d3000-7f6f155f3000 r-xp 00000000 b3:05 130551                     /app/plugins/ClockWidget/libClockWidget.so.1.0.0
+7f6f155f3000-7f6f157f3000 ---p 00020000 b3:05 130551                     /app/plugins/ClockWidget/libClockWidget.so.1.0.0
+7f6f157f3000-7f6f157f4000 r--p 00020000 b3:05 130551                     /app/plugins/ClockWidget/libClockWidget.so.1.0.0
+7f6f157f4000-7f6f157f5000 rw-p 00021000 b3:05 130551                     /app/plugins/ClockWidget/libClockWidget.so.1.0.0
+7f6f157f5000-7f6f15825000 r-xp 00000000 b3:05 131052                     /app/plugins/ClimateWidget/libClimateWidget.so.1.0.0
+7f6f15825000-7f6f15a25000 ---p 00030000 b3:05 131052                     /app/plugins/ClimateWidget/libClimateWidget.so.1.0.0
+7f6f15a25000-7f6f15a27000 r--p 00030000 b3:05 131052                     /app/plugins/ClimateWidget/libClimateWidget.so.1.0.0
+7f6f15a27000-7f6f15a28000 rw-p 00032000 b3:05 131052                     /app/plugins/ClimateWidget/libClimateWidget.so.1.0.0
+7f6f15a28000-7f6f15a51000 r-xp 00000000 b3:05 129941                     /app/plugins/CallWidget/libCallWidget.so.1.0.0
+7f6f15a51000-7f6f15c51000 ---p 00029000 b3:05 129941                     /app/plugins/CallWidget/libCallWidget.so.1.0.0
+7f6f15c51000-7f6f15c52000 r--p 00029000 b3:05 129941                     /app/plugins/CallWidget/libCallWidget.so.1.0.0
+7f6f15c52000-7f6f15c53000 rw-p 0002a000 b3:05 129941                     /app/plugins/CallWidget/libCallWidget.so.1.0.0
+7f6f15c53000-7f6f15c96000 r-xp 00000000 b3:05 130586                     /app/plugins/CalendarWidget/libCalendarWidget.so.1.0.0
+7f6f15c96000-7f6f15e96000 ---p 00043000 b3:05 130586                     /app/plugins/CalendarWidget/libCalendarWidget.so.1.0.0
+7f6f15e96000-7f6f15e98000 r--p 00043000 b3:05 130586                     /app/plugins/CalendarWidget/libCalendarWidget.so.1.0.0
+7f6f15e98000-7f6f15e99000 rw-p 00045000 b3:05 130586                     /app/plugins/CalendarWidget/libCalendarWidget.so.1.0.0
+7f6f15e99000-7f6f15ec4000 r-xp 00000000 b3:05 129773                     /app/plugins/BTAudioWidget/libBTAudioWidget.so.1.0.0
+7f6f15ec4000-7f6f160c4000 ---p 0002b000 b3:05 129773                     /app/plugins/BTAudioWidget/libBTAudioWidget.so.1.0.0
+7f6f160c4000-7f6f160c5000 r--p 0002b000 b3:05 129773                     /app/plugins/BTAudioWidget/libBTAudioWidget.so.1.0.0
+7f6f160c5000-7f6f160c6000 rw-p 0002c000 b3:05 129773                     /app/plugins/BTAudioWidget/libBTAudioWidget.so.1.0.0
+7f6f160c6000-7f6f160de000 r-xp 00000000 b3:05 130853                     /app/plugins/AVOffWidget/libAVOffWidget.so.1.0.0
+7f6f160de000-7f6f162de000 ---p 00018000 b3:05 130853                     /app/plugins/AVOffWidget/libAVOffWidget.so.1.0.0
+7f6f162de000-7f6f162df000 r--p 00018000 b3:05 130853                     /app/plugins/AVOffWidget/libAVOffWidget.so.1.0.0
+7f6f162df000-7f6f162e0000 rw-p 00019000 b3:05 130853                     /app/plugins/AVOffWidget/libAVOffWidget.so.1.0.0
+7f6f162e0000-7f6f16320000 r-xp 00000000 b3:05 8812                       /usr/lib/libQt5Xml.so.5.4.1
+7f6f16320000-7f6f1651f000 ---p 00040000 b3:05 8812                       /usr/lib/libQt5Xml.so.5.4.1
+7f6f1651f000-7f6f16521000 r--p 0003f000 b3:05 8812                       /usr/lib/libQt5Xml.so.5.4.1
+7f6f16521000-7f6f16522000 rw-p 00041000 b3:05 8812                       /usr/lib/libQt5Xml.so.5.4.1
+7f6f16522000-7f6f16523000 r--p 00000000 b3:05 130367                     /app/plugins/CompassWidget/localization/qm/Translations_en_GB.qm
+7f6f16523000-7f6f16524000 -w-s 00000000 00:14 9069                       /dev/shm/timemanager_shm
+7f6f16524000-7f6f16525000 r--p 00000000 b3:05 131078                     /app/plugins/ClimateWidget/localization/qm/translation_en_GB.qm
+7f6f16525000-7f6f16526000 rw-s 00000000 00:05 0                          /SYSV51131fca (deleted)
+7f6f16526000-7f6f1652b000 r--p 00000000 b3:05 130610                     /app/plugins/CalendarWidget/localization/qm/Translations_en_GB.qm
+7f6f1652b000-7f6f165ff000 r-xp 00000000 b3:05 49451                      /app/share/AssistantWindow/lib/libAssistantWindow.so.1.0.0
+7f6f165ff000-7f6f167ff000 ---p 000d4000 b3:05 49451                      /app/share/AssistantWindow/lib/libAssistantWindow.so.1.0.0
+7f6f167ff000-7f6f16802000 r--p 000d4000 b3:05 49451                      /app/share/AssistantWindow/lib/libAssistantWindow.so.1.0.0
+7f6f16802000-7f6f16803000 rw-p 000d7000 b3:05 49451                      /app/share/AssistantWindow/lib/libAssistantWindow.so.1.0.0
+7f6f16803000-7f6f16804000 rw-p 00000000 00:00 0 
+7f6f16804000-7f6f1680e000 r-xp 00000000 b3:05 9459                       /usr/lib/qt5/plugins/imageformats/libqjpeg.so
+7f6f1680e000-7f6f16a0e000 ---p 0000a000 b3:05 9459                       /usr/lib/qt5/plugins/imageformats/libqjpeg.so
+7f6f16a0e000-7f6f16a0f000 r--p 0000a000 b3:05 9459                       /usr/lib/qt5/plugins/imageformats/libqjpeg.so
+7f6f16a0f000-7f6f16a10000 rw-p 0000b000 b3:05 9459                       /usr/lib/qt5/plugins/imageformats/libqjpeg.so
+7f6f16a10000-7f6f16a17000 r-xp 00000000 b3:05 9458                       /usr/lib/qt5/plugins/imageformats/libqico.so
+7f6f16a17000-7f6f16c16000 ---p 00007000 b3:05 9458                       /usr/lib/qt5/plugins/imageformats/libqico.so
+7f6f16c16000-7f6f16c17000 r--p 00006000 b3:05 9458                       /usr/lib/qt5/plugins/imageformats/libqico.so
+7f6f16c17000-7f6f16c18000 rw-p 00007000 b3:05 9458                       /usr/lib/qt5/plugins/imageformats/libqico.so
+7f6f16c18000-7f6f16c1e000 r-xp 00000000 b3:05 9457                       /usr/lib/qt5/plugins/imageformats/libqgif.so
+7f6f16c1e000-7f6f16e1e000 ---p 00006000 b3:05 9457                       /usr/lib/qt5/plugins/imageformats/libqgif.so
+7f6f16e1e000-7f6f16e1f000 r--p 00006000 b3:05 9457                       /usr/lib/qt5/plugins/imageformats/libqgif.so
+7f6f16e1f000-7f6f16e20000 rw-p 00007000 b3:05 9457                       /usr/lib/qt5/plugins/imageformats/libqgif.so
+7f6f16e20000-7f6f16e28000 rw-p 00000000 00:00 0 
+7f6f16e28000-7f6f16e2a000 r-xp 00000000 b3:05 8860                       /usr/lib/qt5/qml/QtQuick.2/libqtquick2plugin.so
+7f6f16e2a000-7f6f17029000 ---p 00002000 b3:05 8860                       /usr/lib/qt5/qml/QtQuick.2/libqtquick2plugin.so
+7f6f17029000-7f6f1702a000 r--p 00001000 b3:05 8860                       /usr/lib/qt5/qml/QtQuick.2/libqtquick2plugin.so
+7f6f1702a000-7f6f1702b000 rw-p 00002000 b3:05 8860                       /usr/lib/qt5/qml/QtQuick.2/libqtquick2plugin.so
+7f6f1702b000-7f6f178b3000 rw-p 00000000 00:00 0 
+7f6f178b3000-7f6f178b4000 ---p 00000000 00:00 0 
+7f6f178b4000-7f6f1893c000 rw-p 00000000 00:00 0                          [stack:3260]
+7f6f1893c000-7f6f1893d000 ---p 00000000 00:00 0 
+7f6f1893d000-7f6f199c5000 rw-p 00000000 00:00 0                          [stack:3259]
+7f6f199c5000-7f6f199c6000 ---p 00000000 00:00 0 
+7f6f199c6000-7f6f1aa4e000 rw-p 00000000 00:00 0                          [stack:3257]
+7f6f1aa4e000-7f6f1aa5b000 r-xp 00000000 b3:05 9432                       /usr/lib/qt5/plugins/wayland-graphics-integration-client/libwayland-egl.so
+7f6f1aa5b000-7f6f1ac5b000 ---p 0000d000 b3:05 9432                       /usr/lib/qt5/plugins/wayland-graphics-integration-client/libwayland-egl.so
+7f6f1ac5b000-7f6f1ac5c000 r--p 0000d000 b3:05 9432                       /usr/lib/qt5/plugins/wayland-graphics-integration-client/libwayland-egl.so
+7f6f1ac5c000-7f6f1ac5d000 rw-p 0000e000 b3:05 9432                       /usr/lib/qt5/plugins/wayland-graphics-integration-client/libwayland-egl.so
+7f6f1ac5d000-7f6f1ac5e000 ---p 00000000 00:00 0 
+7f6f1ac5e000-7f6f1b45e000 rw-p 00000000 00:00 0                          [stack:3256]
+7f6f1b45e000-7f6f1b45f000 ---p 00000000 00:00 0 
+7f6f1b45f000-7f6f1bc5f000 rw-p 00000000 00:00 0                          [stack:3229]
+7f6f1bc5f000-7f6f1bc6b000 rw-s 00000000 00:14 9545                       /dev/shm/_Data_mnt_wt_shared_public_default_data_itz-ht
+7f6f1bc6b000-7f6f1bfba000 rw-s 00000000 b3:0c 21                         /Data/mnt-wt/shared/public/default-data.itz
+7f6f1bfba000-7f6f1c0e8000 rw-s 00000000 b3:0c 19                         /Data/mnt-wt/shared/public/wt.itz
+7f6f1c0e8000-7f6f1c46b000 r--s 00000000 b3:0c 15                         /Data/mnt-wt/shared/public/resource-table-cfg.itz
+7f6f1c46b000-7f6f1c4c9000 r-xp 00000000 b3:05 7452                       /usr/lib/libgobject-2.0.so.0.4400.1
+7f6f1c4c9000-7f6f1c6c8000 ---p 0005e000 b3:05 7452                       /usr/lib/libgobject-2.0.so.0.4400.1
+7f6f1c6c8000-7f6f1c6ca000 r--p 0005d000 b3:05 7452                       /usr/lib/libgobject-2.0.so.0.4400.1
+7f6f1c6ca000-7f6f1c6cb000 rw-p 0005f000 b3:05 7452                       /usr/lib/libgobject-2.0.so.0.4400.1
+7f6f1c6cb000-7f6f1c6ce000 r-xp 00000000 b3:05 7793                       /usr/lib/libgmodule-2.0.so.0.4400.1
+7f6f1c6ce000-7f6f1c8cd000 ---p 00003000 b3:05 7793                       /usr/lib/libgmodule-2.0.so.0.4400.1
+7f6f1c8cd000-7f6f1c8ce000 r--p 00002000 b3:05 7793                       /usr/lib/libgmodule-2.0.so.0.4400.1
+7f6f1c8ce000-7f6f1c8cf000 rw-p 00003000 b3:05 7793                       /usr/lib/libgmodule-2.0.so.0.4400.1
+7f6f1c8cf000-7f6f1ca7d000 r-xp 00000000 b3:05 8814                       /usr/lib/libgio-2.0.so.0.4400.1
+7f6f1ca7d000-7f6f1cc7c000 ---p 001ae000 b3:05 8814                       /usr/lib/libgio-2.0.so.0.4400.1
+7f6f1cc7c000-7f6f1cc82000 r--p 001ad000 b3:05 8814                       /usr/lib/libgio-2.0.so.0.4400.1
+7f6f1cc82000-7f6f1cc83000 rw-p 001b3000 b3:05 8814                       /usr/lib/libgio-2.0.so.0.4400.1
+7f6f1cc83000-7f6f1cc85000 rw-p 00000000 00:00 0 
+7f6f1cc85000-7f6f1ccaa000 r-xp 00000000 b3:05 9518                       /usr/lib/libpers_common.so.0.1.1
+7f6f1ccaa000-7f6f1cea9000 ---p 00025000 b3:05 9518                       /usr/lib/libpers_common.so.0.1.1
+7f6f1cea9000-7f6f1ceab000 r--p 00024000 b3:05 9518                       /usr/lib/libpers_common.so.0.1.1
+7f6f1ceab000-7f6f1ceac000 rw-p 00026000 b3:05 9518                       /usr/lib/libpers_common.so.0.1.1
+7f6f1ceac000-7f6f1ceaf000 rw-p 00000000 00:00 0 
+7f6f1ceaf000-7f6f1ceb0000 ---p 00000000 00:00 0 
+7f6f1ceb0000-7f6f1d6b0000 rw-p 00000000 00:00 0                          [stack:3207]
+7f6f1d6b0000-7f6f1da34000 rw-s 00000000 00:05 1966140                    /SYSV51133cae (deleted)
+7f6f1da34000-7f6f1dbbe000 rw-s 00000000 00:05 1900602                    /SYSV51133ca8 (deleted)
+7f6f1dbbe000-7f6f1dd5b000 rw-s 00000000 00:05 1835064                    /SYSV51133ca2 (deleted)
+7f6f1dd5b000-7f6f1ddcc000 rw-s 00000000 00:05 1736757                    /SYSV51133c98 (deleted)
+7f6f1ddeb000-7f6f1de4c000 rw-p 00000000 00:00 0 
+7f6f1de4c000-7f6f1de8c000 rw-s 00000000 00:05 15497                      /drm mm object (deleted)
+7f6f1de8c000-7f6f1de95000 r-xp 00000000 b3:05 8737                       /usr/lib/libpciaccess.so.0.11.1
+7f6f1de95000-7f6f1e094000 ---p 00009000 b3:05 8737                       /usr/lib/libpciaccess.so.0.11.1
+7f6f1e094000-7f6f1e095000 r--p 00008000 b3:05 8737                       /usr/lib/libpciaccess.so.0.11.1
+7f6f1e095000-7f6f1e096000 rw-p 00009000 b3:05 8737                       /usr/lib/libpciaccess.so.0.11.1
+7f6f1e096000-7f6f1e0ba000 r-xp 00000000 b3:05 7643                       /usr/lib/libdrm_intel.so.1.0.0
+7f6f1e0ba000-7f6f1e2b9000 ---p 00024000 b3:05 7643                       /usr/lib/libdrm_intel.so.1.0.0
+7f6f1e2b9000-7f6f1e2ba000 r--p 00023000 b3:05 7643                       /usr/lib/libdrm_intel.so.1.0.0
+7f6f1e2ba000-7f6f1e2bb000 rw-p 00024000 b3:05 7643                       /usr/lib/libdrm_intel.so.1.0.0
+7f6f1e2bb000-7f6f1f0e9000 r-xp 00000000 b3:05 9550                       /usr/lib/dri/iu3d9_dri.so
+7f6f1f0e9000-7f6f1f2e8000 ---p 00e2e000 b3:05 9550                       /usr/lib/dri/iu3d9_dri.so
+7f6f1f2e8000-7f6f1f4a8000 rw-p 00e2d000 b3:05 9550                       /usr/lib/dri/iu3d9_dri.so
+7f6f1f4a8000-7f6f1f4d4000 rw-p 00000000 00:00 0 
+7f6f1f4d4000-7f6f1f4d8000 r-xp 00000000 b3:05 9927                       /lib/libcap.so.2.24
+7f6f1f4d8000-7f6f1f6d8000 ---p 00004000 b3:05 9927                       /lib/libcap.so.2.24
+7f6f1f6d8000-7f6f1f6d9000 r--p 00004000 b3:05 9927                       /lib/libcap.so.2.24
+7f6f1f6d9000-7f6f1f6da000 rw-p 00005000 b3:05 9927                       /lib/libcap.so.2.24
+7f6f1f6da000-7f6f1f6db000 ---p 00000000 00:00 0 
+7f6f1f6db000-7f6f20000000 rw-p 00000000 00:00 0                          [stack:3184]
+7f6f20000000-7f6f204af000 rw-p 00000000 00:00 0 
+7f6f204af000-7f6f24000000 ---p 00000000 00:00 0 
+7f6f24000000-7f6f24001000 r--p 00000000 b3:05 129908                     /app/plugins/CallWidget/localization/CallWidget_en_GB.qm
+7f6f24001000-7f6f24002000 r--p 00000000 b3:05 129723                     /app/plugins/BTAudioWidget/localization/BTAudioWidget_en_GB.qm
+7f6f24002000-7f6f24003000 r--p 00000000 b3:05 130879                     /app/plugins/AVOffWidget/localization/qm/translation_en_GB.qm
+7f6f24003000-7f6f24004000 r--p 00000000 b3:05 49406                      /app/share/AssistantWindow/localization/qm/Translation_en_GB.qm
+7f6f24004000-7f6f24005000 r--s 00000000 00:05 0                          /SYSV51131fca (deleted)
+7f6f24005000-7f6f24009000 rw-s 00000000 00:05 16657                      /drm mm object (deleted)
+7f6f24009000-7f6f2400c000 rw-s 00000000 00:14 9543                       /dev/shm/_Data_mnt_wt_shared_public_configurable_default_data_itz-ht
+7f6f2400c000-7f6f24015000 rw-s 00000000 00:14 9183                       /dev/shm/_Data_mnt_wt_shared_public_wt_itz-ht
+7f6f24015000-7f6f24031000 rw-s 00000000 00:05 15501                      /drm mm object (deleted)
+7f6f24031000-7f6f240b1000 rw-s 00000000 00:05 15494                      /drm mm object (deleted)
+7f6f240b1000-7f6f240cd000 rw-s 00000000 00:05 15491                      /drm mm object (deleted)
+7f6f240cd000-7f6f241cb000 rw-p 00000000 00:00 0 
+7f6f241cb000-7f6f241cc000 ---p 00000000 00:00 0 
+7f6f241cc000-7f6f249cc000 rw-p 00000000 00:00 0                          [stack:3151]
+7f6f249cc000-7f6f249de000 r-xp 00000000 b3:05 10323                      /lib/libresolv-2.25.so
+7f6f249de000-7f6f24bde000 ---p 00012000 b3:05 10323                      /lib/libresolv-2.25.so
+7f6f24bde000-7f6f24bdf000 r--p 00012000 b3:05 10323                      /lib/libresolv-2.25.so
+7f6f24bdf000-7f6f24be0000 rw-p 00013000 b3:05 10323                      /lib/libresolv-2.25.so
+7f6f24be0000-7f6f24be2000 rw-p 00000000 00:00 0 
+7f6f24be2000-7f6f24be7000 r-xp 00000000 b3:05 9588                       /lib/libnss_dns-2.25.so
+7f6f24be7000-7f6f24de6000 ---p 00005000 b3:05 9588                       /lib/libnss_dns-2.25.so
+7f6f24de6000-7f6f24de7000 r--p 00004000 b3:05 9588                       /lib/libnss_dns-2.25.so
+7f6f24de7000-7f6f24de8000 rw-p 00005000 b3:05 9588                       /lib/libnss_dns-2.25.so
+7f6f24de8000-7f6f24df3000 r-xp 00000000 b3:05 10334                      /lib/libnss_files-2.25.so
+7f6f24df3000-7f6f24ff2000 ---p 0000b000 b3:05 10334                      /lib/libnss_files-2.25.so
+7f6f24ff2000-7f6f24ff3000 r--p 0000a000 b3:05 10334                      /lib/libnss_files-2.25.so
+7f6f24ff3000-7f6f24ff4000 rw-p 0000b000 b3:05 10334                      /lib/libnss_files-2.25.so
+7f6f24ff4000-7f6f24ffa000 rw-p 00000000 00:00 0 
+7f6f24ffa000-7f6f24ffb000 ---p 00000000 00:00 0 
+7f6f24ffb000-7f6f257fb000 rw-p 00000000 00:00 0                          [stack:3146]
+7f6f257fb000-7f6f257fc000 ---p 00000000 00:00 0 
+7f6f257fc000-7f6f25ffc000 rw-p 00000000 00:00 0                          [stack:3143]
+7f6f25ffc000-7f6f25ffd000 ---p 00000000 00:00 0 
+7f6f25ffd000-7f6f267fd000 rw-p 00000000 00:00 0                          [stack:3142]
+7f6f267fd000-7f6f267fe000 ---p 00000000 00:00 0 
+7f6f267fe000-7f6f26ffe000 rw-p 00000000 00:00 0                          [stack:3141]
+7f6f26ffe000-7f6f26fff000 ---p 00000000 00:00 0 
+7f6f26fff000-7f6f277ff000 rw-p 00000000 00:00 0                          [stack:3140]
+7f6f277ff000-7f6f27800000 ---p 00000000 00:00 0 
+7f6f27800000-7f6f28000000 rw-p 00000000 00:00 0                          [stack:3139]
+7f6f28000000-7f6f28021000 rw-p 00000000 00:00 0 
+7f6f28021000-7f6f2c000000 ---p 00000000 00:00 0 
+7f6f2c000000-7f6f2c02d000 rw-p 00000000 00:00 0 
+7f6f2c02d000-7f6f30000000 ---p 00000000 00:00 0 
+7f6f30000000-7f6f30001000 rw-s 00000000 00:14 9544                       /dev/shm/_Data_mnt_wt_shared_public_default_data_itz-shm-info
+7f6f30001000-7f6f30002000 rw-s 00000000 b3:0c 23                         /Data/mnt-wt/shared/public/configurable-default-data.itz
+7f6f30002000-7f6f3000e000 rw-s 00000000 00:14 7067                       /dev/shm/_Data_mnt_wt_shared_public_resource_table_cfg_itz-ht
+7f6f3000e000-7f6f305f8000 rw-p 00000000 00:00 0 
+7f6f305f8000-7f6f305f9000 ---p 00000000 00:00 0 
+7f6f305f9000-7f6f30df9000 rw-p 00000000 00:00 0                          [stack:3138]
+7f6f30df9000-7f6f30dfa000 ---p 00000000 00:00 0 
+7f6f30dfa000-7f6f315fa000 rw-p 00000000 00:00 0                          [stack:3137]
+7f6f315fa000-7f6f315fb000 ---p 00000000 00:00 0 
+7f6f315fb000-7f6f31dfb000 rw-p 00000000 00:00 0                          [stack:3136]
+7f6f31dfb000-7f6f31dfc000 ---p 00000000 00:00 0 
+7f6f31dfc000-7f6f325fc000 rw-p 00000000 00:00 0                          [stack:3135]
+7f6f325fc000-7f6f325fd000 ---p 00000000 00:00 0 
+7f6f325fd000-7f6f32ffe000 rw-p 00000000 00:00 0                          [stack:3134]
+7f6f32ffe000-7f6f32fff000 ---p 00000000 00:00 0 
+7f6f32fff000-7f6f337ff000 rw-p 00000000 00:00 0                          [stack:3132]
+7f6f337ff000-7f6f33800000 ---p 00000000 00:00 0 
+7f6f33800000-7f6f34000000 rw-p 00000000 00:00 0                          [stack:3131]
+7f6f34000000-7f6f34021000 rw-p 00000000 00:00 0 
+7f6f34021000-7f6f38000000 ---p 00000000 00:00 0 
+7f6f38000000-7f6f38001000 rw-s 00000000 00:14 9541                       /dev/shm/_Data_mnt_wt_shared_public_configurable_default_data_itz-shm-info
+7f6f38001000-7f6f38002000 rw-s 00000000 00:14 9079                       /dev/shm/_Data_mnt_wt_shared_public_wt_itz-shm-info
+7f6f38002000-7f6f38003000 rw-s 00000000 00:14 7066                       /dev/shm/_Data_mnt_wt_shared_public_resource_table_cfg_itz-shm-info
+7f6f38003000-7f6f38004000 -w-p 00000000 b3:05 50292                      /etc/pclCustomLibConfigFile.cfg
+7f6f38004000-7f6f38024000 r-xp 00000000 b3:05 9591                       /lib/libudev.so.1.6.4
+7f6f38024000-7f6f38025000 r--p 0001f000 b3:05 9591                       /lib/libudev.so.1.6.4
+7f6f38025000-7f6f38026000 rw-p 00020000 b3:05 9591                       /lib/libudev.so.1.6.4
+7f6f38026000-7f6f3852d000 rw-p 00000000 00:00 0 
+7f6f3852d000-7f6f3852e000 ---p 00000000 00:00 0 
+7f6f3852e000-7f6f38d2e000 rw-p 00000000 00:00 0                          [stack:3122]
+7f6f38d2e000-7f6f38d2f000 ---p 00000000 00:00 0 
+7f6f38d2f000-7f6f3952f000 rw-p 00000000 00:00 0                          [stack:3118]
+7f6f3952f000-7f6f39530000 ---p 00000000 00:00 0 
+7f6f39530000-7f6f39d30000 rw-p 00000000 00:00 0                          [stack:3115]
+7f6f39d30000-7f6f39d32000 r-xp 00000000 b3:05 9422                       /usr/lib/qt5/plugins/platforms/libqwayland-generic.so
+7f6f39d32000-7f6f39f31000 ---p 00002000 b3:05 9422                       /usr/lib/qt5/plugins/platforms/libqwayland-generic.so
+7f6f39f31000-7f6f39f32000 r--p 00001000 b3:05 9422                       /usr/lib/qt5/plugins/platforms/libqwayland-generic.so
+7f6f39f32000-7f6f39f33000 rw-p 00002000 b3:05 9422                       /usr/lib/qt5/plugins/platforms/libqwayland-generic.so
+7f6f39f33000-7f6f39f34000 ---p 00000000 00:00 0 
+7f6f39f34000-7f6f3a734000 rw-p 00000000 00:00 0                          [stack:3107]
+7f6f3a734000-7f6f3a735000 ---p 00000000 00:00 0 
+7f6f3a735000-7f6f3af35000 rw-p 00000000 00:00 0                          [stack:3106]
+7f6f3af35000-7f6f3c836000 r-xp 00000000 b3:05 7687                       /usr/lib/libicudata.so.58.2
+7f6f3c836000-7f6f3ca35000 ---p 01901000 b3:05 7687                       /usr/lib/libicudata.so.58.2
+7f6f3ca35000-7f6f3ca36000 r--p 01900000 b3:05 7687                       /usr/lib/libicudata.so.58.2
+7f6f3ca36000-7f6f3ca37000 rw-p 01901000 b3:05 7687                       /usr/lib/libicudata.so.58.2
+7f6f3ca37000-7f6f3cadd000 r-xp 00000000 b3:05 6771                       /usr/lib/libfreetype.so.6.14.0
+7f6f3cadd000-7f6f3ccdc000 ---p 000a6000 b3:05 6771                       /usr/lib/libfreetype.so.6.14.0
+7f6f3ccdc000-7f6f3cce3000 r--p 000a5000 b3:05 6771                       /usr/lib/libfreetype.so.6.14.0
+7f6f3cce3000-7f6f3cce4000 rw-p 000ac000 b3:05 6771                       /usr/lib/libfreetype.so.6.14.0
+7f6f3cce4000-7f6f3cd27000 r-xp 00000000 b3:05 7519                       /usr/lib/libpcre.so.1.2.11
+7f6f3cd27000-7f6f3cf26000 ---p 00043000 b3:05 7519                       /usr/lib/libpcre.so.1.2.11
+7f6f3cf26000-7f6f3cf27000 r--p 00042000 b3:05 7519                       /usr/lib/libpcre.so.1.2.11
+7f6f3cf27000-7f6f3cf28000 rw-p 00043000 b3:05 7519                       /usr/lib/libpcre.so.1.2.11
+7f6f3cf28000-7f6f3d04c000 r-xp 00000000 b3:05 6742                       /usr/lib/libglib-2.0.so.0.4400.1
+7f6f3d04c000-7f6f3d24c000 ---p 00124000 b3:05 6742                       /usr/lib/libglib-2.0.so.0.4400.1
+7f6f3d24c000-7f6f3d24d000 r--p 00124000 b3:05 6742                       /usr/lib/libglib-2.0.so.0.4400.1
+7f6f3d24d000-7f6f3d24e000 rw-p 00125000 b3:05 6742                       /usr/lib/libglib-2.0.so.0.4400.1
+7f6f3d24e000-7f6f3d49f000 r-xp 00000000 b3:05 10357                      /lib/libcrypto.so.1.0.2
+7f6f3d49f000-7f6f3d69f000 ---p 00251000 b3:05 10357                      /lib/libcrypto.so.1.0.2
+7f6f3d69f000-7f6f3d6bf000 r--p 00251000 b3:05 10357                      /lib/libcrypto.so.1.0.2
+7f6f3d6bf000-7f6f3d6ca000 rw-p 00271000 b3:05 10357                      /lib/libcrypto.so.1.0.2
+7f6f3d6ca000-7f6f3d6ce000 rw-p 00000000 00:00 0 
+7f6f3d6ce000-7f6f3d735000 r-xp 00000000 b3:05 8041                       /usr/lib/libssl.so.1.0.2
+7f6f3d735000-7f6f3d934000 ---p 00067000 b3:05 8041                       /usr/lib/libssl.so.1.0.2
+7f6f3d934000-7f6f3d939000 r--p 00066000 b3:05 8041                       /usr/lib/libssl.so.1.0.2
+7f6f3d939000-7f6f3d93f000 rw-p 0006b000 b3:05 8041                       /usr/lib/libssl.so.1.0.2
+7f6f3d93f000-7f6f3d943000 r-xp 00000000 b3:05 7783                       /usr/lib/libwayland-cursor.so.0.0.0
+7f6f3d943000-7f6f3db42000 ---p 00004000 b3:05 7783                       /usr/lib/libwayland-cursor.so.0.0.0
+7f6f3db42000-7f6f3db43000 r--p 00003000 b3:05 7783                       /usr/lib/libwayland-cursor.so.0.0.0
+7f6f3db43000-7f6f3db47000 rw-p 00004000 b3:05 7783                       /usr/lib/libwayland-cursor.so.0.0.0
+7f6f3db47000-7f6f3db88000 r-xp 00000000 b3:05 8633                       /usr/lib/libxkbcommon.so.0.0.0
+7f6f3db88000-7f6f3dd87000 ---p 00041000 b3:05 8633                       /usr/lib/libxkbcommon.so.0.0.0
+7f6f3dd87000-7f6f3dd89000 r--p 00040000 b3:05 8633                       /usr/lib/libxkbcommon.so.0.0.0
+7f6f3dd89000-7f6f3dd8a000 rw-p 00042000 b3:05 8633                       /usr/lib/libxkbcommon.so.0.0.0
+7f6f3dd8a000-7f6f3ddb5000 r-xp 00000000 b3:05 9496                       /usr/lib/libglapi.so.0.0.0
+7f6f3ddb5000-7f6f3dfb5000 ---p 0002b000 b3:05 9496                       /usr/lib/libglapi.so.0.0.0
+7f6f3dfb5000-7f6f3dfb9000 r--p 0002b000 b3:05 9496                       /usr/lib/libglapi.so.0.0.0
+7f6f3dfb9000-7f6f3dfba000 rw-p 0002f000 b3:05 9496                       /usr/lib/libglapi.so.0.0.0
+7f6f3dfba000-7f6f3dfbd000 rw-p 00000000 00:00 0 
+7f6f3dfbd000-7f6f3dff9000 r-xp 00000000 b3:05 8681                       /usr/lib/libpcre16.so.0.2.11
+7f6f3dff9000-7f6f3e1f8000 ---p 0003c000 b3:05 8681                       /usr/lib/libpcre16.so.0.2.11
+7f6f3e1f8000-7f6f3e1f9000 r--p 0003b000 b3:05 8681                       /usr/lib/libpcre16.so.0.2.11
+7f6f3e1f9000-7f6f3e1fa000 rw-p 0003c000 b3:05 8681                       /usr/lib/libpcre16.so.0.2.11
+7f6f3e1fa000-7f6f3e3ae000 r-xp 00000000 b3:05 6774                       /usr/lib/libicuuc.so.58.2
+7f6f3e3ae000-7f6f3e5ae000 ---p 001b4000 b3:05 6774                       /usr/lib/libicuuc.so.58.2
+7f6f3e5ae000-7f6f3e5c0000 r--p 001b4000 b3:05 6774                       /usr/lib/libicuuc.so.58.2
+7f6f3e5c0000-7f6f3e5c1000 rw-p 001c6000 b3:05 6774                       /usr/lib/libicuuc.so.58.2
+7f6f3e5c1000-7f6f3e5c2000 rw-p 00000000 00:00 0 
+7f6f3e5c2000-7f6f3e85e000 r-xp 00000000 b3:05 7805                       /usr/lib/libicui18n.so.58.2
+7f6f3e85e000-7f6f3ea5d000 ---p 0029c000 b3:05 7805                       /usr/lib/libicui18n.so.58.2
+7f6f3ea5d000-7f6f3ea6b000 r--p 0029b000 b3:05 7805                       /usr/lib/libicui18n.so.58.2
+7f6f3ea6b000-7f6f3ea6c000 rw-p 002a9000 b3:05 7805                       /usr/lib/libicui18n.so.58.2
+7f6f3ea6c000-7f6f3ebac000 r-xp 00000000 b3:05 6986                       /usr/lib/libsqlite3.so.0.8.6
+7f6f3ebac000-7f6f3edab000 ---p 00140000 b3:05 6986                       /usr/lib/libsqlite3.so.0.8.6
+7f6f3edab000-7f6f3edaf000 r--p 0013f000 b3:05 6986                       /usr/lib/libsqlite3.so.0.8.6
+7f6f3edaf000-7f6f3edb3000 rw-p 00143000 b3:05 6986                       /usr/lib/libsqlite3.so.0.8.6
+7f6f3edb3000-7f6f3eecb000 r-xp 00000000 b3:05 7641                       /usr/lib/libharfbuzz.so.0.20900.0
+7f6f3eecb000-7f6f3f0cb000 ---p 00118000 b3:05 7641                       /usr/lib/libharfbuzz.so.0.20900.0
+7f6f3f0cb000-7f6f3f0cc000 r--p 00118000 b3:05 7641                       /usr/lib/libharfbuzz.so.0.20900.0
+7f6f3f0cc000-7f6f3f0cd000 rw-p 00119000 b3:05 7641                       /usr/lib/libharfbuzz.so.0.20900.0
+7f6f3f0cd000-7f6f3f22f000 r-xp 00000000 b3:05 9471                       /usr/lib/libQt5Network.so.5.4.1
+7f6f3f22f000-7f6f3f42f000 ---p 00162000 b3:05 9471                       /usr/lib/libQt5Network.so.5.4.1
+7f6f3f42f000-7f6f3f436000 r--p 00162000 b3:05 9471                       /usr/lib/libQt5Network.so.5.4.1
+7f6f3f436000-7f6f3f437000 rw-p 00169000 b3:05 9471                       /usr/lib/libQt5Network.so.5.4.1
+7f6f3f437000-7f6f3f572000 r-xp 00000000 b3:05 6749                       /usr/lib/libQt5WaylandClient.so.5.4.1
+7f6f3f572000-7f6f3f771000 ---p 0013b000 b3:05 6749                       /usr/lib/libQt5WaylandClient.so.5.4.1
+7f6f3f771000-7f6f3f780000 r--p 0013a000 b3:05 6749                       /usr/lib/libQt5WaylandClient.so.5.4.1
+7f6f3f780000-7f6f3f781000 rw-p 00149000 b3:05 6749                       /usr/lib/libQt5WaylandClient.so.5.4.1
+7f6f3f781000-7f6f3f791000 r-xp 00000000 b3:05 7713                       /usr/lib/libdrm.so.2.4.0
+7f6f3f791000-7f6f3f990000 ---p 00010000 b3:05 7713                       /usr/lib/libdrm.so.2.4.0
+7f6f3f990000-7f6f3f991000 r--p 0000f000 b3:05 7713                       /usr/lib/libdrm.so.2.4.0
+7f6f3f991000-7f6f3f992000 rw-p 00010000 b3:05 7713                       /usr/lib/libdrm.so.2.4.0
+7f6f3f992000-7f6f3f9bd000 r-xp 00000000 b3:05 8104                       /usr/lib/libexpat.so.1.6.2
+7f6f3f9bd000-7f6f3fbbc000 ---p 0002b000 b3:05 8104                       /usr/lib/libexpat.so.1.6.2
+7f6f3fbbc000-7f6f3fbbf000 r--p 0002a000 b3:05 8104                       /usr/lib/libexpat.so.1.6.2
+7f6f3fbbf000-7f6f3fbc0000 rw-p 0002d000 b3:05 8104                       /usr/lib/libexpat.so.1.6.2
+7f6f3fbc0000-7f6f3fbc8000 r-xp 00000000 b3:05 6734                       /usr/lib/libffi.so.6.0.4
+7f6f3fbc8000-7f6f3fdc7000 ---p 00008000 b3:05 6734                       /usr/lib/libffi.so.6.0.4
+7f6f3fdc7000-7f6f3fdc8000 r--p 00007000 b3:05 6734                       /usr/lib/libffi.so.6.0.4
+7f6f3fdc8000-7f6f3fdc9000 rw-p 00008000 b3:05 6734                       /usr/lib/libffi.so.6.0.4
+7f6f3fdc9000-7f6f3fddb000 r-xp 00000000 b3:05 6707                       /usr/lib/libwayland-server.so.0.1.0
+7f6f3fddb000-7f6f3ffda000 ---p 00012000 b3:05 6707                       /usr/lib/libwayland-server.so.0.1.0
+7f6f3ffda000-7f6f3ffdc000 r--p 00011000 b3:05 6707                       /usr/lib/libwayland-server.so.0.1.0
+7f6f3ffdc000-7f6f3ffdd000 rw-p 00013000 b3:05 6707                       /usr/lib/libwayland-server.so.0.1.0
+7f6f3ffdd000-7f6f3ffea000 r-xp 00000000 b3:05 8224                       /usr/lib/libgbm.so.1.0.0
+7f6f3ffea000-7f6f401ea000 ---p 0000d000 b3:05 8224                       /usr/lib/libgbm.so.1.0.0
+7f6f401ea000-7f6f401eb000 r--p 0000d000 b3:05 8224                       /usr/lib/libgbm.so.1.0.0
+7f6f401eb000-7f6f401ec000 rw-p 0000e000 b3:05 8224                       /usr/lib/libgbm.so.1.0.0
+7f6f401ec000-7f6f4023d000 r-xp 00000000 b3:05 7984                       /usr/lib/libdbus-1.so.3.8.13
+7f6f4023d000-7f6f4043d000 ---p 00051000 b3:05 7984                       /usr/lib/libdbus-1.so.3.8.13
+7f6f4043d000-7f6f4043e000 r--p 00051000 b3:05 7984                       /usr/lib/libdbus-1.so.3.8.13
+7f6f4043e000-7f6f4043f000 rw-p 00052000 b3:05 7984                       /usr/lib/libdbus-1.so.3.8.13
+7f6f4043f000-7f6f40466000 r-xp 00000000 b3:05 6831                       /usr/lib/liblz4.so.1.9.3
+7f6f40466000-7f6f40665000 ---p 00027000 b3:05 6831                       /usr/lib/liblz4.so.1.9.3
+7f6f40665000-7f6f40666000 r--p 00026000 b3:05 6831                       /usr/lib/liblz4.so.1.9.3
+7f6f40666000-7f6f40667000 rw-p 00027000 b3:05 6831                       /usr/lib/liblz4.so.1.9.3
+7f6f40667000-7f6f40678000 r-xp 00000000 b3:05 10318                      /lib/libgcc_s.so.1
+7f6f40678000-7f6f40878000 ---p 00011000 b3:05 10318                      /lib/libgcc_s.so.1
+7f6f40878000-7f6f40879000 rw-p 00011000 b3:05 10318                      /lib/libgcc_s.so.1
+7f6f40879000-7f6f40a0f000 r-xp 00000000 b3:05 10347                      /lib/libc-2.25.so
+7f6f40a0f000-7f6f40c0e000 ---p 00196000 b3:05 10347                      /lib/libc-2.25.so
+7f6f40c0e000-7f6f40c12000 r--p 00195000 b3:05 10347                      /lib/libc-2.25.so
+7f6f40c12000-7f6f40c14000 rw-p 00199000 b3:05 10347                      /lib/libc-2.25.so
+7f6f40c14000-7f6f40c18000 rw-p 00000000 00:00 0 
+7f6f40c18000-7f6f40d28000 r-xp 00000000 b3:05 9918                       /lib/libm-2.25.so
+7f6f40d28000-7f6f40f28000 ---p 00110000 b3:05 9918                       /lib/libm-2.25.so
+7f6f40f28000-7f6f40f29000 r--p 00110000 b3:05 9918                       /lib/libm-2.25.so
+7f6f40f29000-7f6f40f2a000 rw-p 00111000 b3:05 9918                       /lib/libm-2.25.so
+7f6f40f2a000-7f6f40f43000 r-xp 00000000 b3:05 10269                      /lib/libpthread-2.25.so
+7f6f40f43000-7f6f41142000 ---p 00019000 b3:05 10269                      /lib/libpthread-2.25.so
+7f6f41142000-7f6f41143000 r--p 00018000 b3:05 10269                      /lib/libpthread-2.25.so
+7f6f41143000-7f6f41144000 rw-p 00019000 b3:05 10269                      /lib/libpthread-2.25.so
+7f6f41144000-7f6f41148000 rw-p 00000000 00:00 0 
+7f6f41148000-7f6f4114f000 r-xp 00000000 b3:05 7697                       /usr/lib/libGLESv2.so.2.0.0
+7f6f4114f000-7f6f4134e000 ---p 00007000 b3:05 7697                       /usr/lib/libGLESv2.so.2.0.0
+7f6f4134e000-7f6f4134f000 r--p 00006000 b3:05 7697                       /usr/lib/libGLESv2.so.2.0.0
+7f6f4134f000-7f6f41350000 rw-p 00007000 b3:05 7697                       /usr/lib/libGLESv2.so.2.0.0
+7f6f41350000-7f6f41371000 r-xp 00000000 b3:05 9461                       /usr/lib/libdlt.so.2.17.0
+7f6f41371000-7f6f41571000 ---p 00021000 b3:05 9461                       /usr/lib/libdlt.so.2.17.0
+7f6f41571000-7f6f41572000 r--p 00021000 b3:05 9461                       /usr/lib/libdlt.so.2.17.0
+7f6f41572000-7f6f41574000 rw-p 00022000 b3:05 9461                       /usr/lib/libdlt.so.2.17.0
+7f6f41574000-7f6f41579000 rw-p 00000000 00:00 0 
+7f6f41579000-7f6f41a5e000 r-xp 00000000 b3:05 8809                       /usr/lib/libQt5Core.so.5.4.1
+7f6f41a5e000-7f6f41c5d000 ---p 004e5000 b3:05 8809                       /usr/lib/libQt5Core.so.5.4.1
+7f6f41c5d000-7f6f41c67000 r--p 004e4000 b3:05 8809                       /usr/lib/libQt5Core.so.5.4.1
+7f6f41c67000-7f6f41c68000 rw-p 004ee000 b3:05 8809                       /usr/lib/libQt5Core.so.5.4.1
+7f6f41c68000-7f6f41c6b000 rw-p 00000000 00:00 0 
+7f6f41c6b000-7f6f41cb9000 r-xp 00000000 b3:05 6758                       /usr/lib/libQt5Sql.so.5.4.1
+7f6f41cb9000-7f6f41eb9000 ---p 0004e000 b3:05 6758                       /usr/lib/libQt5Sql.so.5.4.1
+7f6f41eb9000-7f6f41ebb000 r--p 0004e000 b3:05 6758                       /usr/lib/libQt5Sql.so.5.4.1
+7f6f41ebb000-7f6f41ebc000 rw-p 00050000 b3:05 6758                       /usr/lib/libQt5Sql.so.5.4.1
+7f6f41ebc000-7f6f41f45000 r-xp 00000000 b3:05 6795                       /usr/lib/libQt5DBus.so.5.4.1
+7f6f41f45000-7f6f42144000 ---p 00089000 b3:05 6795                       /usr/lib/libQt5DBus.so.5.4.1
+7f6f42144000-7f6f42146000 r--p 00088000 b3:05 6795                       /usr/lib/libQt5DBus.so.5.4.1
+7f6f42146000-7f6f42147000 rw-p 0008a000 b3:05 6795                       /usr/lib/libQt5DBus.so.5.4.1
+7f6f42147000-7f6f42582000 r-xp 00000000 b3:05 7495                       /usr/lib/libQt5Qml.so.5.4.1
+7f6f42582000-7f6f42781000 ---p 0043b000 b3:05 7495                       /usr/lib/libQt5Qml.so.5.4.1
+7f6f42781000-7f6f42796000 r--p 0043a000 b3:05 7495                       /usr/lib/libQt5Qml.so.5.4.1
+7f6f42796000-7f6f4279a000 rw-p 0044f000 b3:05 7495                       /usr/lib/libQt5Qml.so.5.4.1
+7f6f4279a000-7f6f4279d000 rw-p 00000000 00:00 0 
+7f6f4279d000-7f6f42cb9000 r-xp 00000000 b3:05 6706                       /usr/lib/libQt5Gui.so.5.4.1
+7f6f42cb9000-7f6f42eb9000 ---p 0051c000 b3:05 6706                       /usr/lib/libQt5Gui.so.5.4.1
+7f6f42eb9000-7f6f42ecf000 r--p 0051c000 b3:05 6706                       /usr/lib/libQt5Gui.so.5.4.1
+7f6f42ecf000-7f6f42ed6000 rw-p 00532000 b3:05 6706                       /usr/lib/libQt5Gui.so.5.4.1
+7f6f42ed6000-7f6f42ed8000 rw-p 00000000 00:00 0 
+7f6f42ed8000-7f6f43568000 r-xp 00000000 b3:05 6980                       /usr/lib/libQt5Widgets.so.5.4.1
+7f6f43568000-7f6f43767000 ---p 00690000 b3:05 6980                       /usr/lib/libQt5Widgets.so.5.4.1
+7f6f43767000-7f6f43798000 r--p 0068f000 b3:05 6980                       /usr/lib/libQt5Widgets.so.5.4.1
+7f6f43798000-7f6f43799000 rw-p 006c0000 b3:05 6980                       /usr/lib/libQt5Widgets.so.5.4.1
+7f6f43799000-7f6f43ba2000 r-xp 00000000 b3:05 7347                       /usr/lib/libQt5Quick.so.5.4.1
+7f6f43ba2000-7f6f43da2000 ---p 00409000 b3:05 7347                       /usr/lib/libQt5Quick.so.5.4.1
+7f6f43da2000-7f6f43dc4000 r--p 00409000 b3:05 7347                       /usr/lib/libQt5Quick.so.5.4.1
+7f6f43dc4000-7f6f43dc5000 rw-p 0042b000 b3:05 7347                       /usr/lib/libQt5Quick.so.5.4.1
+7f6f43dc5000-7f6f43dc6000 rw-p 00000000 00:00 0 
+7f6f43dc6000-7f6f43dcd000 r-xp 00000000 b3:05 10355                      /lib/librt-2.25.so
+7f6f43dcd000-7f6f43fcc000 ---p 00007000 b3:05 10355                      /lib/librt-2.25.so
+7f6f43fcc000-7f6f43fcd000 r--p 00006000 b3:05 10355                      /lib/librt-2.25.so
+7f6f43fcd000-7f6f43fce000 rw-p 00007000 b3:05 10355                      /lib/librt-2.25.so
+7f6f43fce000-7f6f43fe6000 r-xp 00000000 b3:05 8003                       /usr/lib/libz.so.1.2.13
+7f6f43fe6000-7f6f441e5000 ---p 00018000 b3:05 8003                       /usr/lib/libz.so.1.2.13
+7f6f441e5000-7f6f441e6000 r--p 00017000 b3:05 8003                       /usr/lib/libz.so.1.2.13
+7f6f441e6000-7f6f441e7000 rw-p 00018000 b3:05 8003                       /usr/lib/libz.so.1.2.13
+7f6f441e7000-7f6f441ea000 r-xp 00000000 b3:05 10297                      /lib/libdl-2.25.so
+7f6f441ea000-7f6f443e9000 ---p 00003000 b3:05 10297                      /lib/libdl-2.25.so
+7f6f443e9000-7f6f443ea000 r--p 00002000 b3:05 10297                      /lib/libdl-2.25.so
+7f6f443ea000-7f6f443eb000 rw-p 00003000 b3:05 10297                      /lib/libdl-2.25.so
+7f6f443eb000-7f6f4457f000 r-xp 00000000 b3:05 9565                       /usr/lib/libstdc++.so.6.0.21
+7f6f4457f000-7f6f4477f000 ---p 00194000 b3:05 9565                       /usr/lib/libstdc++.so.6.0.21
+7f6f4477f000-7f6f4478b000 r--p 00194000 b3:05 9565                       /usr/lib/libstdc++.so.6.0.21
+7f6f4478b000-7f6f4478c000 rw-p 001a0000 b3:05 9565                       /usr/lib/libstdc++.so.6.0.21
+7f6f4478c000-7f6f4478f000 rw-p 00000000 00:00 0 
+7f6f4478f000-7f6f447cc000 r-xp 00000000 b3:05 8666                       /usr/lib/libjpeg.so.9.1.0
+7f6f447cc000-7f6f449cc000 ---p 0003d000 b3:05 8666                       /usr/lib/libjpeg.so.9.1.0
+7f6f449cc000-7f6f449cd000 r--p 0003d000 b3:05 8666                       /usr/lib/libjpeg.so.9.1.0
+7f6f449cd000-7f6f449ce000 rw-p 0003e000 b3:05 8666                       /usr/lib/libjpeg.so.9.1.0
+7f6f449ce000-7f6f44a05000 r-xp 00000000 b3:05 9538                       /usr/lib/libpng16.so.16.32.0
+7f6f44a05000-7f6f44c05000 ---p 00037000 b3:05 9538                       /usr/lib/libpng16.so.16.32.0
+7f6f44c05000-7f6f44c06000 r--p 00037000 b3:05 9538                       /usr/lib/libpng16.so.16.32.0
+7f6f44c06000-7f6f44c07000 rw-p 00038000 b3:05 9538                       /usr/lib/libpng16.so.16.32.0
+7f6f44c07000-7f6f44c0c000 r-xp 00000000 b3:05 8802                       /usr/lib/libivi-window-manager-api.so.1.0.0
+7f6f44c0c000-7f6f44e0c000 ---p 00005000 b3:05 8802                       /usr/lib/libivi-window-manager-api.so.1.0.0
+7f6f44e0c000-7f6f44e0d000 r--p 00005000 b3:05 8802                       /usr/lib/libivi-window-manager-api.so.1.0.0
+7f6f44e0d000-7f6f44e0e000 rw-p 00006000 b3:05 8802                       /usr/lib/libivi-window-manager-api.so.1.0.0
+7f6f44e0e000-7f6f44e2e000 r-xp 00000000 b3:05 7349                       /usr/lib/libivi-platform-interface.so.1.0.0
+7f6f44e2e000-7f6f4502e000 ---p 00020000 b3:05 7349                       /usr/lib/libivi-platform-interface.so.1.0.0
+7f6f4502e000-7f6f45031000 r--p 00020000 b3:05 7349                       /usr/lib/libivi-platform-interface.so.1.0.0
+7f6f45031000-7f6f45032000 rw-p 00023000 b3:05 7349                       /usr/lib/libivi-platform-interface.so.1.0.0
+7f6f45032000-7f6f4503f000 r-xp 00000000 b3:05 8043                       /usr/lib/libwayland-client.so.0.3.0
+7f6f4503f000-7f6f4523f000 ---p 0000d000 b3:05 8043                       /usr/lib/libwayland-client.so.0.3.0
+7f6f4523f000-7f6f45241000 r--p 0000d000 b3:05 8043                       /usr/lib/libwayland-client.so.0.3.0
+7f6f45241000-7f6f45242000 rw-p 0000f000 b3:05 8043                       /usr/lib/libwayland-client.so.0.3.0
+7f6f45242000-7f6f45243000 r-xp 00000000 b3:05 8019                       /usr/lib/libwayland-egl.so.1.0.0
+7f6f45243000-7f6f45442000 ---p 00001000 b3:05 8019                       /usr/lib/libwayland-egl.so.1.0.0
+7f6f45442000-7f6f45443000 r--p 00000000 b3:05 8019                       /usr/lib/libwayland-egl.so.1.0.0
+7f6f45443000-7f6f45444000 rw-p 00001000 b3:05 8019                       /usr/lib/libwayland-egl.so.1.0.0
+7f6f45444000-7f6f4546d000 r-xp 00000000 b3:05 8779                       /usr/lib/libEGL.so.1.0.0
+7f6f4546d000-7f6f4566d000 ---p 00029000 b3:05 8779                       /usr/lib/libEGL.so.1.0.0
+7f6f4566d000-7f6f4566e000 r--p 00029000 b3:05 8779                       /usr/lib/libEGL.so.1.0.0
+7f6f4566e000-7f6f4566f000 rw-p 0002a000 b3:05 8779                       /usr/lib/libEGL.so.1.0.0
+7f6f4566f000-7f6f45780000 r-xp 00000000 b3:05 8038                       /usr/lib/libasound.so.2.0.0
+7f6f45780000-7f6f45980000 ---p 00111000 b3:05 8038                       /usr/lib/libasound.so.2.0.0
+7f6f45980000-7f6f45988000 r--p 00111000 b3:05 8038                       /usr/lib/libasound.so.2.0.0
+7f6f45988000-7f6f45989000 rw-p 00119000 b3:05 8038                       /usr/lib/libasound.so.2.0.0
+7f6f45989000-7f6f459ac000 r-xp 00000000 b3:05 7554                       /usr/lib/libpersistence_client_library.so.7.1.1
+7f6f459ac000-7f6f45bac000 ---p 00023000 b3:05 7554                       /usr/lib/libpersistence_client_library.so.7.1.1
+7f6f45bac000-7f6f45bad000 r--p 00023000 b3:05 7554                       /usr/lib/libpersistence_client_library.so.7.1.1
+7f6f45bad000-7f6f45baf000 rw-p 00024000 b3:05 7554                       /usr/lib/libpersistence_client_library.so.7.1.1
+7f6f45baf000-7f6f45bc0000 rw-p 00000000 00:00 0 
+7f6f45bc0000-7f6f45bd7000 r-xp 00000000 b3:05 49818                      /app/lib/libBigInfo.so.1.0.0
+7f6f45bd7000-7f6f45dd7000 ---p 00017000 b3:05 49818                      /app/lib/libBigInfo.so.1.0.0
+7f6f45dd7000-7f6f45dd8000 r--p 00017000 b3:05 49818                      /app/lib/libBigInfo.so.1.0.0
+7f6f45dd8000-7f6f45dd9000 rw-p 00018000 b3:05 49818                      /app/lib/libBigInfo.so.1.0.0
+7f6f45dd9000-7f6f45e02000 r-xp 00000000 b3:05 49784                      /app/lib/libImageProvider.so.1.0.0
+7f6f45e02000-7f6f46001000 ---p 00029000 b3:05 49784                      /app/lib/libImageProvider.so.1.0.0
+7f6f46001000-7f6f46003000 r--p 00028000 b3:05 49784                      /app/lib/libImageProvider.so.1.0.0
+7f6f46003000-7f6f46004000 rw-p 0002a000 b3:05 49784                      /app/lib/libImageProvider.so.1.0.0
+7f6f46004000-7f6f46027000 r-xp 00000000 b3:05 10332                      /lib/ld-2.25.so
+7f6f46027000-7f6f46028000 rw-s 00000000 00:05 1933371                    /SYSV51133cab (deleted)
+7f6f46028000-7f6f46029000 rw-s 00000000 00:05 1867833                    /SYSV51133ca5 (deleted)
+7f6f46029000-7f6f4602a000 rw-s 00000000 00:05 1802295                    /SYSV51133c9f (deleted)
+7f6f4602a000-7f6f4602b000 rw-s 00000000 00:05 1769526                    /SYSV51133c9b (deleted)
+7f6f4602b000-7f6f4602c000 rw-s 00000000 00:05 1703988                    /SYSV51133c95 (deleted)
+7f6f4602c000-7f6f4602d000 rw-s 00000000 00:05 1671219                    /SYSV51133c92 (deleted)
+7f6f4602d000-7f6f4602e000 rw-s 00000000 00:05 1638450                    /SYSV51133c8f (deleted)
+7f6f4602e000-7f6f4602f000 rw-s 00000000 00:05 15498                      /drm mm object (deleted)
+7f6f4602f000-7f6f46030000 rw-s 00000000 00:05 15493                      /drm mm object (deleted)
+7f6f46030000-7f6f4603a000 rw-s 00000000 00:05 15492                      /drm mm object (deleted)
+7f6f4603a000-7f6f4603e000 rw-s 00000000 00:05 15489                      /drm mm object (deleted)
+7f6f4603e000-7f6f46069000 rw-p 00000000 00:00 0 
+7f6f46069000-7f6f4606b000 rwxp 00000000 00:00 0 
+7f6f4606b000-7f6f460b7000 rw-p 00000000 00:00 0 
+7f6f460b7000-7f6f460bc000 rw-s 00000000 00:12 14275                      /run/user/root/weston-shared-XFU7nl (deleted)
+7f6f460bc000-7f6f4616c000 r--p 00000000 b3:05 8549                       /usr/lib/locale/ko_KR/LC_CTYPE
+7f6f4616c000-7f6f4616d000 r--p 00000000 b3:05 8554                       /usr/lib/locale/ko_KR/LC_NUMERIC
+7f6f4616d000-7f6f461fc000 r--p 00000000 b3:05 8551                       /usr/lib/locale/ko_KR/LC_COLLATE
+7f6f461fc000-7f6f4621d000 rw-p 00000000 00:00 0 
+7f6f4621d000-7f6f4621e000 r--p 00000000 b3:05 8552                       /usr/lib/locale/ko_KR/LC_TIME
+7f6f4621e000-7f6f4621f000 r--p 00000000 b3:05 8543                       /usr/lib/locale/ko_KR/LC_MONETARY
+7f6f4621f000-7f6f46220000 r--p 00000000 b3:05 8546                       /usr/lib/locale/ko_KR/LC_MESSAGES/SYS_LC_MESSAGES
+7f6f46220000-7f6f46221000 r--p 00000000 b3:05 8548                       /usr/lib/locale/ko_KR/LC_PAPER
+7f6f46221000-7f6f46222000 r--p 00000000 b3:05 8553                       /usr/lib/locale/ko_KR/LC_NAME
+7f6f46222000-7f6f46223000 r--p 00000000 b3:05 8544                       /usr/lib/locale/ko_KR/LC_ADDRESS
+7f6f46223000-7f6f46224000 r--p 00000000 b3:05 8550                       /usr/lib/locale/ko_KR/LC_TELEPHONE
+7f6f46224000-7f6f46225000 r--p 00000000 b3:05 8547                       /usr/lib/locale/ko_KR/LC_MEASUREMENT
+7f6f46225000-7f6f46226000 r--p 00000000 b3:05 8542                       /usr/lib/locale/ko_KR/LC_IDENTIFICATION
+7f6f46226000-7f6f46227000 r--p 00022000 b3:05 10332                      /lib/ld-2.25.so
+7f6f46227000-7f6f46228000 rw-p 00023000 b3:05 10332                      /lib/ld-2.25.so
+7f6f46228000-7f6f46229000 rw-p 00000000 00:00 0 
+7ffe014f4000-7ffe0154f000 rw-p 00000000 00:00 0                          [stack]
+7ffe015a6000-7ffe015a8000 r--p 00000000 00:00 0                          [vvar]
+7ffe015a8000-7ffe015aa000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+
+==== Listing directory </proc/3088/fd> ====
+lr-x------   1  0 0 64    0 -> pipe:[14520]
+l-wx------   1  0 0 64    1 -> /dev/null
+l-wx------   1  0 0 64    2 -> /dev/null
+lrwx------   1  0 0 64    3 -> /tmp/dltpipes/dlt3088
+l-wx------   1  0 0 64    4 -> /tmp/dlt
+lrwx------   1  0 0 64    5 -> anon_inode:[eventfd]
+lrwx------   1  0 0 64    6 -> socket:[14274]
+lrwx------   1  0 0 64    7 -> /run/user/root/weston-shared-XFU7nl (deleted)
+lrwx------   1  0 0 64    8 -> anon_inode:[eventfd]
+lr-x------   1  0 0 64    9 -> pipe:[14277]
+l-wx------   1  0 0 64   10 -> pipe:[14277]
+lrwx------   1  0 0 64   11 -> socket:[14278]
+lr-x------   1  0 0 64   12 -> /app/bin/ApplicationManager
+lr-x------   1  0 0 64   13 -> /app/bin/UserProfileManager
+lrwx------   1  0 0 64   14 -> socket:[14280]
+lr-x------   1  0 0 64   15 -> /app/bin/AppCamera
+lrwx------   1  0 0 64   16 -> /dev/ttyS3
+lr-x------   1  0 0 64   17 -> /app/bin/AppStandbyClock
+lrwx------   1  0 0 64   18 -> anon_inode:[eventfd]
+lrwx------   1  0 0 64   19 -> anon_inode:[eventpoll]
+lr-x------   1  0 0 64   20 -> /navi2/Data/Nation/EUR/MAP/VIT_EUR.hafp
+lr-x------   1  0 0 64   21 -> /app/bin/AppOSDManager
+lr-x------   1  0 0 64   22 -> /navi2/Data/Nation/EUR/MAP/VIT_EUR.hafp01
+lr-x------   1  0 0 64   23 -> /app/bin/AppHomeScreen
+lr-x------   1  0 0 64   24 -> /navi2/Data/Nation/EUR/MAP/VIT_EUR.hafp02
+lr-x------   1  0 0 64   25 -> /navi2/Data/Nation/EUR/MAP/VIT_EUR.hafp03
+lr-x------   1  0 0 64   26 -> /navi2/Data/Nation/EUR/MAP/VIT_EUR.hafp04
+lr-x------   1  0 0 64   27 -> /navi2/Data/Nation/EUR/MAP/VIT_EUR.hafp05
+lr-x------   1  0 0 64   28 -> /navi2/Data/Nation/EUR/MAP/VIT_EUR.hafp06
+lr-x------   1  0 0 64   29 -> /app/bin/AppDMClient
+lr-x------   1  0 0 64   30 -> /navi2/Data/Nation/EUR/MAP/VIT_EUR.hafp07
+lr-x------   1  0 0 64   31 -> /navi2/Data/Nation/EUR/MAP/VIT_EUR.hafp08
+lr-x------   1  0 0 64   32 -> /navi2/Data/Nation/EUR/MAP/VIT_EUR.hafp09
+lr-x------   1  0 0 64   33 -> /navi2/Data/Nation/EUR/MAP/VIT_EUR.hafp10
+lr-x------   1  0 0 64   34 -> /navi2/Data/Nation/EUR/MAP/VIT_EUR.hafp11
+lr-x------   1  0 0 64   35 -> /navi2/Data/Nation/EUR/MAP/VIT_EUR.hafp12
+lr-x------   1  0 0 64   36 -> /navi2/Data/Nation/EUR/MAP/VIT_EUR.hafp13
+lr-x------   1  0 0 64   37 -> /navi2/Data/Nation/EUR/MAP/VIT_EUR.hafp14
+lr-x------   1  0 0 64   38 -> /navi2/Data/Nation/EUR/MAP/VIT_EUR.hafp15
+lr-x------   1  0 0 64   39 -> /navi2/Data/Nation/EUR/MAP/VIT_EUR.hafr
+lr-x------   1  0 0 64   40 -> /navi2/Data/Nation/EUR/MAP/VIT_EUR_ADAS.hafaip
+lr-x------   1  0 0 64   41 -> /navi2/Data/Nation/EUR/MAP/VIT_EUR_WORLDMAP.hafwmd
+lr-x------   1  0 0 64   42 -> /navi2/Data/Nation/EUR/MAP/VIT_EUR.hafgsi
+lr-x------   1  0 0 64   43 -> /navi2/Data/Nation/EUR/MAP/VIT_EUR.hafls
+lrwx------   1  0 0 64   44 -> socket:[16851]
+lr-x------   1  0 0 64   45 -> /navi2/Data/Nation/EUR/SEARCH/COMMON/MANAGER/EU_MANAGER.mpdz
+lr-x------   1  0 0 64   46 -> /navi2/Bin/oem_nimo_language.npkg
+lr-x------   1  0 0 64   47 -> /navi2/Bin/oem_std5_eco_hmc.npkg
+lrwx------   1  0 0 64   48 -> socket:[15488]
+lr-x------   1  0 0 64   49 -> /navi2/Data/Nation/EUR/SEARCH/COMMON/POI/EU_POIFRAME.mpdz
+lr-x------   1  0 0 64   50 -> /navi2/Data/Nation/EUR/SEARCH/COMMON/POI/EU_MPDADD.mpdz
+lr-x------   1  0 0 64   51 -> /navi2/Data/Nation/EUR/SEARCH/COMMON/POI/EU_POI_MATCHINFO.mpdz
+lrwx------   1  0 0 64   52 -> /dev/dri/card0
+lrwx------   1  0 0 64   53 -> socket:[15517]
+lrwx------   1  0 0 64   54 -> socket:[15518]
+lrwx------   1  0 0 64   55 -> socket:[15536]
+lr-x------   1  0 0 64   56 -> pipe:[15538]
+l-wx------   1  0 0 64   57 -> pipe:[15538]
+lrwx------   1  0 0 64   58 -> /Data/mnt-wt/shared/public/resource-table-cfg.itz-lock
+lrwx------   1  0 0 64   59 -> /dev/shm/_Data_mnt_wt_shared_public_resource_table_cfg_itz-shm-info
+lr-x------   1  0 0 64   60 -> /Data/mnt-wt/shared/public/resource-table-cfg.itz
+lrwx------   1  0 0 64   61 -> /dev/shm/_Data_mnt_wt_shared_public_resource_table_cfg_itz-ht
+lrwx------   1  0 0 64   62 -> /Data/mnt-wt/shared/public/wt.itz-lock
+lrwx------   1  0 0 64   63 -> /dev/shm/_Data_mnt_wt_shared_public_wt_itz-shm-info
+lrwx------   1  0 0 64   64 -> /Data/mnt-wt/shared/public/wt.itz
+lrwx------   1  0 0 64   65 -> /dev/shm/_Data_mnt_wt_shared_public_wt_itz-ht
+lrwx------   1  0 0 64   66 -> /Data/mnt-wt/shared/public/configurable-default-data.itz-lock
+lrwx------   1  0 0 64   67 -> /dev/shm/_Data_mnt_wt_shared_public_configurable_default_data_itz-shm-info
+lrwx------   1  0 0 64   68 -> /Data/mnt-wt/shared/public/configurable-default-data.itz
+lrwx------   1  0 0 64   69 -> /dev/shm/_Data_mnt_wt_shared_public_configurable_default_data_itz-ht
+lrwx------   1  0 0 64   70 -> /Data/mnt-wt/shared/public/default-data.itz-lock
+lrwx------   1  0 0 64   71 -> /dev/shm/_Data_mnt_wt_shared_public_default_data_itz-shm-info
+lrwx------   1  0 0 64   72 -> /Data/mnt-wt/shared/public/default-data.itz
+lrwx------   1  0 0 64   73 -> /dev/shm/_Data_mnt_wt_shared_public_default_data_itz-ht
+lrwx------   1  0 0 64   74 -> anon_inode:[eventfd]
+lrwx------   1  0 0 64   75 -> /dev/dri/card0
+lrwx------   1  0 0 64   76 -> anon_inode:[eventfd]
+lrwx------   1  0 0 64   77 -> anon_inode:[eventfd]
+lrwx------   1  0 0 64   78 -> anon_inode:[eventfd]
+lrwx------   1  0 0 64   79 -> anon_inode:[eventfd]
+lr-x------   1  0 0 64   80 -> /navi2/Bin/oem_std5_eco_hmc.npkg
+lrwx------   1  0 0 64   81 -> socket:[16680]
+lrwx------   1  0 0 64   82 -> socket:[16682]
+lrwx------   1  0 0 64   83 -> /dev/shm/timemanager_shm
+lrwx------   1  0 0 64   84 -> /dev/shm/timemanager_shm
+lr-x------   1  0 0 64   85 -> /dlt_message_queue.3088
+l-wx------   1  0 0 64   86 -> /dlt_message_queue.3088
+lrwx------   1  0 0 64   87 -> /rw_data/navi_data/UserData/EUR/3/EngineProperty.db
+lr-x------   1  0 0 64   88 -> /navi2/Data/Nation/EUR/SEARCH/COMMON/POI/EU_POIFRAME.mpdz
+lr-x------   1  0 0 64   89 -> /navi2/Data/Nation/EUR/SEARCH/COMMON/POI/EU_MPDADD.mpdz
+lr-x------   1  0 0 64   90 -> /navi2/Data/Nation/EUR/SEARCH/COMMON/POI/EU_POI_MATCHINFO.mpdz
+===========================
